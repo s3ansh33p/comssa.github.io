@@ -1,0 +1,109 @@
+.navbar {
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(216, 216, 216);
+
+    padding: 15px;
+    height: 50px; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+
+    margin-left: 20px;
+}
+
+
+.navbar a {
+    color: #000;
+
+    text-decoration: none;
+    
+    display: inline-block;
+    position: relative;
+}
+
+.navbar a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #000;
+    transition: width 0.1s ease 0s, left 0.1s ease 0s;
+    width: 0;
+}
+
+.navbar a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.navbar button {
+    float: right; 
+}
+
+.navbar #logo {
+    width: 50px;
+    height: 50px;
+    
+    float: left;
+    border-radius: 5px;
+
+    margin-left: 100px;
+}
+
+.links { 
+    padding-top: 15px; 
+    margin-left: 175px;
+}
+
+.navbar button {
+    height: 40px;
+    width: 100px;
+    margin-top: -10px;
+    margin-right: 50px;
+
+    border-radius: 5px;
+    border-style: none;
+    background-color: #4359a4;
+
+    color: white;
+    font-size: 11pt;
+
+    font-weight: 500;
+
+}
+
+.navbar button:hover {
+    border-style: solid;
+    border-width: 4px;
+
+    border-color: #1c2b5e;
+
+    transition: border-width 0.1s ease;
+}
+
+.navbar button:active {
+    background-color: #1c2b5e;
+}
+
+@media screen and (max-width: 610px) {
+    .links {
+        margin-left: 0px;
+    }
+
+    .navbar #logo {
+        margin-left: 0px;
+    }
+
+    .navbar button {
+        margin-right: 0px;
+    }
+}
