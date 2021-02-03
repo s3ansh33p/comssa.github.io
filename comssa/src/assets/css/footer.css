@@ -81,4 +81,8 @@ a {
     .footer .content .right {
         float: none; 
     }
+
+    .footer .content #accreditation {
+        margin-top: 15px;
+    }
 }
