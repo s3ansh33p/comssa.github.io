@@ -1,6 +1,8 @@
 .idx {
     margin: auto;
 
+    margin-top: 100px;
+
     width: 80%;
     max-width: 1400px;
 }

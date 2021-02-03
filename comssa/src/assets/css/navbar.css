@@ -1,6 +1,8 @@
 .navbar {
+    position: fixed;
+    
     background-color: white;
-    box-shadow: 1px 1px 10px rgb(216, 216, 216);
+    box-shadow: 1px 1px 10px rgb(209, 209, 209);
 
     padding-top: 15px;
     padding-bottom: 15px;
@@ -9,6 +11,11 @@
 
     left:0;           
     top:0;
+}
+
+.navbar #items {
+    margin: auto;
+    max-width: 1800px;
 }
 
 .navbar ul {
