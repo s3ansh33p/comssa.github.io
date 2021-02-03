@@ -2,8 +2,13 @@
     background-color: white;
     box-shadow: 1px 1px 10px rgb(216, 216, 216);
 
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     height: 50px; 
+    width: 100%;
+
+    left:0;           
+    top:0;
 }
 
 .navbar ul {
@@ -56,19 +61,20 @@
     float: left;
     border-radius: 5px;
 
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
 .links { 
     padding-top: 15px; 
-    margin-left: 175px;
+    
 }
+
 
 .navbar button {
     height: 40px;
     width: 100px;
-    margin-top: -10px;
-    margin-right: 50px;
+    margin-top: -10px; /*sorry*/
+    margin-right: 10%;
 
     border-radius: 5px;
     border-style: none;
@@ -78,7 +84,6 @@
     font-size: 11pt;
 
     font-weight: 500;
-
 }
 
 .navbar button:hover {
@@ -97,13 +102,20 @@
 @media screen and (max-width: 610px) {
     .links {
         margin-left: 0px;
+
+        transition: margin-left 0.2s ease;
     }
 
     .navbar #logo {
-        margin-left: 0px;
+        margin-left: 30px;
+
+        transition: margin-left 0.2s ease;
     }
 
     .navbar button {
-        margin-right: 0px;
+        margin-right: 30px;
+        width: 80px;
+        
+        transition: margin-right 0.2s ease;
     }
 }

@@ -1,0 +1,107 @@
+.idx {
+    margin: auto;
+
+    width: 80%;
+    max-width: 1400px;
+}
+
+.level_1 {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.level_2 {
+    display: flex;
+}
+
+.level_2 #comssa_stall {
+    height: 30%;
+    max-height: 500px;
+}
+
+.level_2 #info {
+    padding-left: 50px;
+    min-width: 400px;
+}
+
+#headline {
+    margin-right: 50px;
+}
+
+
+#title {
+    font-size: 48pt;
+}
+
+#join_link {
+    display: flex;
+    width: 240px;
+    justify-content: left;
+}
+
+#join_link a{
+    font-size: 22pt;
+    margin-right: 50px;
+
+    color: #000;
+}
+
+#join_link #arrow {
+    width: 30px;
+    margin-left: -42px; /*sorry*/
+}
+
+#join_link a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #000;
+    transition: width 0.1s ease 0s, left 0.1s ease 0s;
+    width: 0;
+}
+
+#join_link a:hover:after { 
+    width: 140px; 
+    left: 0; 
+}
+
+#headline span{
+    color: #4359a4;
+}
+
+#computing_building {
+    margin-left: auto;
+
+    height: 65%;
+    max-width: 800px; 
+    margin-top: 50px;
+
+    float: right; 
+}
+
+@media screen and (max-width: 800px) {
+    .level_1 {
+        display: block;
+    }    
+    
+    .level_2 {
+        display: block;
+    }
+    
+    #computing_building {
+        width: 100%; 
+    }
+
+    .level_2 #comssa_stall {
+        width: 100%;
+        margin-top: 30px; 
+        
+    }
+
+    .level_2 #info {
+        padding: 0px;
+    }
+}
