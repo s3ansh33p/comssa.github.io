@@ -1,3 +1,7 @@
+.idx img {
+    border-radius: 10px;
+}
+
 .idx {
     margin: auto;
 
@@ -23,6 +27,7 @@
 
 .level_2 #info {
     padding-left: 50px;
+    padding-right: 50px;
     min-width: 400px;
 }
 
@@ -60,7 +65,7 @@
     display: block;
     height: 2px;
     left: 50%;
-    background: #000;
+    background: #4559A7;
     transition: width 0.1s ease 0s, left 0.1s ease 0s;
     width: 0;
 }
@@ -85,6 +90,10 @@
 }
 
 @media screen and (max-width: 800px) {
+    #title {
+        font-size: 38pt;
+    }
+
     .level_1 {
         display: block;
     }    
@@ -105,5 +114,6 @@
 
     .level_2 #info {
         padding: 0px;
+        min-width: 0px;
     }
 }

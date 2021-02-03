@@ -1,20 +1,25 @@
 <template>
   <div id="app">
     <NavBar/>
-    
+  
     <Home/>
+
+
+    <Footer/>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
 import Home from './components/Home.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    Home
+    Home,
+    Footer
   }
 }
 </script>
@@ -41,20 +46,16 @@ export default {
   }
 
   p {
-    font-family: 'Roboto Mono', sans-serif;
-  }
-
-  img {
-    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
   }
 
   ::-moz-selection { /* Code for Firefox */
     color: white;
-    background: #4359a4;
+    background: #4559A7;
   }
 
   ::selection {
     color: white;
-    background: #4359a4;
+    background: #4559A7;
   }
 </style>

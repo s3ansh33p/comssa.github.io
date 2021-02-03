@@ -2,7 +2,6 @@
     position: fixed;
     
     background-color: white;
-    box-shadow: 1px 1px 10px rgb(209, 209, 209);
 
     padding-top: 15px;
     padding-bottom: 15px;
@@ -13,9 +12,18 @@
     top:0;
 }
 
+.shadow { 
+    box-shadow: 1px 1px 10px rgb(187, 187, 187);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
 .navbar #items {
     margin: auto;
     max-width: 1800px;
+}
+
+.navbar #items #i1{
+    margin-left: 20px;
 }
 
 .navbar ul {
@@ -27,7 +35,7 @@
 .navbar li {
     display: inline;
 
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 
@@ -47,7 +55,7 @@
     display: block;
     height: 2px;
     left: 50%;
-    background: #000;
+    background: #4559A7;
     transition: width 0.1s ease 0s, left 0.1s ease 0s;
     width: 0;
 }
@@ -85,7 +93,7 @@
 
     border-radius: 5px;
     border-style: none;
-    background-color: #4359a4;
+    background-color: #4559A7;
 
     color: white;
     font-size: 11pt;
@@ -106,7 +114,7 @@
     background-color: #1c2b5e;
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 800px) {
     .links {
         margin-left: 0px;
 
@@ -124,5 +132,9 @@
         width: 80px;
         
         transition: margin-right 0.2s ease;
+    }
+
+    .navbar #items #i1{
+        margin-left: 0px;
     }
 }
