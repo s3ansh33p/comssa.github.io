@@ -58,11 +58,11 @@ a {
     margin-top: 70px;
 
     font-size: 8pt;
-    color: lightgray;
+    color: #373B41;
 }
 
 .footer .content #accreditation a {
-    color: lightgray;
+    color: #373B41;
 }
 
 @media screen and (max-width: 800px) {

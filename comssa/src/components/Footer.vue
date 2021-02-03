@@ -37,7 +37,7 @@
                     <h1>Contact</h1>
                     <a href="mailto:contact@comssa.org.au"><p>contact@comssa.org.au</p></a>
 
-                    <p id="accreditation">© ComSSA 2021 <br/> Original design by <a href="https://kevinle.com.au/" target="_blank">Kevin Le</a></p>
+                    <p id="accreditation">© ComSSA 2021 <br/> Design by <a href="https://kevinle.com.au/" target="_blank">Kevin Le</a></p>
                 </div>
         </div>
     </div>
