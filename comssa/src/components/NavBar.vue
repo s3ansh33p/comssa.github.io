@@ -11,7 +11,7 @@
 
             <div class="links" id="links"> <!--when mobile toggle visible on hamburger click-->
                 <ul class="menu">
-                    <li><a id="i1" href="#">About</a></li>
+                    <li><a id="i1" href="/about">About</a></li>
                     <li><a id="i2" href="#">Events</a></li>
                     <li><a id="i3" href="#">Sponsors</a></li>
                     <li><button>Join Now</button></li>
