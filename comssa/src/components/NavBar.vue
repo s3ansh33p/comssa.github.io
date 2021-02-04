@@ -1,7 +1,7 @@
 <template>
     <div :class="scrolled ? 'shadow' : ''" class="navbar">
         <div class="items">
-            <a href="/"><img id="logo" src="../assets/img/branding/comssa.png"></a>
+            <router-link to="/"><img id="logo" src="../assets/img/branding/comssa.png"></router-link>
 
             <div class="hamburger" id="hamburger">
                 <span class="line"></span>
@@ -11,9 +11,9 @@
 
             <div class="links" id="links"> <!--when mobile toggle visible on hamburger click-->
                 <ul class="menu">
-                    <li><a id="i1" href="/about">About</a></li>
-                    <li><a id="i2" href="#">Events</a></li>
-                    <li><a id="i3" href="#">Sponsors</a></li>
+                    <li><router-link id="i1" to="/about">About</router-link></li>
+                    <li><router-link id="i2" to="/events">Events</router-link></li>
+                    <li><router-link id="i3" to="/sponsors">Sponsors</router-link></li>
                     <li><button>Join Now</button></li>
                 </ul> 
             </div>

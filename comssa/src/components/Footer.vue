@@ -21,11 +21,12 @@
                     <h1>Social</h1>
                     
                     <div id="social_icons">
-                        <a href="#" target="_blank"><img id="facebook" src="../assets/img/icon/social/fb-c.png"/></a>
+                        <a href="https://www.facebook.com/ComSSACurtin" target="_blank"><img id="facebook" src="../assets/img/icon/social/fb-c.png"/></a>
 
                         <span id="following">
-                            <a href="#" target="_blank"><img id="linkedin" src="../assets/img/icon/social/li-c.png"/></a>
-                            <a href="#" target="_blank"><img id="github"   src="../assets/img/icon/social/gh.png"/></a>
+                            <a href="https://www.linkedin.com/company/computer-science-students-association" target="_blank"><img id="linkedin" src="../assets/img/icon/social/li-c.png"/></a>
+                            <a href="https://github.com/ComSSA" target="_blank"><img id="github"   src="../assets/img/icon/social/gh.png"/></a>
+                            <a href="https://github.com/ComSSA" target="_blank"><img id="discord"   src="../assets/img/icon/social/discord.png"/></a>
                         </span>
                     </div>
                     
