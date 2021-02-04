@@ -1,0 +1,15 @@
+u.events {
+    margin: auto;
+
+    margin-top: 100px;
+
+    width: 80%;
+    max-width: 1400px;
+}
+
+.events .event_info {
+    width: 100%; 
+    display: flex; 
+
+    justify-content: space-between;
+}

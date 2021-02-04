@@ -1,7 +1,7 @@
 <template>
     <div>
         <NavBar/>
-        <About/>
+        <Events/>
         <router-view></router-view>
 
         <Footer/>
@@ -12,13 +12,13 @@
 import NavBar from './components/NavBar.vue'
 import Footer from './components/Footer.vue'
 
-import About from './components/About.vue'
+import Events from './components/Events.vue'
 
 export default {
     name: 'App',
     components: {
         NavBar,
-        About,
+        Events,
         Footer
     }
 }
