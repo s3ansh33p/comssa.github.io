@@ -11,15 +11,16 @@
 
         <div id="join_link">
           <a href="#">Join Now</a>
-          <img id="arrow" src="../assets/img/forward-arr.svg"/>
+          <img id="arrow" src="../assets/img/icon/forward-arr.svg"/>
         </div>
       </div>
 
-      <img id="computing_building" src="../assets/img/314-gmaps-sv.png"/>
+      <!--TODO: Reduce the image size jeez--> 
+      <img id="image_1" src="../assets/img/314-gmaps-sv.png"/>
     </div>
 
     <div class="level_2">
-      <img id="comssa_stall" src="../assets/img/comssa-stall.jpg"/>
+      <img id="image_2" src="../assets/img/comssa-stall.jpg"/>
 
       <div id="info">
         <h1>Who are we?</h1>

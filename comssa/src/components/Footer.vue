@@ -21,15 +21,15 @@
                     <h1>Social</h1>
                     
                     <div id="social_icons">
-                        <a href="#" target="_blank"><img id="facebook" src="../assets/img/social/fb.png"/></a>
+                        <a href="#" target="_blank"><img id="facebook" src="../assets/img/icon/social/fb.png"/></a>
 
                         <span id="following">
-                            <a href="#" target="_blank"><img id="linkedin" src="../assets/img/social/li.png"/></a>
-                            <a href="#" target="_blank"><img id="github"   src="../assets/img/social/gh.png"/></a>
+                            <a href="#" target="_blank"><img id="linkedin" src="../assets/img/icon/social/li.png"/></a>
+                            <a href="#" target="_blank"><img id="github"   src="../assets/img/icon/social/gh.png"/></a>
                         </span>
                     </div>
                     
-                    <a href="https://www.guild.curtin.edu.au/" target="_blank"><img id="guild_logo" src="../assets/img/guild.png"/></a>
+                    <a href="https://www.guild.curtin.edu.au/" target="_blank"><img id="guild_logo" src="../assets/img/branding/guild.png"/></a>
                 </div>
             </div>
 
@@ -37,7 +37,7 @@
                     <h1>Contact</h1>
                     <a href="mailto:contact@comssa.org.au"><p>contact@comssa.org.au</p></a>
 
-                    <p id="accreditation">© ComSSA 2021 <br/> Design by <a href="https://kevinle.com.au/" target="_blank">Kevin Le</a></p>
+                    <p id="accreditation">© ComSSA {{ new Date().getFullYear() }}<br/> Design by <a href="https://kevinle.com.au/" target="_blank">Kevin Le</a></p>
                 </div>
         </div>
     </div>

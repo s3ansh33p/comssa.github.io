@@ -20,7 +20,8 @@
     display: flex;
 }
 
-.level_2 #comssa_stall {
+.level_2 #image_2 {
+    width: 60%;
     height: 30%;
     max-height: 500px;
 }
@@ -28,7 +29,7 @@
 .level_2 #info {
     padding-left: 50px;
     padding-right: 50px;
-    min-width: 400px;
+    min-width: 300px;
 }
 
 #headline {
@@ -79,14 +80,17 @@
     color: #4359a4;
 }
 
-#computing_building {
+#image_1 {
     margin-left: auto;
 
+    width: 65%;
     height: 65%;
     max-width: 800px; 
     margin-top: 50px;
 
     float: right; 
+
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 800px) {
@@ -102,18 +106,19 @@
         display: block;
     }
     
-    #computing_building {
+    #image_1 {
         width: 100%; 
     }
 
-    .level_2 #comssa_stall {
+    .level_2 #image_2 {
         width: 100%;
         margin-top: 30px; 
-        
     }
 
     .level_2 #info {
         padding: 0px;
         min-width: 0px;
+
+        margin-top: 50px;
     }
 }

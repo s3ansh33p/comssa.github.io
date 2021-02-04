@@ -1,10 +1,16 @@
 <template>
     <div :class="scrolled ? 'shadow' : ''" class="navbar">
-        <div id="items">
-            <img id="logo" src="../assets/img/comssa.png">
+        <div class="items">
+            <img id="logo" src="../assets/img/branding/comssa.png">
 
-            <div class="links" id="links">
-                <ul>
+            <div class="hamburger" id="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+
+            <div class="links" id="links"> <!--when mobile toggle visible on hamburger click-->
+                <ul class="menu">
                     <li><a id="i1" href="#">About</a></li>
                     <li><a id="i2" href="#">Events</a></li>
                     <li><a id="i3" href="#">Sponsors</a></li>
@@ -16,6 +22,8 @@
 </template>
 
 <script>
+import $ from 'jquery'
+
 export default {
   name: 'NavBar',
   data() {
@@ -30,11 +38,19 @@ export default {
     },
 
     created () {
-        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('scroll', this.handleScroll);    
     },
 
     destroyed () {
         window.removeEventListener('scroll', this.handleScroll);
+    },
+
+    mounted () {
+        $(".hamburger").click(function(){
+            $(this).toggleClass("hamburger-active");
+
+            $(".navbar .items .links").toggleClass("active");
+        });
     }
 }
 </script>
