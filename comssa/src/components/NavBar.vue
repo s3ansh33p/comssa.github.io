@@ -1,7 +1,7 @@
 <template>
     <div :class="scrolled ? 'shadow' : ''" class="navbar">
         <div class="items">
-            <img id="logo" src="../assets/img/branding/comssa.png">
+            <a href="/"><img id="logo" src="../assets/img/branding/comssa.png"></a>
 
             <div class="hamburger" id="hamburger">
                 <span class="line"></span>
@@ -23,7 +23,6 @@
 
 <script>
 import $ from 'jquery'
-
 export default {
   name: 'NavBar',
   data() {
@@ -36,19 +35,15 @@ export default {
             this.scrolled = window.scrollY > 0;
         }
     },
-
     created () {
         window.addEventListener('scroll', this.handleScroll);    
     },
-
     destroyed () {
         window.removeEventListener('scroll', this.handleScroll);
     },
-
     mounted () {
         $(".hamburger").click(function(){
             $(this).toggleClass("hamburger-active");
-
             $(".navbar .items .links").toggleClass("active");
         });
     }

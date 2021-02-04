@@ -21,10 +21,10 @@
                     <h1>Social</h1>
                     
                     <div id="social_icons">
-                        <a href="#" target="_blank"><img id="facebook" src="../assets/img/icon/social/fb.png"/></a>
+                        <a href="#" target="_blank"><img id="facebook" src="../assets/img/icon/social/fb-c.png"/></a>
 
                         <span id="following">
-                            <a href="#" target="_blank"><img id="linkedin" src="../assets/img/icon/social/li.png"/></a>
+                            <a href="#" target="_blank"><img id="linkedin" src="../assets/img/icon/social/li-c.png"/></a>
                             <a href="#" target="_blank"><img id="github"   src="../assets/img/icon/social/gh.png"/></a>
                         </span>
                     </div>

@@ -41,7 +41,7 @@
 }
 
 
-.navbar a {
+.navbar .links a {
     color: #000;
 
     text-decoration: none;
@@ -50,7 +50,7 @@
     position: relative;
 }
 
-.navbar a:after {    
+.navbar .links a:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -62,7 +62,7 @@
     width: 0;
 }
 
-.navbar a:hover:after { 
+.navbar .links a:hover:after { 
     width: 100%; 
     left: 0; 
 }
@@ -147,12 +147,15 @@
 
     .navbar .items .links {
         background-color: white;
-
         padding-bottom: 20px;
 
         box-shadow: 0 4px 4px -2px  rgb(187, 187, 187);
 
         display: none;
+    }
+
+    .navbar .items .links a {
+        display: block; 
     }
 
     .navbar .items .links.active {
@@ -212,4 +215,3 @@
     -o-transform: translateY(-13px) rotate(-45deg);
     transform: translateY(-13px) rotate(-45deg);
 }
-  
