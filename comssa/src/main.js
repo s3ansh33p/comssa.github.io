@@ -8,6 +8,7 @@ Vue.config.productionTip = false
 import Home from './components/Home.vue'
 import About from './components/About.vue'
 import Events from './components/Events.vue'
+import Sponsors from './components/Sponsors.vue'
 
 import Minutes from './components/Minutes.vue'
 
@@ -22,6 +23,10 @@ const routes = [{
     {
         path: '/events',
         component: Events
+    },
+    {
+        path: '/sponsors',
+        component: Sponsors
     },
     {
         path: '/minutes',

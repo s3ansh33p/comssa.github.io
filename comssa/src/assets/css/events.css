@@ -16,20 +16,27 @@
 
 .events .event_info p {
     margin-right: 100px; 
+    min-width: 250px; 
 }
 
 .events .fb-event-embed {  
     min-width: 400px;
     height: 240px; 
     background: white;
+
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
 }
 
 .events .fb-timeline-embed {
     margin-left: 40px; 
     background: white; 
 
-    width: 400px;
+    min-width: 400px;
     height: 500px; 
+
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
 }
 
 .events .row_2 {

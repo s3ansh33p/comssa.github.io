@@ -4,7 +4,7 @@
         
         <div class="event_info">
             
-            <p>ComSSA regularly hosts events that everyone is welcome at.<br><br/> 
+            <p>ComSSA regularly hosts events that everyone is welcome to attend.<br><br/> 
             
                 They include industry talks, workshops, quiz nights, revision sessions, and LAN parties just to name a few! <br><br/> 
             
@@ -27,7 +27,7 @@
                      data-small-header="false" 
                      data-adapt-container-width="true" 
                      data-hide-cover="false" 
-                     data-show-facepile="true">Facebook events (may be blocked by your ad-blocker)
+                     data-show-facepile="true">Facebook events (may be blocked by your ad/tracker-blocker - fair enough)
                      <blockquote cite="https://www.facebook.com/ComSSACurtin" 
                                  class="fb-xfbml-parse-ignore">
                                  <a href="https://www.facebook.com/ComSSACurtin"></a>
@@ -54,7 +54,7 @@
                     data-small-header="true" 
                     data-adapt-container-width="true" 
                     data-hide-cover="true" 
-                    data-show-facepile="true"> Facebook timeline (may be blocked by your ad-blocker)
+                    data-show-facepile="true"> Facebook timeline (may be blocked by your ad/tracker-blocker - fair enough)
                     <blockquote cite="https://www.facebook.com/ComSSACurtin" 
                                 class="fb-xfbml-parse-ignore">
                                 <a href="https://www.facebook.com/ComSSACurtin"></a>

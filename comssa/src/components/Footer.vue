@@ -26,7 +26,7 @@
                         <span id="following">
                             <a href="https://www.linkedin.com/company/computer-science-students-association" target="_blank"><img id="linkedin" src="../assets/img/icon/social/li-c.png"/></a>
                             <a href="https://github.com/ComSSA" target="_blank"><img id="github"   src="../assets/img/icon/social/gh.png"/></a>
-                            <a href="https://github.com/ComSSA" target="_blank"><img id="discord"   src="../assets/img/icon/social/discord.png"/></a>
+                            <a href="https://discord.gg/SuwfFfjYJB" target="_blank"><img id="discord"   src="../assets/img/icon/social/discord.png"/></a>
                         </span>
                     </div>
                     
