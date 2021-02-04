@@ -22,6 +22,8 @@ const router = new VueRouter({
     routes
 })
 
+Vue.use(VueRouter)
+
 new Vue({
     render: h => h(App),
     router
