@@ -1,9 +1,7 @@
 <template>
-    <div>
+    <div class="flex-wrapper">
         <NavBar/>
-
         <router-view></router-view>
-
         <Footer/>
     </div>
 </template>
@@ -31,6 +29,12 @@ export default {
     body{
         margin: 0px;
     } 
+
+    .flex-wrapper {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
 
     h1 {
         font-family: 'Montserrat', sans-serif;
