@@ -1,0 +1,49 @@
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.2s;
+}
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+html { 
+    overflow-y: scroll; 
+}
+
+body{
+    margin: 0px;
+} 
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #4559A7;
+}
+
+::selection {
+    color: white;
+    background: #4559A7;
+}

@@ -8,14 +8,6 @@ Visit this page (already set as route in main.js) at url/minutes
 <template>
     <div class="mydiv">
         <h1>Meeting Minutes</h1> <!--Font for this is set in App.vue and defaults to Montserrat-->
-        <p>Insert meeting minutes here</p> <!--Font for this is set in App.vue and defaults to Roboto Mono-->
-
-        <ul>
-            <li>Doc 1</li>
-            <li>Doc 2</li>
-            <li>Doc 3</li>
-            <li>Doc 4</li>
-        </ul>
     </div>
 </template>
 
