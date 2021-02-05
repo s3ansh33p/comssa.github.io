@@ -29,7 +29,7 @@ export default {
     }
 
     body{
-            margin:0px;
+        margin: 0px;
     } 
 
     h1 {
