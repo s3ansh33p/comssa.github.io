@@ -46,6 +46,13 @@ export default {
             $(this).toggleClass("hamburger-active");
             $(".navbar .items .links").toggleClass("active");
         });
+
+        $(".links .menu").click(function(){ //Hide menu on item select in hamburger menu
+            if($(".hamburger").hasClass("hamburger-active")) {
+                $(".hamburger").toggleClass("hamburger-active");
+                $(".navbar .items .links").toggleClass("active");
+            }
+        });
     }
 }
 </script>
