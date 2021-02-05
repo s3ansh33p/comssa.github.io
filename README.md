@@ -7,4 +7,4 @@ A fresh redesign of the ComSSA website based on Vue for 2021.
 - Anurag Singh 
 - Kevin Le
 
-![Embed Image](./comssa/src/img/branding/og.jpg)
+![Embed Image](https://i.imgur.com/MffpQVL.jpg)
