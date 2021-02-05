@@ -24,6 +24,10 @@ export default {
 <style>
     /*Global styles are applied here */ 
 
+    html { 
+        overflow-y: scroll; 
+    }
+
     body{
             margin:0px;
     } 
