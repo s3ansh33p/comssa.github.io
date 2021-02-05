@@ -16,7 +16,7 @@
             </div>
 
             <!--TODO: Reduce the image size jeez--> 
-            <img id="image_1" src="../assets/img/314-gmaps-sv.png"/>
+            <img id="image_1" src="../assets/img/computing.jpg"/>
         </div>
 
         <div class="level_2">

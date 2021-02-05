@@ -26,28 +26,28 @@
                      title="President" 
                      email="mailto:faraz@gmail.com" 
                      linkedin="https://www.linkedin.com/" 
-                     source="faraz.png"/>
+                     source="faraz.jpg"/>
                 <div id="gap"/> 
 
             <Profile name="Faraz Faith" 
                     title="Vice President" 
                     email="mailto:faraz@gmail.com" 
                     linkedin="https://www.linkedin.com/" 
-                    source="faraz.png"/>
+                    source="faraz.jpg"/>
             <div id="gap"/> 
 
             <Profile name="Faraz Faith" 
                 title="Treasurer" 
                 email="mailto:faraz@gmail.com" 
                 linkedin="https://www.linkedin.com/" 
-                source="faraz.png"/>
+                source="faraz.jpg"/>
             <div id="gap"/>           
 
             <Profile name="Faraz Faith" 
                 title="Secretary" 
                 email="mailto:faraz@gmail.com" 
                 linkedin="https://www.linkedin.com/" 
-                source="faraz.png"/>
+                source="faraz.jpg"/>
 
         </div>
 
@@ -59,62 +59,62 @@
                 <Profile name="Faraz Faith" 
                      email="mailto:faraz@gmail.com" 
                      linkedin="https://www.linkedin.com/" 
-                     source="faraz.png"/>
+                     source="faraz.jpg"/>
                 <div id="gap"/>
 
                 <Profile name="Faraz Faith" 
                         email="mailto:faraz@gmail.com" 
                         linkedin="https://www.linkedin.com/" 
-                        source="faraz.png"/>
+                        source="faraz.jpg"/>
                 <div id="gap"/>
 
                 <Profile name="Faraz Faith" 
                     email="mailto:faraz@gmail.com" 
                     linkedin="https://www.linkedin.com/" 
-                    source="faraz.png"/>
+                    source="faraz.jpg"/>
                 <div id="gap"/>          
 
                 <Profile name="Faraz Faith" 
                     email="mailto:faraz@gmail.com" 
                     linkedin="https://www.linkedin.com/" 
-                    source="faraz.png"/>
+                    source="faraz.jpg"/>
                 <div id="gap"/>  
 
                 <Profile name="Faraz Faith" 
                     email="mailto:faraz@gmail.com" 
                     linkedin="https://www.linkedin.com/" 
-                    source="faraz.png"/>
+                    source="faraz.jpg"/>
             </div>
 
             <div id="row">
                 <Profile name="Faraz Faith" 
                      email="mailto:faraz@gmail.com" 
                      linkedin="https://www.linkedin.com/" 
-                     source="faraz.png"/>
+                     source="faraz.jpg"/>
                 <div id="gap"/> 
 
                 <Profile name="Faraz Faith" 
                     email="mailto:faraz@gmail.com" 
                     linkedin="https://www.linkedin.com/" 
-                    source="faraz.png"/>
+                    source="faraz.jpg"/>
                 <div id="gap"/> 
 
                 <Profile name="Faraz Faith" 
                     email="mailto:faraz@gmail.com" 
                     linkedin="https://www.linkedin.com/" 
-                    source="faraz.png"/>
+                    source="faraz.jpg"/>
                 <div id="gap"/>           
 
                 <Profile name="Faraz Faith" 
                     email="mailto:faraz@gmail.com" 
                     linkedin="https://www.linkedin.com/" 
-                    source="faraz.png"/>
+                    source="faraz.jpg"/>
                     <div id="gap"/>  
 
                 <Profile name="Faraz Faith" 
                     email="mailto:faraz@gmail.com" 
                     linkedin="https://www.linkedin.com/" 
-                    source="faraz.png"/>
+                    source="faraz.jpg"/>
 
                     
             </div>
