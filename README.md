@@ -1,10 +1,10 @@
-# ComSSA Website 
+# ComSSA Website
 
-A fresh redesign of the ComSSA website based on Vue for 2021. 
+A fresh redesign of the ComSSA website based on Vue/Nuxt for 2021.
 
-### Contributors 
+### Contributors
 
-- Anurag Singh 
+- Anurag Singh
 - Kevin Le
 
 ![Embed Image](https://i.imgur.com/MffpQVL.jpg)

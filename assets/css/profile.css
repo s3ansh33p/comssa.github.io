@@ -1,0 +1,80 @@
+.profile {
+    width: 300px;
+}
+
+.profile #image_container {
+    width: 200px;
+    height: 267px;
+
+    min-width: 200px;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.profile #name {
+    padding-top: 10px;
+
+    font-size: 16pt;
+    font-family: 'Roboto Mono', monospace;
+
+    font-weight: 600;
+}
+
+.profile #title {
+    font-size: 14pt;
+    font-family: 'Roboto Mono', monospace;
+
+    font-weight: 400;
+}
+
+.profile #social {
+    display: flex;
+
+    padding-top: 10px;
+}
+
+.profile #social #email {
+    margin-left: 5px;
+}
+
+.profile #social img {
+    width: 25px;
+    height: 25px;
+
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    .profile {
+        padding: 20px;
+
+        width: 100%;
+        display: flex;
+    }
+
+    #text_container{
+        margin-left: 20px;
+    }
+
+    .profile #social {
+        display: block;
+    }
+
+    .profile #social img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .profile #image_container {
+        width: 200px;
+        height: 267px;
+
+        min-width: 180px;
+        border-radius: 10px;
+
+        overflow: hidden;
+    }
+
+}

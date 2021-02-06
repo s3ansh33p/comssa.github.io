@@ -1,0 +1,220 @@
+.navbar {
+    position: fixed;
+
+    background-color: white;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 50px;
+    width: 100%;
+
+    left:0;
+    top:0;
+
+    z-index: 10000; /*Bloody Facebook trying to go over the navbar, no one cares Zuck*/
+}
+
+.shadow {
+    box-shadow: 1px 1px 10px rgb(187, 187, 187);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.navbar .items {
+    margin: auto;
+    max-width: 1800px;
+}
+
+.navbar .items #i1{
+    margin-left: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    padding-top: 15px;
+}
+
+.navbar li {
+    display: inline;
+
+    margin-left: 35px;
+}
+
+
+.navbar .links a {
+    color: #000;
+
+    text-decoration: none;
+
+    display: inline-block;
+    font-weight: normal;
+    position: relative;
+}
+
+.navbar .links a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #4559A7;
+    transition: width 0.1s ease 0s, left 0.1s ease 0s;
+    width: 0;
+}
+
+.navbar .links a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.navbar button {
+    float: right;
+}
+
+.navbar #logo {
+    width: 50px;
+    height: 50px;
+
+    float: left;
+    border-radius: 5px;
+
+    margin-left: 10%;
+}
+
+
+.navbar button {
+    height: 40px;
+    width: 100px;
+    margin-top: -10px; /*sorry*/
+    margin-right: 10%;
+
+    border-radius: 5px;
+    border-style: none;
+    background-color: #4559A7;
+
+    color: white;
+    font-size: 11pt;
+
+    font-weight: 500;
+}
+
+.navbar button:hover {
+    border-style: solid;
+    border-width: 4px;
+
+    border-color: #1c2b5e;
+
+    transition: border-width 0.1s ease;
+}
+
+.navbar button:active {
+    background-color: #1c2b5e;
+}
+
+.navbar #hamburger {
+    float: right;
+    margin-right: 30px;
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .links {
+        margin-left: 0px;
+
+        transition: margin-left 0.2s ease;
+    }
+
+    .navbar #logo {
+        margin-left: 30px;
+
+        transition: margin-left 0.2s ease;
+    }
+
+    .navbar button {
+        width: 120px;
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+
+        display: block;
+        float: none;
+    }
+
+    .navbar .items #hamburger {
+        display: inline;
+    }
+
+    .navbar .items .links {
+        background-color: white;
+        padding-bottom: 20px;
+
+        box-shadow: 0 4px 4px -2px  rgb(187, 187, 187);
+
+        display: none;
+    }
+
+    .navbar .items .links a {
+        display: block;
+    }
+
+    .navbar .items .links.active {
+        display: block;
+    }
+
+    .navbar li #i1 {
+        margin-top: 50px;
+    }
+
+    .navbar li a{
+        display: block;
+
+        font-size: 20pt;
+        padding-left: 30px;
+
+        width: max-content;
+    }
+
+    .navbar .items #i1{
+        margin-left: 0px;
+    }
+}
+
+/* ALL */
+
+.hamburger .line{
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.hamburger:hover{
+    cursor: pointer;
+}
+
+
+#hamburger.hamburger-active .line:nth-child(2){
+    opacity: 0;
+}
+
+#hamburger.hamburger-active .line:nth-child(1){
+    -webkit-transform: translateY(10px) rotate(45deg);
+    -ms-transform: translateY(10px) rotate(45deg);
+    -o-transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
+}
+
+#hamburger.hamburger-active .line:nth-child(3){
+    -webkit-transform: translateY(-13px) rotate(-45deg);
+    -ms-transform: translateY(-13px) rotate(-45deg);
+    -o-transform: translateY(-13px) rotate(-45deg);
+    transform: translateY(-13px) rotate(-45deg);
+}
