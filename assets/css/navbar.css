@@ -1,20 +1,20 @@
 .navbar {
     position: fixed;
-    
+
     background-color: white;
 
     padding-top: 15px;
     padding-bottom: 15px;
-    height: 50px; 
+    height: 50px;
     width: 100%;
 
-    left:0;           
+    left:0;
     top:0;
 
-    z-index: 10000; /*Bloody Facebook trying to go over the navbar, no one cares Zuck*/ 
+    z-index: 10000; /*Bloody Facebook trying to go over the navbar, no one cares Zuck*/
 }
 
-.shadow { 
+.shadow {
     box-shadow: 1px 1px 10px rgb(187, 187, 187);
     transition: box-shadow 0.2s ease-in-out;
 }
@@ -47,12 +47,13 @@
     color: #000;
 
     text-decoration: none;
-    
+
     display: inline-block;
+    font-weight: normal;
     position: relative;
 }
 
-.navbar .links a:after {    
+.navbar .links a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -64,19 +65,19 @@
     width: 0;
 }
 
-.navbar .links a:hover:after { 
-    width: 100%; 
-    left: 0; 
+.navbar .links a:hover:after {
+    width: 100%;
+    left: 0;
 }
 
 .navbar button {
-    float: right; 
+    float: right;
 }
 
 .navbar #logo {
     width: 50px;
     height: 50px;
-    
+
     float: left;
     border-radius: 5px;
 
@@ -135,12 +136,12 @@
     .navbar button {
         width: 120px;
 
-        margin-top: 10px; 
+        margin-top: 10px;
         margin-bottom: 20px;
         margin-left: 30px;
 
         display: block;
-        float: none; 
+        float: none;
     }
 
     .navbar .items #hamburger {
@@ -157,17 +158,17 @@
     }
 
     .navbar .items .links a {
-        display: block; 
+        display: block;
     }
 
     .navbar .items .links.active {
         display: block;
     }
-    
+
     .navbar li #i1 {
         margin-top: 50px;
     }
-    
+
     .navbar li a{
         display: block;
 

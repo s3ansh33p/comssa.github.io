@@ -33,6 +33,7 @@ a {
 .footer .content a {
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .footer .content .right {

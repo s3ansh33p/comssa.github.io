@@ -29,12 +29,9 @@ h1, h2, h3, h4, h5, h6 {
 a, a:hover, a:link, a:active, a:visited {
     font-family: 'Montserrat', sans-serif;
     color: #4142A6;
+    text-decoration: none;
+    font-weight: 600;
 }
-
-a:hover {
-    text-decoration: underline;
-}
-
 
 button {
     font-family: 'Montserrat', sans-serif;
