@@ -1,4 +1,5 @@
 export default {
+    target: 'static',
     css: ['~/assets/css/main.css'],
     plugins: ['~/plugins/loadscript.js'],
     modules: ['@nuxt/content'],
