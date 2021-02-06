@@ -1,7 +1,7 @@
 <template>
     <div :class="scrolled ? 'shadow' : ''" class="navbar">
         <div class="items">
-            <router-link to="/"><img id="logo" src="../assets/img/branding/comssa.png"></router-link>
+            <NuxtLink to="/"><img id="logo" src="~/assets/img/branding/comssa.png"></NuxtLink>
 
             <div class="hamburger" id="hamburger">
                 <span class="line"></span>
@@ -11,11 +11,11 @@
 
             <div class="links" id="links"> <!--when mobile toggle visible on hamburger click-->
                 <ul class="menu">
-                    <li><router-link id="i1" to="/about">About</router-link></li>
-                    <li><router-link id="i2" to="/events">Events</router-link></li>
-                    <li><router-link id="i3" to="/sponsors">Sponsors</router-link></li>
+                    <li><NuxtLink id="i1" to="/about">About</NuxtLink></li>
+                    <li><NuxtLink id="i2" to="/events">Events</NuxtLink></li>
+                    <li><NuxtLink id="i3" to="/sponsors">Sponsors</NuxtLink></li>
                     <li><button>Join Now</button></li>
-                </ul> 
+                </ul>
             </div>
         </div>
     </div>
@@ -62,5 +62,5 @@ export default {
 </script>
 
 <style scoped>
-@import '../assets/css/navbar.css';
+@import '~/assets/css/navbar.css';
 </style>

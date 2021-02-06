@@ -2,17 +2,19 @@
 .page-leave-active {
     transition: opacity 0.2s;
 }
+
 .page-enter,
 .page-leave-to {
     opacity: 0;
 }
-html { 
-    overflow-y: scroll; 
+
+html {
+    overflow-y: scroll;
 }
 
-body{
+body {
     margin: 0px;
-} 
+}
 
 .flex-wrapper {
     display: flex;
@@ -24,10 +26,20 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-a {
+
+h2 {
     font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
 }
+
+a, a:hover, a:link, a:active, a:visited {
+    font-family: 'Montserrat', sans-serif;
+    color: #4142A6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 button {
     font-family: 'Montserrat', sans-serif;

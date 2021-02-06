@@ -59,7 +59,11 @@
     margin-left: -42px; /*sorry*/
 }
 
-#join_link a:after {    
+#join_link a {
+    text-decoration: none;
+}
+
+#join_link a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -71,9 +75,9 @@
     width: 0;
 }
 
-#join_link a:hover:after { 
-    width: 140px; 
-    left: 0; 
+#join_link a:hover:after {
+    width: 140px;
+    left: 0;
 }
 
 #headline span{
@@ -85,10 +89,10 @@
 
     width: 65%;
     height: 65%;
-    max-width: 800px; 
+    max-width: 800px;
     margin-top: 50px;
 
-    float: right; 
+    float: right;
 
     overflow-x: hidden;
 }
@@ -100,19 +104,19 @@
 
     .level_1 {
         display: block;
-    }    
-    
+    }
+
     .level_2 {
         display: block;
     }
-    
+
     #image_1 {
-        width: 100%; 
+        width: 100%;
     }
 
     .level_2 #image_2 {
         width: 100%;
-        margin-top: 30px; 
+        margin-top: 30px;
     }
 
     .level_2 #info {
