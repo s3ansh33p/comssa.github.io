@@ -1,10 +1,10 @@
 .profile {
-    width: 200px; 
+    width: 300px;
 }
 
 .profile #image_container {
-    width: 200px; 
-    height: 230px; 
+    width: 200px;
+    height: 267px;
 
     min-width: 200px;
 
@@ -14,7 +14,7 @@
 }
 
 .profile #name {
-    padding-top: 10px; 
+    padding-top: 10px;
 
     font-size: 16pt;
     font-family: 'Roboto Mono', monospace;
@@ -32,14 +32,14 @@
 .profile #social {
     display: flex;
 
-    padding-top: 10px; 
+    padding-top: 10px;
 }
 
 .profile #social #email {
-    margin-left: 5px; 
+    margin-left: 5px;
 }
 
-.profile #social img{
+.profile #social img {
     width: 25px;
     height: 25px;
 
@@ -48,7 +48,9 @@
 
 @media screen and (max-width: 800px) {
     .profile {
-        width: 100%; 
+        padding: 20px;
+
+        width: 100%;
         display: flex;
     }
 
@@ -66,15 +68,13 @@
     }
 
     .profile #image_container {
-        width: 180px; 
-        height: 230px; 
-    
+        width: 200px;
+        height: 267px;
+
         min-width: 180px;
-    
         border-radius: 10px;
-    
+
         overflow: hidden;
     }
-    
-}
 
+}

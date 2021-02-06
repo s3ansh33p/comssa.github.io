@@ -15,7 +15,7 @@
 }
 
 .about_info p{
-    margin-right: 120px; 
+    margin-right: 120px;
 }
 
 .about #gap {
@@ -25,13 +25,13 @@
 #about_image_1 {
     height: 50%;
     width: 50%;
-    
+
     border-radius: 10px;
 }
 
 .about .exec_profile {
     display: flex;
-    
+
     justify-content: space-between;
 }
 
@@ -47,11 +47,10 @@ h3 {
 }
 
 .about #ocm_title {
-    margin-top: 60px; 
+    margin-top: 60px;
 }
 
 .about .ocm_profile #row {
-    
     margin-top: 20px;
 
     display: flex;
@@ -64,32 +63,28 @@ h3 {
         width: 100%;
 
         display: block;
-
     }
 
     .about_info p{
-        margin-right: 0px; 
+        margin-right: 0px;
     }
-    
+
     .about #gap {
         margin: 10px;
     }
-    
+
     #about_image_1 {
-        margin-top: 20px; 
-        margin-bottom: 20px; 
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: 100%;
     }
 
-
     .about .exec_profile {
         display: block;
-        
     }
-    
 
     .about .ocm_profile #row {
-        margin-top: 10px; 
+        margin-top: 10px;
         display: block;
     }
 }

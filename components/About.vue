@@ -23,33 +23,33 @@
             <h2>Committee Members</h2>
             <h3>Executive Committee Members</h3>
 
-            <div class="exec_profile"> <!--Put images in the assets/img/profile/ directory - Recommended 200x230px-->
-                <Profile name="Faraz Faith"
+            <div class="exec_profile">
+                <Profile name="Augustine (Gus) Italiano"
                         title="President"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                        source="default.jpg"/>
                     <div id="gap"/>
 
-                <Profile name="Faraz Faith"
+                <Profile name="Tina Phan"
                         title="Vice President"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                        source="tina.jpg"/>
                 <div id="gap"/>
 
-                <Profile name="Faraz Faith"
+                <Profile name="Matthew Di Marco"
                     title="Treasurer"
                     email="mailto:faraz@gmail.com"
                     linkedin="https://www.linkedin.com/"
-                    source="faraz.jpg"/>
+                    source="default.jpg"/>
                 <div id="gap"/>
 
-                <Profile name="Faraz Faith"
+                <Profile name="Laura Harris"
                     title="Secretary"
                     email="mailto:faraz@gmail.com"
                     linkedin="https://www.linkedin.com/"
-                    source="faraz.jpg"/>
+                    source="laura.jpg"/>
 
             </div>
 
@@ -58,65 +58,72 @@
 
             <div class="ocm_profile">
                 <div id="row">
-                    <Profile name="Faraz Faith"
+                    <Profile name="Anurag Singh"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                        source="anurag.jpg"/>
                     <div id="gap"/>
 
-                    <Profile name="Faraz Faith"
+                    <Profile name="Ben Caudwell"
                             email="mailto:faraz@gmail.com"
                             linkedin="https://www.linkedin.com/"
-                            source="faraz.jpg"/>
+                            source="default.jpg"/>
                     <div id="gap"/>
 
-                    <Profile name="Faraz Faith"
-                        email="mailto:faraz@gmail.com"
-                        linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                    <Profile name="Ben Heely"
+                            email="mailto:faraz@gmail.com"
+                            linkedin="https://www.linkedin.com/"
+                            source="ben_h.jpg"/>
                     <div id="gap"/>
 
-                    <Profile name="Faraz Faith"
-                        email="mailto:faraz@gmail.com"
-                        linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                    <Profile name="Bryan Wong"
+                            email="mailto:faraz@gmail.com"
+                            linkedin="https://www.linkedin.com/"
+                            source="default.jpg"/>
                     <div id="gap"/>
-
-                    <Profile name="Faraz Faith"
-                        email="mailto:faraz@gmail.com"
-                        linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
                 </div>
-
                 <div id="row">
-                    <Profile name="Faraz Faith"
+                    <Profile name="Evan Price"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                        source="default.jpg"/>
                     <div id="gap"/>
 
-                    <Profile name="Faraz Faith"
+                    <Profile name="Haley Workman"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                        source="default.jpg"/>
                     <div id="gap"/>
 
-                    <Profile name="Faraz Faith"
+                    <Profile name="Kevin Tanaka"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                        source="default.jpg"/>
                     <div id="gap"/>
 
-                    <Profile name="Faraz Faith"
+                    <Profile name="Sophie Lee-Goh"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                        source="sophie.jpg"/>
+                </div>
+                <div id="row">
+                    <Profile name="Peter Sessarego"
+                        email="mailto:faraz@gmail.com"
+                        linkedin="https://www.linkedin.com/"
+                        source="default.jpg"/>
+                    <div id="gap"/>
+
+                    <Profile name="Tanaka Chitete"
+                        email="mailto:faraz@gmail.com"
+                        linkedin="https://www.linkedin.com/"
+                        source="tanaka.jpg"/>
                         <div id="gap"/>
 
-                    <Profile name="Faraz Faith"
+                    <Profile name="Warittha Rayabsri"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="faraz.jpg"/>
+                        source="warie.jpg"/>
+                    <div id="gap"/>
                 </div>
             </div>
         </div>
