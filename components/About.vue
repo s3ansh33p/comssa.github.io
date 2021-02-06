@@ -24,7 +24,7 @@
             <h3>Executive Committee Members</h3>
 
             <div class="exec_profile">
-                <Profile name="Augustine (Gus) Italiano"
+                <Profile name="Augustine Italiano"
                         title="President"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
