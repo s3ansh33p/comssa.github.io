@@ -60,7 +60,7 @@
                     <Profile name="Anurag Singh"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="anurag.jpg"/>
+                        source="default.jpg"/>
 
 
                     <Profile name="Ben Caudwell"
