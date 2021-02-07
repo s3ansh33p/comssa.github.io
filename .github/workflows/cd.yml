@@ -1,6 +1,9 @@
 name: deploy to github pages
 
-on: [push, pull_request]
+on:
+  push:
+    tags:
+      - '*'
 
 jobs:
   cd:
