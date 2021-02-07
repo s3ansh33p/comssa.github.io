@@ -26,6 +26,7 @@ export default {
             { viewport: 'width=device-width,initial-scale=1.0' },
             { description: 'Computer Science Students Association' },
             { name: 'og:title', content: 'ComSSA'},
+            { name: 'og:description', content: 'Computer Science Students Association'},
             { name: 'og:type', content: 'website'},
             { name: 'og:url', content: 'https://comssa.org.au/'},
             { name: 'og:image', content: 'https://i.imgur.com/MffpQVL.jpg'},
