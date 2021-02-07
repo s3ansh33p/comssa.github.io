@@ -1,5 +1,5 @@
 .profile {
-    width: 300px;
+    max-width: 200px;
 }
 
 .profile #image_container {

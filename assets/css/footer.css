@@ -61,12 +61,11 @@ a {
     margin-top: 70px;
 
     font-size: 8pt;
-    color: #373B41;
+    color: #696969;
 }
 
 .footer .content #accreditation a {
-    color: #373B41;
-    text-decoration: underline;
+    color: #696969;
 }
 
 @media screen and (max-width: 800px) {

@@ -29,28 +29,27 @@
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="default.jpg"/>
-                    <div id="gap"/>
+                    
 
                 <Profile name="Tina Phan"
                         title="Vice President"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="tina.jpg"/>
-                <div id="gap"/>
+                
 
                 <Profile name="Matthew Di Marco"
                     title="Treasurer"
                     email="mailto:faraz@gmail.com"
                     linkedin="https://www.linkedin.com/"
                     source="default.jpg"/>
-                <div id="gap"/>
+                
 
                 <Profile name="Laura Harris"
                     title="Secretary"
                     email="mailto:faraz@gmail.com"
                     linkedin="https://www.linkedin.com/"
                     source="laura.jpg"/>
-
             </div>
 
             <h3 id="ocm_title">Ordinary Committee Members</h3>
@@ -62,44 +61,44 @@
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="anurag.jpg"/>
-                    <div id="gap"/>
+                    
 
                     <Profile name="Ben Caudwell"
                             email="mailto:faraz@gmail.com"
                             linkedin="https://www.linkedin.com/"
                             source="default.jpg"/>
-                    <div id="gap"/>
+                    
 
                     <Profile name="Ben Heely"
                             email="mailto:faraz@gmail.com"
                             linkedin="https://www.linkedin.com/"
                             source="ben_h.jpg"/>
-                    <div id="gap"/>
+                    
 
                     <Profile name="Bryan Wong"
                             email="mailto:faraz@gmail.com"
                             linkedin="https://www.linkedin.com/"
                             source="default.jpg"/>
-                    <div id="gap"/>
+                    
                 </div>
                 <div id="row">
                     <Profile name="Evan Price"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="default.jpg"/>
-                    <div id="gap"/>
+                    
 
                     <Profile name="Haley Workman"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="default.jpg"/>
-                    <div id="gap"/>
+                    
 
                     <Profile name="Kevin Tanaka"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="default.jpg"/>
-                    <div id="gap"/>
+                    
 
                     <Profile name="Sophie Lee-Goh"
                         email="mailto:faraz@gmail.com"
@@ -111,19 +110,19 @@
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="default.jpg"/>
-                    <div id="gap"/>
+                    
 
                     <Profile name="Tanaka Chitete"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="tanaka.jpg"/>
-                        <div id="gap"/>
+                        
 
                     <Profile name="Warittha Rayabsri"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="warie.jpg"/>
-                    <div id="gap"/>
+                    
                 </div>
             </div>
         </div>
