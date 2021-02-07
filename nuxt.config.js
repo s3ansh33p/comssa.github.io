@@ -7,10 +7,6 @@ export default {
         transpile: ['vue-plugin-load-script'],
     },
 
-    router: {
-        base: '/website/'
-    },
-
     html: {
         script: [
             {
