@@ -4,8 +4,15 @@ export default {
     plugins: ['~/plugins/loadscript.js'],
     modules: ['@nuxt/content'],
     build: {
-        transpile: ['vue-plugin-load-script'],
+        transpile: ['vue-plugin-load-script', '@nuxtjs/fontawesome'],
     },
+
+    buildModules: [
+        [ '@nuxtjs/fontawesome', {
+            component: 'fa',
+            suffix: false,
+        }],
+    ],
 
     html: {
         script: [
