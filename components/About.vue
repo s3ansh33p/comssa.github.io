@@ -11,7 +11,6 @@
                 in any issues they may have with the Department of Computing or the university as a whole.<br><br/>
 
                 Our constitution outlines the rules by which ComSSA runs, and feel free to read through any of our meeting minutes.<br><br/>
-
                 Catch up on previous meetings by reading the meeting minutes <NuxtLink to="/minutes">here</NuxtLink>.
             </p>
 
@@ -28,8 +27,7 @@
                         title="President"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="default.jpg"/>
-
+                        source="gus.jpg"/>
 
                 <Profile name="Tina Phan"
                         title="Vice President"
@@ -37,13 +35,11 @@
                         linkedin="https://www.linkedin.com/"
                         source="tina.jpg"/>
 
-
                 <Profile name="Matthew Di Marco"
                     title="Treasurer"
                     email="mailto:faraz@gmail.com"
                     linkedin="https://www.linkedin.com/"
-                    source="default.jpg"/>
-
+                    source="matt.jpg"/>
 
                 <Profile name="Laura Harris"
                     title="Secretary"
@@ -53,52 +49,43 @@
             </div>
 
             <h3 id="ocm_title">Ordinary Committee Members</h3>
-
-
             <div class="ocm_profile">
                 <div id="row">
                     <Profile name="Anurag Singh"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="default.jpg"/>
-
+                        source="anurag.jpg"/>
 
                     <Profile name="Ben Caudwell"
                             email="mailto:faraz@gmail.com"
                             linkedin="https://www.linkedin.com/"
-                            source="default.jpg"/>
-
+                            source="ben_c.jpg"/>
 
                     <Profile name="Ben Heely"
                             email="mailto:faraz@gmail.com"
                             linkedin="https://www.linkedin.com/"
                             source="ben_h.jpg"/>
 
-
                     <Profile name="Bryan Wong"
                             email="mailto:faraz@gmail.com"
                             linkedin="https://www.linkedin.com/"
-                            source="default.jpg"/>
-
+                            source="bryan.jpg"/>
                 </div>
                 <div id="row">
                     <Profile name="Evan Price"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="default.jpg"/>
-
+                        source="evan.jpg"/>
 
                     <Profile name="Haley Workman"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="default.jpg"/>
-
+                        source="haley.jpg"/>
 
                     <Profile name="Kevin Tanaka"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="default.jpg"/>
-
+                        source="kevin.jpg"/>
 
                     <Profile name="Sophie Lee-Goh"
                         email="mailto:faraz@gmail.com"
@@ -109,20 +96,17 @@
                     <Profile name="Peter Sessarego"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
-                        source="default.jpg"/>
-
+                        source="peter.jpg"/>
 
                     <Profile name="Tanaka Chitete"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="tanaka.jpg"/>
 
-
                     <Profile name="Warittha Rayabsri"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="warie.jpg"/>
-
                 </div>
             </div>
         </div>
