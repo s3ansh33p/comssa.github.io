@@ -15,8 +15,6 @@ export default {
         name: String,
         title: String,
         source: String,
-        email: String,
-        linkedin: String
     }
 }
 </script>
