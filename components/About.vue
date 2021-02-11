@@ -87,16 +87,16 @@
                         linkedin="https://www.linkedin.com/"
                         source="kevin.jpg"/>
 
-                    <Profile name="Sophie Lee-Goh"
-                        email="mailto:faraz@gmail.com"
-                        linkedin="https://www.linkedin.com/"
-                        source="sophie.jpg"/>
-                </div>
-                <div id="row">
                     <Profile name="Peter Sessarego"
                         email="mailto:faraz@gmail.com"
                         linkedin="https://www.linkedin.com/"
                         source="peter.jpg"/>
+                </div>
+                <div id="row">
+                    <Profile name="Sophie Lee-Goh"
+                        email="mailto:faraz@gmail.com"
+                        linkedin="https://www.linkedin.com/"
+                        source="sophie.jpg"/>
 
                     <Profile name="Tanaka Chitete"
                         email="mailto:faraz@gmail.com"
