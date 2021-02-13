@@ -4,13 +4,13 @@
         <div class="about_info">
 
             <p> For as long as Curtin University has had a computer science course,
-                ComSSA has been the second family to many computing students and enthusiasts alike. <br><br/>
+                ComSSA has been the second family to many computing students and enthusiasts alike. <br/><br/>
 
                 Our aim is to foster a thriving community of future and active computing professionals, provide
                 a place for like-minded members to study, connect, and enjoy university life, and represent students
-                in any issues they may have with the Department of Computing or the university as a whole.<br><br/>
+                in any issues they may have with the Department of Computing or the university as a whole.<br/><br/>
 
-                Our constitution outlines the rules by which ComSSA runs, and feel free to read through any of our meeting minutes.<br><br/>
+                Our constitution outlines the rules by which ComSSA runs, and feel free to read through any of our meeting minutes.<br/><br/>
                 Catch up on previous meetings by reading the meeting minutes <NuxtLink to="/minutes">here</NuxtLink>.
             </p>
 
@@ -123,7 +123,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-@import '~/assets/css/about.css';
-</style>

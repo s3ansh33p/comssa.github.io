@@ -20,7 +20,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-@import '~/assets/css/profile.css';
-</style>

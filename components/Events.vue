@@ -16,7 +16,7 @@
 
             <!--<img id="about_image_1" src="~/assets/img/revision.jpg"/>-->
 
-            <div class="fb-event-embed">
+            <!--<div class="fb-event-embed">
                 <div class="fb-page"
                      data-href="https://www.facebook.com/ComSSACurtin"
                      data-tabs="events"
@@ -31,7 +31,7 @@
                                  <a href="https://www.facebook.com/ComSSACurtin"></a>
                      </blockquote>
                 </div>
-            </div>
+            </div>-->
 
         </div>
 
@@ -81,7 +81,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-@import '~/assets/css/events.css';
-</style>

@@ -1,0 +1,692 @@
+$COMSSA_BLUE: #4559A7;
+$COMSSA_DARK_BLUE: #1C2B5E;
+
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.2s;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover, a:link, a:active, a:visited {
+    font-family: 'Montserrat', sans-serif;
+    color: #4142A6;
+    text-decoration: none;
+    font-weight: 600;
+
+    border: 0; //Remove box
+}
+
+.content {
+    margin: auto;
+
+    margin-top: 100px;
+
+    width: 80%;
+    max-width: 1400px;
+
+    img {
+        border-radius: 10px;
+    }
+}
+
+.navbar { //Navbar
+    position: fixed;
+
+    background-color: white;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 50px;
+    width: 100%;
+
+    left:0;
+    top:0;
+
+    z-index: 10000;
+
+    .items {
+        margin: auto;
+        max-width: 1800px;
+    }
+
+    .items #i1{
+        margin-left: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        padding-top: 15px;
+    }
+
+    li {
+        display: inline;
+
+        margin-left: 35px;
+    }
+
+
+    .links a {
+        color: black;
+
+        text-decoration: none;
+
+        display: inline-block;
+        font-weight: normal;
+        position: relative;
+    }
+
+    .links a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        background: $COMSSA_BLUE;
+        transition: width 0.1s ease 0s, left 0.1s ease 0s;
+        width: 0;
+    }
+
+    .links a:hover:after {
+        width: 100%;
+        left: 0;
+    }
+
+    button {
+        float: right;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+    }
+
+    #logo {
+        width: 50px;
+        height: 50px;
+
+        float: left;
+        border-radius: 5px;
+
+        margin-left: 10%;
+    }
+
+
+    button {
+        height: 40px;
+        width: 100px;
+        margin-top: -10px; /*sorry*/
+        margin-right: 10%;
+
+        border-radius: 5px;
+        border-style: none;
+        background-color: $COMSSA_BLUE;
+
+        color: white;
+        font-size: 11pt;
+
+        font-weight: 500;
+    }
+
+    button:hover {
+        border-style: solid;
+        border-width: 4px;
+
+        border-color: $COMSSA_DARK_BLUE;
+
+        transition: border-width 0.1s ease;
+    }
+
+    button:active {
+        background-color: $COMSSA_DARK_BLUE;
+    }
+
+    #hamburger {
+        float: right;
+        margin-right: 30px;
+        display: none;
+    }
+
+    .hamburger .line{
+        width: 35px;
+        height: 3px;
+        background-color: black;
+        display: block;
+        margin: 8px auto;
+        -webkit-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+
+
+    #hamburger.hamburger-active .line:nth-child(2){
+        opacity: 0;
+    }
+
+    #hamburger.hamburger-active .line:nth-child(1){
+        -webkit-transform: translateY(10px) rotate(45deg);
+        -ms-transform: translateY(10px) rotate(45deg);
+        -o-transform: translateY(10px) rotate(45deg);
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    #hamburger.hamburger-active .line:nth-child(3){
+        -webkit-transform: translateY(-13px) rotate(-45deg);
+        -ms-transform: translateY(-13px) rotate(-45deg);
+        -o-transform: translateY(-13px) rotate(-45deg);
+        transform: translateY(-13px) rotate(-45deg);
+    }
+}
+
+.shadow { //Navbar Shadow
+    box-shadow: 1px 1px 10px rgb(187, 187, 187);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.idx { //Homepage
+    .level_1 {
+        display: flex;
+        margin-bottom: 70px;
+    }
+
+    .level_2 {
+        display: flex;
+    }
+
+    .level_2 #image_2 {
+        width: 60%;
+        height: 30%;
+        max-height: 500px;
+    }
+
+    .level_2 #info {
+        padding-left: 50px;
+        padding-right: 50px;
+        min-width: 300px;
+    }
+
+    #headline {
+        margin-right: 50px;
+    }
+
+
+    #title {
+        font-size: 48pt;
+    }
+
+    #join_link {
+        display: flex;
+        width: 240px;
+        justify-content: left;
+    }
+
+    #join_link a{
+        font-size: 22pt;
+        margin-right: 50px;
+
+        color: black;
+    }
+
+    #join_link #arrow {
+        width: 30px;
+        margin-left: -42px; /*sorry*/
+    }
+
+    #join_link a {
+        text-decoration: none;
+    }
+
+    #join_link a:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        background: $COMSSA_BLUE;
+        transition: width 0.1s ease 0s, left 0.1s ease 0s;
+        width: 0;
+    }
+
+    #join_link a:hover:after {
+        width: 140px;
+        left: 0;
+    }
+
+    #headline span{
+        color: $COMSSA_BLUE;
+    }
+
+    #image_1 {
+        margin-left: auto;
+
+        width: 65%;
+        height: 65%;
+        max-width: 800px;
+        margin-top: 50px;
+
+        float: right;
+
+        overflow-x: hidden;
+    }
+}
+
+.about {
+    .about_info {
+        width: 100%;
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    .about_info p{
+        margin-right: 120px;
+    }
+
+    .about #gap {
+        margin: 10px;
+    }
+
+    #about_image_1 {
+        height: 50%;
+        width: 50%;
+
+        border-radius: 10px;
+    }
+
+    .exec_profile {
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    #ocm_title {
+        margin-top: 60px;
+    }
+
+    .ocm_profile #row {
+        margin-top: 50px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile {
+        #name {
+            padding-top: 10px;
+            font-size: 16pt;
+            font-weight: 600;
+        }
+
+        #title {
+            font-size: 14pt;
+            font-weight: 400;
+        }
+    }
+}
+
+.events {
+    .event_info {
+        width: 100%;
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    .event_info p {
+        margin-right: 120px;
+        min-width: 250px;
+    }
+
+    .fb-event-embed {
+        background: white;
+
+        font-family: 'Roboto Mono', monospace;
+        font-style: italic;
+
+        min-width: max-content;
+    }
+
+    .fb-timeline-embed {
+        margin-left: 70px;
+        background: white;
+
+        height: 500px;
+        min-width: 330px;
+
+        font-family: 'Roboto Mono', monospace;
+        font-style: italic;
+    }
+
+    .row_2 {
+        margin-top: 40px;
+        display: flex;
+    }
+
+    #discord_embed {
+        height: 500px;
+        width: 300px;
+    }
+
+    #event_image_1 {
+        height: 45%;
+        margin-top: 20px;
+        margin-left: 70px;
+        border-radius: 10px;
+    }
+}
+
+.sponsors {
+    .wordmark img {
+        width: 25%;
+
+        padding: 30px;
+    }
+
+    #csg {
+        width: 100px;
+        padding-top: 80px;
+        margin-bottom: -170px;
+    }
+
+    .wordmark #row {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.footer {
+    margin-top: 100px;
+
+    background-color: rgb(247, 247, 247);
+    border-bottom: 10px solid #4559A7;
+    width: 100%;
+    height: 250px;
+
+    a {
+        color: black;
+    }
+
+    .content {
+        padding-top: 20px;
+
+        margin: auto;
+        width: 80%;
+        max-width: 1400px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content h1 {
+        font-size: 16pt;
+    }
+
+    .content p {
+        font-size: 11pt;
+    }
+
+    .content a {
+        font-family: 'Roboto Mono', monospace;
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+    .content .right {
+        float: right;
+        margin-right: 80px;
+    }
+
+    .content #guild_logo {
+        margin-top: 30px;
+        width: 80px;
+
+        border-radius: 0;
+    }
+
+    .content #social_icons img {
+        width: 15px;
+        border-radius: 5px;
+
+        margin-bottom: 10px;
+    }
+
+    .content #social_icons #following img {
+        margin-left: 10px;
+    }
+
+    div #social_icons {
+        font-size: 30px;
+        padding-right: 1px;
+    }
+
+    .content #accreditation {
+        margin-top: 70px;
+
+        font-size: 8pt;
+        color: #696969;
+    }
+
+    .content #accreditation a {
+        color: #696969;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        .links {
+            margin-left: 0px;
+
+            transition: margin-left 0.2s ease;
+        }
+
+        #logo {
+            margin-left: 30px;
+
+            transition: margin-left 0.2s ease;
+        }
+
+        button {
+            width: 120px;
+
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+
+            display: block;
+            float: none;
+        }
+
+        .items #hamburger {
+            display: inline;
+        }
+
+        .items .links {
+            background-color: white;
+            padding-bottom: 20px;
+
+            box-shadow: 0 4px 4px -2px  rgb(187, 187, 187);
+
+            display: none;
+        }
+
+        .items .links a {
+            display: block;
+        }
+
+        .items .links.active {
+            display: block;
+        }
+
+        li #i1 {
+            margin-top: 50px;
+        }
+
+        li a{
+            display: block;
+
+            font-size: 20pt;
+            padding-left: 30px;
+
+            width: max-content;
+        }
+
+        .items #i1{
+            margin-left: 0px;
+        }
+    }
+
+    .idx {
+        #title {
+            font-size: 38pt;
+        }
+
+        .level_1 {
+            display: block;
+        }
+
+        .level_2 {
+            display: block;
+        }
+
+        #image_1 {
+            width: 100%;
+        }
+
+        .level_2 #image_2 {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .level_2 #info {
+            padding: 0px;
+            min-width: 0px;
+
+            margin-top: 50px;
+        }
+    }
+
+    .about {
+        .about_info {
+            width: 100%;
+
+            display: block;
+        }
+
+        .about_info p{
+            margin-right: 0px;
+        }
+
+        #gap {
+            margin: 10px;
+        }
+
+        #about_image_1 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .exec_profile {
+            display: block;
+        }
+
+        .ocm_profile #row {
+            margin-top: 10px;
+            display: block;
+        }
+
+        .profile {
+            padding-bottom: 20px;
+
+            width: 100%;
+            display: flex;
+
+            #text_container {
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .sponsors {
+        .wordmark #row {
+            display: block;
+        }
+
+        .guild {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        #csg {
+            width: 100px;
+
+            padding-top: 0px;
+            margin: 0px;
+        }
+
+        .wordmark img {
+            width: 80%;
+
+            padding: 30px;
+        }
+    }
+
+    .footer {
+        height: 500px;
+
+        .content #guild_logo {
+            margin-top: 10px;
+        }
+
+        .content {
+            display: block;
+        }
+
+        .content .right {
+            float: none;
+        }
+
+        .content #accreditation {
+            margin-top: 15px;
+        }
+    }
+}
+
+::-moz-selection {
+    color: white;
+    background: $COMSSA_BLUE;
+}
+
+::selection {
+    color: white;
+    background: $COMSSA_BLUE;
+}
