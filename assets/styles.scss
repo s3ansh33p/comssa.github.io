@@ -81,9 +81,9 @@ a, a:hover, a:link, a:active, a:visited {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        margin-right: 10%;
+        margin-right: 10.5%;
 
-        padding-top: 15px;
+        padding-top: 13px;
     }
 
     li {
@@ -124,20 +124,24 @@ a, a:hover, a:link, a:active, a:visited {
         float: left;
         border-radius: 5px;
 
-        margin-left: 10%;
+        margin-left: 9%;
     }
 
     .btn {
         float: right;
         font-family: 'Montserrat', sans-serif;
         text-decoration: none;
-
         height: 40px;
         width: 100px;
-        border-radius: 5px;
-        border-style: none;
-        background-color: $COMSSA_BLUE;
+        padding-top: 10px;
 
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-property: box-shadow;
+        transition-property: box-shadow;
+        box-shadow: inset 0 0 0 0px black, 0 0 1px rgba(0, 0, 0, 0);
+
+        background-color: $COMSSA_BLUE;
         color: white;
         font-size: 11pt;
 
@@ -145,15 +149,14 @@ a, a:hover, a:link, a:active, a:visited {
     }
 
     .btn:hover {
-        border-style: solid;
-        border-width: 4px;
-
-        border-color: $COMSSA_DARK_BLUE;
-
-        transition: border-width 0.1s ease;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-property: box-shadow;
+        transition-property: box-shadow;
+        box-shadow: inset 0 0 0 4px $COMSSA_DARK_BLUE, 0 0 1px rgba(0, 0, 0, 0);
     }
 
-    .btn:active {
+    .btn-secondary:not(:disabled):not(.disabled):active {
         background-color: $COMSSA_DARK_BLUE;
     }
 
