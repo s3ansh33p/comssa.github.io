@@ -59,11 +59,10 @@ a, a:hover, a:link, a:active, a:visited {
 
 .navbar { //Navbar
     position: fixed;
-
+    width: 100%;
     background-color: white;
 
     padding-bottom: 15px;
-    width: 100%;
 
     left:0;
     top:0;
@@ -74,6 +73,7 @@ a, a:hover, a:link, a:active, a:visited {
         list-style-type: none;
         margin: 0;
         padding: 0;
+        margin-right: 10%;
 
         padding-top: 15px;
     }
