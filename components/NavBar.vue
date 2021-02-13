@@ -36,7 +36,7 @@
         <b-nav-item class="links" to="/sponsors">Sponsors</b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
-        <b-button to="/join">Search</b-button>
+        <b-button to="/join">Join</b-button>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
