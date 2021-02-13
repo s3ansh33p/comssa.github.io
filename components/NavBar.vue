@@ -1,4 +1,5 @@
 <template>
+<!--
     <div class="navbar" :class="scrolled ? 'shadow' : ''">
         <div class="items">
             <NuxtLink to="/"><img id="logo" src="~/assets/img/branding/comssa.png"></NuxtLink>
@@ -9,7 +10,7 @@
                 <span class="line"></span>
             </div>
 
-            <div class="links" id="links"> <!--when mobile toggle visible on hamburger click-->
+            <div class="links" id="links"> when mobile toggle visible on hamburger click
                 <ul class="menu">
                     <li><NuxtLink id="i1" to="/about">About</NuxtLink></li>
                     <li><NuxtLink id="i2" to="/events">Events</NuxtLink></li>
@@ -19,6 +20,27 @@
             </div>
         </div>
     </div>
+-->
+<div class="navbar" >
+  <b-navbar :class="scrolled ? 'shadow' : ''" toggleable="md" type="light" variant="light">
+    <b-navbar-brand id="logo" to="/">
+      <img id="logo" src="~/assets/img/branding/comssa.png"></img>
+    </b-navbar-brand>
+
+   <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-text-collapse" is-nav>
+      <b-navbar-nav>
+        <b-nav-item class="links" to="/about">About</b-nav-item>
+        <b-nav-item class="links" to="/events">Events</b-nav-item>
+        <b-nav-item class="links" to="/sponsors">Sponsors</b-nav-item>
+      </b-navbar-nav>
+      <b-navbar-nav class="ml-auto">
+        <b-button to="/join">Search</b-button>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
+</div>
 </template>
 
 <script>
@@ -26,37 +48,23 @@ import $ from 'jquery'
 export default {
   name: 'NavBar',
   data() {
-        return {
-            scrolled: false
-        }
-    },
-    methods: {
-        handleScroll () {
-            this.scrolled = window.scrollY > 0;
-        }
-    },
-    created () {
-        if(process.client) {
-            window.addEventListener('scroll', this.handleScroll);
-        }
-    },
-    destroyed () {
-        if(process.client) {
-            window.removeEventListener('scroll', this.handleScroll);
-        }
-    },
-    mounted () {
-        $(".hamburger").click(function(){
-            $(this).toggleClass("hamburger-active");
-            $(".navbar .items .links").toggleClass("active");
-        });
-
-        $(".links .menu").click(function(){ //Hide menu on item select in hamburger menu
-            if($(".hamburger").hasClass("hamburger-active")) {
-                $(".hamburger").toggleClass("hamburger-active");
-                $(".navbar .items .links").toggleClass("active");
-            }
-        });
+    return {
+      scrolled: false,
     }
+  },
+
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+
+  methods: {
+    handleScroll() {
+      this.scrolled = window.scrollY > 0
+    },
+  },
 }
 </script>

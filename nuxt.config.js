@@ -1,7 +1,7 @@
 export default {
     target: 'static',
     css: ['~/assets/styles.scss'],
-    plugins: ['~/plugins/loadscript.js'],
+    plugins: ['~/plugins/loadscript.js', '~/plugins/bootstrap.js'],
     modules: ['@nuxt/content'],
     build: {
         transpile: ['vue-plugin-load-script', '@nuxtjs/fontawesome'],
