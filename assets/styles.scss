@@ -57,6 +57,14 @@ a, a:hover, a:link, a:active, a:visited {
     }
 }
 
+.navbar-light {
+    .navbar-nav {
+        .nav-link, .nav-link:hover {
+            color: black;
+        }
+    }
+}
+
 .navbar { //Navbar
     position: fixed;
     width: 100%;
@@ -85,8 +93,6 @@ a, a:hover, a:link, a:active, a:visited {
     }
 
     .links a {
-        color: black;
-
         text-decoration: none;
 
         display: inline-block;
@@ -99,7 +105,7 @@ a, a:hover, a:link, a:active, a:visited {
         bottom: 0;
         content: "";
         display: block;
-        height: 2px;
+        height: 4px;
         left: 50%;
         background: $COMSSA_BLUE;
         transition: width 0.1s ease 0s, left 0.1s ease 0s;
