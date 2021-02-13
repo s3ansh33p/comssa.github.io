@@ -246,6 +246,8 @@ a, a:hover, a:link, a:active, a:visited {
 
     #join_link {
         display: flex;
+
+        margin-top: 30px;
         width: 240px;
         justify-content: left;
     }
@@ -525,6 +527,11 @@ a, a:hover, a:link, a:active, a:visited {
 }
 
 @media screen and (max-width: 1200px) {
+    .content {
+        margin-top: 100px;
+    }
+
+
     .navbar {
         .links {
             font-size: 20pt;
