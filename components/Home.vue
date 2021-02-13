@@ -26,15 +26,15 @@
 
                 <p>
                     ComSSA is the club that supports computing, computer engineering, and networking
-                    students at Curtin University. <br><br/>
+                    students at Curtin University. <br/><br/>
 
-                    Most of the time, committee members can be found within the 314 level 2 labs.<br><br/>
+                    Most of the time, committee members can be found within the 314 level 2 labs.<br/><br/>
 
                     We provide a wide range of events and services for our members, such as academic
                     assistance, social events, industry presentations, and free Microsoft software
                     licences!<br><br/>
 
-                    Membership is open to everyone, even if you’re not a student! <br><br/>
+                    Membership is open to everyone, even if you’re not a student! <br/><br/>
 
                     Being affiliated with the Curtin Student Guild also means that membership is
                     free, if you have a voucher from the Guild diary.
@@ -49,7 +49,3 @@ export default {
     name: 'Home'
 }
 </script>
-
-<style scoped>
-@import '~/assets/css/home.css';
-</style>

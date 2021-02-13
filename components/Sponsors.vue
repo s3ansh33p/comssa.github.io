@@ -44,7 +44,3 @@ export default {
     name: 'Sponsors'
 }
 </script>
-
-<style scoped>
-@import '~/assets/css/sponsors.css';
-</style>

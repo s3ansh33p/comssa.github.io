@@ -1,5 +1,5 @@
 <template>
-    <div :class="scrolled ? 'shadow' : ''" class="navbar">
+    <div class="navbar" :class="scrolled ? 'shadow' : ''">
         <div class="items">
             <NuxtLink to="/"><img id="logo" src="~/assets/img/branding/comssa.png"></NuxtLink>
 
@@ -60,7 +60,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-@import '~/assets/css/navbar.css';
-</style>

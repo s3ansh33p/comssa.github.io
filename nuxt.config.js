@@ -1,6 +1,6 @@
 export default {
     target: 'static',
-    css: ['~/assets/css/main.css'],
+    css: ['~/assets/styles.scss'],
     plugins: ['~/plugins/loadscript.js'],
     modules: ['@nuxt/content'],
     build: {
