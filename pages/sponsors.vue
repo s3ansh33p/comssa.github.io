@@ -1,5 +1,5 @@
 <template>
-    <Sponsors/>
+  <Sponsors />
 </template>
 
 <script>
@@ -7,7 +7,7 @@ import Sponsors from "~/components/Sponsors.vue"
 
 export default {
     components: {
-        Sponsors,
-    },
+        Sponsors
+    }
 }
 </script>

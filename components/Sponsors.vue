@@ -1,26 +1,26 @@
 <template>
-    <div class="sponsors">
-        <h1>Sponsors</h1>
-        <p>We are fortunate to have these sponsors who are generous enough to give us their support. </p>
+  <div class="sponsors">
+    <h1>Sponsors</h1>
+    <p>We are fortunate to have these sponsors who are generous enough to give us their support. </p>
 
-        <div class="wordmark">
-            <div class="guild" id="row">
-                <img id="csg" src="~/assets/img/branding/guild.png"/>
-            </div>
+    <div class="wordmark">
+      <div id="row" class="guild">
+        <img id="csg" src="~/assets/img/branding/guild.png">
+      </div>
 
-            <div id="row">
-                <img id="accenture" src="~/assets/img/branding/sponsors/accenture.png"/>
-                <img id="atlassian" src="~/assets/img/branding/sponsors/atlassian.png"/>
-                <!--<img id="csg" src="~/assets/img/branding/sponsors/csg.png"/>-->
-            </div>
+      <div id="row">
+        <img id="accenture" src="~/assets/img/branding/sponsors/accenture.png">
+        <img id="atlassian" src="~/assets/img/branding/sponsors/atlassian.png">
+        <!--<img id="csg" src="~/assets/img/branding/sponsors/csg.png"/>-->
+      </div>
 
-            <div id="row">
-                <img id="deloitte" src="~/assets/img/branding/sponsors/deloitte.png"/>
-                <img id="vgw" src="~/assets/img/branding/sponsors/vgw.png"/>
-            </div>
-        </div>
+      <div id="row">
+        <img id="deloitte" src="~/assets/img/branding/sponsors/deloitte.png">
+        <img id="vgw" src="~/assets/img/branding/sponsors/vgw.png">
+      </div>
+    </div>
 
-        <!--         <div class="wordmark">
+    <!--         <div class="wordmark">
             <div class="guild" id="row">
                 <a href="https://www.guild.curtin.edu.au/" target="_blank"><img id="csg" src="~/assets/img/branding/guild.png"/></a>
             </div>
@@ -36,7 +36,7 @@
             </div>
         </div>
         -->
-    </div>
+  </div>
 </template>
 
 <script>

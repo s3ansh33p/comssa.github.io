@@ -1,28 +1,29 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es6": true
+    env: {
+        browser: true,
+        es6: true
     },
-    "extends": [
+    extends: [
         "eslint:recommended",
-        "plugin:vue/essential"
+        "plugin:vue/essential",
+        "@nuxtjs"
     ],
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+    globals: {
+        Atomics: "readonly",
+        SharedArrayBuffer: "readonly"
     },
-    "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
+    parserOptions: {
+        ecmaVersion: 2021,
+        sourceType: "module"
     },
-    "plugins": [
+    plugins: [
         "vue"
     ],
-    "rules": {
+    rules: {
         "eol-last": [
             "error"
         ],
-        "indent": [
+        indent: [
             "error",
             4
         ],
@@ -30,11 +31,11 @@ module.exports = {
             "error",
             "unix"
         ],
-        "quotes": [
+        quotes: [
             "error",
             "double"
         ],
-        "semi": [
+        semi: [
             "error",
             "never"
         ]
