@@ -47,7 +47,7 @@ a, a:hover, a:link, a:active, a:visited {
 .content {
     margin: auto;
 
-    margin-top: 100px;
+    margin-top: 120px;
 
     width: 80%;
     max-width: 1400px;
@@ -70,12 +70,23 @@ a, a:hover, a:link, a:active, a:visited {
     width: 100%;
     background-color: white;
 
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 
     left:0;
     top:0;
 
     z-index: 10000;
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler-icon {
+        width: 35px;
+        height: 35px;
+
+        color: black;
+    }
 
     button {
         margin-top: 13px;
@@ -110,7 +121,7 @@ a, a:hover, a:link, a:active, a:visited {
         bottom: 0;
         content: "";
         display: block;
-        height: 4px;
+        height: 2px;
         left: 50%;
         background: $COMSSA_BLUE;
         transition: width 0.1s ease 0s, left 0.1s ease 0s;
@@ -246,6 +257,8 @@ a, a:hover, a:link, a:active, a:visited {
 
     #join_link {
         display: flex;
+
+        margin-top: 30px;
         width: 240px;
         justify-content: left;
     }
@@ -330,15 +343,27 @@ a, a:hover, a:link, a:active, a:visited {
         justify-content: space-between;
     }
 
+    #committee_heading {
+        margin-top: 60px;
+    }
+
     #ocm_title {
         margin-top: 60px;
     }
 
+    #ecm_title {
+        margin-top: 30px;
+    }
+
     .ocm_profile #row {
-        margin-top: 50px;
+        margin-top: 20px;
 
         display: flex;
         justify-content: space-between;
+    }
+
+    .exec_profile {
+        margin-top: 20px;
     }
 
     .profile {
@@ -351,6 +376,10 @@ a, a:hover, a:link, a:active, a:visited {
         #title {
             font-size: 14pt;
             font-weight: 400;
+        }
+
+        #text_container {
+            max-width: 200px;
         }
     }
 }
@@ -414,7 +443,7 @@ a, a:hover, a:link, a:active, a:visited {
     }
 
     #csg {
-        width: 100px;
+        width: max-content;
         padding-top: 80px;
         margin-bottom: -170px;
     }
@@ -438,7 +467,7 @@ a, a:hover, a:link, a:active, a:visited {
     }
 
     .content {
-        padding-top: 20px;
+        padding-top: 30px;
 
         margin: auto;
         width: 80%;
@@ -502,7 +531,38 @@ a, a:hover, a:link, a:active, a:visited {
     }
 }
 
+.join {
+    #subheading {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        .links {
+            font-size: 20pt;
+        }
+
+        #logo {
+            margin-left: 14px;
+        }
+
+        li {
+            margin-left: 30px;
+        }
+
+        #join_nav {
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
 @media screen and (max-width: 1200px) {
+    .content {
+        margin-top: 100px;
+    }
+
     .idx {
         #title {
             font-size: 38pt;
@@ -523,6 +583,8 @@ a, a:hover, a:link, a:active, a:visited {
         .level_2 #image_2 {
             width: 100%;
             margin-top: 30px;
+
+            max-height: none;
         }
 
         .level_2 #info {

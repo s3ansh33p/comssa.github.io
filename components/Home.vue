@@ -22,7 +22,7 @@
             <img id="image_2" src="~/assets/img/comssa-stall.jpg"/>
 
             <div id="info">
-                <h1>Who are we?</h1>
+                <h2>Who are we?</h2>
 
                 <p>
                     ComSSA is the club that supports computing, computer engineering, and networking

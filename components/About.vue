@@ -18,9 +18,8 @@
         </div>
 
         <div class="committee">
-
-            <h2>Committee Members</h2>
-            <h3>Executive Committee Members</h3>
+            <h2 id="committee_heading">Committee Members</h2>
+            <h3 id="ecm_title">Executive Committee Members</h3>
 
             <div class="exec_profile">
                 <Profile name="Augustine Italiano"

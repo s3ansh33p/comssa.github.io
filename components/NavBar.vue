@@ -24,7 +24,7 @@
 <div class="navbar" >
   <b-navbar :class="scrolled ? 'shadow' : ''" toggleable="md" type="light" variant="light">
     <b-navbar-brand id="logo" to="/">
-      <img id="logo" src="~/assets/img/branding/comssa.png"></img>
+      <img id="logo" src="~/assets/img/branding/comssa.png"/>
     </b-navbar-brand>
 
    <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
@@ -36,7 +36,7 @@
         <b-nav-item class="links" to="/sponsors">Sponsors</b-nav-item>
       </b-navbar-nav>
       <b-navbar-nav class="ml-auto">
-        <b-button to="/join">Join Now</b-button>
+        <b-button id="join_nav" to="/join">Join Now</b-button>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
