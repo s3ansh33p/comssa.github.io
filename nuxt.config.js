@@ -42,9 +42,7 @@ export default {
             { name: "twitter:card", content: "summary_large_image" }
         ],
         link: [
-            { rel: "preconnect", href: "https://fonts.gstatic.com" },
-            { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap" },
-            { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;600;700&display=swap" }
+            { rel: "icon", href: "/favicon.ico" }
         ]
     }
 }
