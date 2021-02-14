@@ -1,4 +1,4 @@
-name: run eslint
+name: build
 on: push
 jobs:
   cd:
@@ -20,5 +20,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run ESLint
-        run: npm run lint
+      - name: Generate
+        run: npm run build
