@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    name: 'Profile',
+    name: "Profile",
     props: {
         name: String,
         title: String,

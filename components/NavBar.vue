@@ -44,27 +44,26 @@
 </template>
 
 <script>
-import $ from 'jquery'
 export default {
-  name: 'NavBar',
-  data() {
-    return {
-      scrolled: false,
-    }
-  },
-
-  beforeMount() {
-    window.addEventListener('scroll', this.handleScroll)
-  },
-
-  beforeDestroy() {
-    window.removeEventListener('scroll', this.handleScroll)
-  },
-
-  methods: {
-    handleScroll() {
-      this.scrolled = window.scrollY > 0
+    name: "NavBar",
+    data() {
+        return {
+            scrolled: false,
+        }
     },
-  },
+
+    beforeMount() {
+        window.addEventListener("scroll", this.handleScroll)
+    },
+
+    beforeDestroy() {
+        window.removeEventListener("scroll", this.handleScroll)
+    },
+
+    methods: {
+        handleScroll() {
+            this.scrolled = window.scrollY > 0
+        },
+    },
 }
 </script>

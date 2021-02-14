@@ -67,17 +67,17 @@
 
 <script>
 export default {
-    name: 'Events',
+    name: "Events",
     mounted() { //Facebook embeds do not appear on component mount, for some reason the included script has to be reloaded
         this.$loadScript(
-        "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0"
+            "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0"
         ).then(() => {
             this.$nextTick(() => {
-                window.FB.XFBML.parse();
-            });
+                window.FB.XFBML.parse()
+            })
         }).catch(() => {
-            console.log("Error Loading Facebook Script");
-        });
+            console.log("Error Loading Facebook Script")
+        })
     }
 }
 </script>

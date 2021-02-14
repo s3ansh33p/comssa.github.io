@@ -60,25 +60,25 @@ import {
     faGithubSquare,
     faFacebookSquare,
     faDiscord
-} from '@fortawesome/free-brands-svg-icons'
+} from "@fortawesome/free-brands-svg-icons"
 
 export default {
-    name: 'Footer',
+    name: "Footer",
     computed: {
         faLinkedin() {
-            return faLinkedin;
+            return faLinkedin
         },
 
         faFacebook() {
-            return faFacebookSquare;
+            return faFacebookSquare
         },
 
         faGithub() {
-            return faGithubSquare;
+            return faGithubSquare
         },
 
         faDiscord() {
-            return faDiscord;
+            return faDiscord
         }
     }
 }

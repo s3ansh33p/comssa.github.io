@@ -83,10 +83,10 @@
 </template>
 
 <script>
-import Profile from './Profile.vue';
+import Profile from "./Profile.vue"
 
 export default {
-    name: 'About',
+    name: "About",
     components: {
         Profile
     }
