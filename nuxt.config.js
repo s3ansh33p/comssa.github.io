@@ -1,4 +1,5 @@
 export default {
+    components: true,
     target: "static",
     css: ["~/assets/styles.scss"],
     plugins: ["~/plugins/loadscript.js", "~/plugins/bootstrap.js"],
