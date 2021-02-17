@@ -1,26 +1,4 @@
 <template>
-  <!--
-    <div class="navbar" :class="scrolled ? 'shadow' : ''">
-        <div class="items">
-            <NuxtLink to="/"><img id="logo" src="~/assets/img/branding/comssa.png"></NuxtLink>
-
-            <div class="hamburger" id="hamburger">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
-
-            <div class="links" id="links"> when mobile toggle visible on hamburger click
-                <ul class="menu">
-                    <li><NuxtLink id="i1" to="/about">About</NuxtLink></li>
-                    <li><NuxtLink id="i2" to="/events">Events</NuxtLink></li>
-                    <li><NuxtLink id="i3" to="/sponsors">Sponsors</NuxtLink></li>
-                    <li><button>Join Now</button></li>
-                </ul>
-            </div>
-        </div>
-    </div>
--->
   <div class="navbar">
     <b-navbar :class="scrolled ? 'shadow' : ''" toggleable="md" type="light" variant="light">
       <b-navbar-brand id="logo" to="/">
