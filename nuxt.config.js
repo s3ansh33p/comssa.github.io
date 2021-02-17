@@ -8,6 +8,10 @@ export default {
         transpile: ["vue-plugin-load-script", "@nuxtjs/fontawesome"]
     },
 
+    generate: {
+        fallback: "404.html"
+    },
+
     buildModules: [
         "@nuxtjs/eslint-module",
         ["@nuxtjs/fontawesome", {
