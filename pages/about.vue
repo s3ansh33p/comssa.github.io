@@ -11,9 +11,10 @@
         in any issues they may have with the Department of Computing or the university as a whole.<br><br>
 
         Our constitution outlines the rules by which ComSSA runs, and feel free to read through any of our meeting minutes.<br><br>
-        Catch up on previous meetings by reading the meeting minutes <NuxtLink to="/minutes">
-          here
-        </NuxtLink>.
+        Catch up on previous meetings by reading the meeting minutes
+        <NuxtLink to="/minutes">
+          here.
+        </NuxtLink>
       </p>
 
       <img id="about_image_1" src="~/assets/img/revision.jpg">
