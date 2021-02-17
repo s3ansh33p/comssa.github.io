@@ -32,7 +32,7 @@
         <Profile
           name="Augustine Italiano"
           title="President"
-          source="gus.jpg"
+          source="augustine.jpg"
         />
 
         <Profile
@@ -113,7 +113,7 @@
 
           <Profile
             name="Warittha Rayabsri"
-            source="warie.jpg"
+            source="warittha.jpg"
           />
         </div>
       </div>
