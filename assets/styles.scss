@@ -98,7 +98,7 @@ a, a:hover, a:link, a:active, a:visited {
 
 .navbar-light {
     .navbar-nav {
-        .nav-link, .nav-link:hover {
+        .nav-link, .nav-link:hover, .nav-link:focus {
             color: black;
         }
     }
