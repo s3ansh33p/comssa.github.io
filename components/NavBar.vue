@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <b-navbar :class="scrolled ? 'shadow' : ''" toggleable="md" type="light" variant="light">
+    <b-navbar :class="scrolled ? 'shadow' : ''" toggleable="md">
       <b-navbar-brand id="logo" to="/">
         <img id="logo" src="~/assets/img/branding/comssa.png">
       </b-navbar-brand>
