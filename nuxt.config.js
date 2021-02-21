@@ -34,6 +34,7 @@ export default {
 
     head: {
         title: "ComSSA",
+        titleTemplate: "%s / ComSSA",
         meta: [
             { charset: "utf-8" },
             { viewport: "width=device-width,initial-scale=1.0" },

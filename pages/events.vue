@@ -71,7 +71,10 @@
 
 <script>
 export default {
-    name: "Events",
+    head: {
+        title: "Events"
+    },
+
     mounted () { // Facebook embeds do not appear on component mount, for some reason the included script has to be reloaded
         this.$loadScript(
             "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0"

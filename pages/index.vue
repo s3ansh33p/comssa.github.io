@@ -45,3 +45,11 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+    head: {
+        titleTemplate: "ComSSA"
+    }
+}
+</script>

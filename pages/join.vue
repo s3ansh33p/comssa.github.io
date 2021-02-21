@@ -28,3 +28,11 @@
     Please do not mark yourself as paying with a voucher — this will not lessen any online membership fees.
   </div>
 </template>
+
+<script>
+export default {
+    head: {
+        title: "Join"
+    }
+}
+</script>
