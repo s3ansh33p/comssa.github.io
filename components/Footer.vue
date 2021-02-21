@@ -48,7 +48,12 @@
         <a href="mailto:contact@comssa.org.au"><p>contact@comssa.org.au</p></a>
 
         <p id="accreditation">
-          © ComSSA {{ new Date().getFullYear() }}<br> Design by <a href="https://kevinle.com.au/" target="_blank">Kevin Le</a>
+          © ComSSA {{ new Date().getFullYear() }}
+          <br>
+          <a href="https://github.com/ComSSA/comssa.github.io/" target="_blank">Source Code</a>
+
+          <br>
+          Design by <a href="https://kevinle.com.au/" target="_blank">Kevin Le</a>
         </p>
       </div>
     </div>
