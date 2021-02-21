@@ -394,11 +394,18 @@ a, a:hover, a:link, a:active, a:visited {
         margin-top: 30px;
     }
 
-    .ocm_profile #row {
-        margin-top: 20px;
+    .ocm_profile {
+        #row {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
 
-        display: flex;
-        justify-content: space-between;
+        #center {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
     }
 
     .exec_profile {
