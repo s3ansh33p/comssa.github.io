@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "nuxt dev",
     "build": "nuxt generate",
-    "lint": "eslint --ext .js,.vue ."
+    "lint": "eslint --ext .js,.vue .",
+    "lint:fix": "eslint --fix --ext .js,.vue ."
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
