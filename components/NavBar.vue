@@ -15,6 +15,9 @@
           <b-nav-item class="links" to="/events">
             Events
           </b-nav-item>
+          <b-nav-item class="links" to="/socials">
+            Socials
+          </b-nav-item>
           <b-nav-item class="links" to="/sponsors">
             Sponsors
           </b-nav-item>

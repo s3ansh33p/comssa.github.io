@@ -12,59 +12,6 @@
         on our <a href="https://discord.gg/SuwfFfjYJB" target="_blank">Discord</a>. Follow us on social media to keep up to date with
         the latest events and join our Discord to become a part of the conversation.<br><br>
       </p>
-
-      <!--<img id="about_image_1" src="~/assets/img/revision.jpg"/>-->
-
-      <!--<div class="fb-event-embed">
-                <div class="fb-page"
-                     data-href="https://www.facebook.com/ComSSACurtin"
-                     data-tabs="events"
-                     data-width=""
-                     data-height=""
-                     data-small-header="false"
-                     data-adapt-container-width="true"
-                     data-hide-cover="false"
-                     data-show-facepile="true">Facebook events (may be blocked by your ad/tracker-blocker - fair enough)
-                     <blockquote cite="https://www.facebook.com/ComSSACurtin"
-                                 class="fb-xfbml-parse-ignore">
-                                 <a href="https://www.facebook.com/ComSSACurtin"></a>
-                     </blockquote>
-                </div>
-            </div>-->
-    </div>
-
-    <div class="row_2">
-      <iframe
-        id="discord_embed"
-        src="https://discord.com/widget?id=673182254930984980&theme=dark"
-        allowtransparency="true"
-        frameborder="0"
-        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-      />
-
-      <div class="fb-timeline-embed">
-        <div
-          class="fb-page"
-          data-href="https://www.facebook.com/ComSSACurtin"
-          data-tabs="timeline"
-          data-width=""
-          data-height="500"
-          data-small-header="true"
-          data-adapt-container-width="true"
-          data-hide-cover="true"
-          data-show-facepile="true"
-        >
-          Facebook timeline (may be blocked by your ad/tracker-blocker - fair enough)
-          <blockquote
-            cite="https://www.facebook.com/ComSSACurtin"
-            class="fb-xfbml-parse-ignore"
-          >
-            <a href="https://www.facebook.com/ComSSACurtin" />
-          </blockquote>
-        </div>
-      </div>
-
-      <img id="event_image_1" src="~/assets/img/event_2.jpg">
     </div>
   </div>
 </template>
