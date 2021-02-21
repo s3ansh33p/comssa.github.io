@@ -73,12 +73,12 @@
             name="Ben Heely"
             source="ben_h.jpg"
           />
-        </div>
-        <div id="row">
           <Profile
             name="Bryan Wong"
             source="bryan.jpg"
           />
+        </div>
+        <div id="row">
           <Profile
             name="Haley Workman"
             source="haley.jpg"
@@ -88,8 +88,6 @@
             name="Kevin Tanaka"
             source="kevin.jpg"
           />
-        </div>
-        <div id="row">
           <Profile
             name="Peter Sessarego"
             source="peter.jpg"
@@ -98,13 +96,12 @@
             name="Sophie Lee-Goh"
             source="sophie.jpg"
           />
-
+        </div>
+        <div id="center">
           <Profile
             name="Tanaka Chitete"
             source="tanaka.jpg"
           />
-        </div>
-        <div id="center">
           <Profile
             name="Warittha Rayabsri"
             source="warittha.jpg"
