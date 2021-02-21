@@ -17,7 +17,7 @@
         </div>
       </div>
 
-      <img id="image_1" src="~/assets/img/computing.jpg">
+      <Slideshow root-dir="posters" :images="images" />
     </div>
 
     <div class="level_2">
@@ -47,7 +47,14 @@
 </template>
 
 <script>
+const getPostersArray = () =>
+    Array.from(require.context("~/assets/img/posters", true, /\.jpg$/).keys()).map(s => s.substr(2))
+
 export default {
+    data () {
+        return { images: getPostersArray() }
+    },
+
     head: {
         titleTemplate: "ComSSA"
     }
