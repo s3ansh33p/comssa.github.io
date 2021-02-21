@@ -38,13 +38,14 @@ export default {
             { charset: "utf-8" },
             { viewport: "width=device-width,initial-scale=1.0" },
             { description: "Computer Science Students Association" },
-            { name: "og:title", content: "ComSSA" },
-            { name: "og:description", content: "Computer Science Students Association" },
-            { name: "og:type", content: "website" },
-            { name: "og:url", content: "https://comssa.org.au/" },
-            { name: "og:image", content: "https://i.imgur.com/MffpQVL.jpg" },
-            { name: "theme-color", content: "#4559A7" },
-            { name: "twitter:card", content: "summary_large_image" }
+            { property: "og:title", content: "ComSSA" },
+            { property: "og:description", content: "Computer Science Students Association" },
+            { property: "og:type", content: "website" },
+            { property: "og:url", content: "https://comssa.org.au/" },
+            { property: "og:image", content: "og.jpg" },
+            { property: "og:image:alt", content: "Large ComSSA Logo" },
+            { property: "theme-color", content: "#4559A7" },
+            { property: "twitter:card", content: "summary_large_image" }
         ],
         link: [
             { rel: "icon", href: "favicon.ico" }
