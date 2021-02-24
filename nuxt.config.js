@@ -20,6 +20,11 @@ export default {
         }]
     ],
 
+    server: {
+        port: 3000,
+        host: "0.0.0.0",
+    },
+
     html: {
         script: [
             {
@@ -37,7 +42,7 @@ export default {
         titleTemplate: "%s / ComSSA",
         meta: [
             { charset: "utf-8" },
-            { viewport: "width=device-width,initial-scale=1.0" },
+            { name: "viewport", content: "width=device-width, initial-scale=1" },
             { description: "Computer Science Students Association" },
             { property: "og:title", content: "ComSSA" },
             { property: "og:description", content: "Computer Science Students Association" },
