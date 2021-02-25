@@ -5,7 +5,7 @@ export default {
     plugins: ["~/plugins/loadscript.js", "~/plugins/bootstrap.js"],
     modules: ["@nuxt/content"],
     build: {
-        transpile: ["vue-plugin-load-script", "@nuxtjs/fontawesome"]
+        transpile: ["vue-plugin-load-script", "@nuxtjs/fontawesome", "vue-agile"]
     },
 
     generate: {
