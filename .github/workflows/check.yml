@@ -1,7 +1,7 @@
 name: build
 on: push
 jobs:
-  cd:
+  build:
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -22,3 +22,25 @@ jobs:
 
       - name: Generate
         run: npm run build
+
+  lint:
+      runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Setup node env
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run ESLint
+        run: npm run lint
