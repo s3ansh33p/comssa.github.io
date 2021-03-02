@@ -3,14 +3,22 @@
     <h1>About</h1>
     <div class="about_info">
       <p>
-        For as long as Curtin University has had a computer science course,
-        ComSSA has been the second family to many computing students and enthusiasts alike. <br><br>
+        ComSSA has been a second family to many computing students and enthusiasts alike, being the biggest Computing orientated
+        club at Curtin. <br><br>
 
-        Our aim is to foster a thriving community of future and active computing professionals, provide
-        a place for like-minded members to study, connect, and enjoy university life, and represent students
-        in any issues they may have with the Department of Computing or the university as a whole.<br><br>
+        Our aim as a clube is to:
+        <ul>
+          <li>Foster a thriving community of future and active computing professionals and programming enthusiasts.</li>
+          <li>Provide a place for students and members with similar interests to study, connect, and enjoy university life.</li>
+          <li>
+            Provide computing students and our members with opportunities and resources to further their professional development.
+            Some of these opportunities include networking with industry professionals and running workshops that expose students to
+            industry-relevant technology.
+          </li>
+        </ul> <br>
 
-        Our constitution outlines the rules by which ComSSA runs, and feel free to read through any of our meeting minutes.<br><br>
+        Our constitution outlines the rules by which ComSSA runs. The ComSSA committee is made up of executive committee members and ordinary committee members.<br><br>
+
         Catch up on previous meetings by reading the meeting minutes
         <NuxtLink to="/minutes">
           here.
@@ -70,7 +78,7 @@
           />
 
           <Profile
-            name="Ben Heely"
+            name="Ben Heeley"
             source="ben_h.jpg"
           />
           <Profile
