@@ -9,7 +9,8 @@ export default {
             return error({ statusCode: 404 })
         }
 
-        return redirect(301, redirects[params.pathMatch])
+        // https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307
+        return redirect(307, redirects[params.pathMatch])
     }
 }
 </script>
