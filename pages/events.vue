@@ -18,9 +18,9 @@
         on our <a href="https://discord.gg/SuwfFfjYJB" target="_blank">Discord</a>. Follow us on social media to keep up to date with
         the latest events and join our Discord to become a part of the conversation.<br><br>
 
-        Been to an event recently? We would be eager to hear your <a href="https://docs.google.com/forms/d/1EFPx0vuzXGls_BcqB4TDahnfkACexHrL7znOrhAQUY8/edit">feedback</a>.<br><br>
+        Been to an event recently? We would be eager to hear your <a href="https://forms.gle/R5o4wq9Q2djaLGSx6">feedback</a>.<br><br>
 
-        Have a suggestion for a particular event? <a href="https://docs.google.com/forms/d/e/1FAIpQLScrxaX8hThafBgrGSEXOjVpjlMeymkQCAps1A2K0vNixF-U8A/viewform">Let us know</a>.
+        Have a suggestion for a particular event? <a href="https://forms.gle/pEA8MzaRAnABjN5f6">Let us know</a>.
       </p>
     </div>
   </div>
