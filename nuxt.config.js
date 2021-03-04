@@ -48,7 +48,7 @@ export default {
             { property: "og:description", content: "Computer Science Students Association" },
             { property: "og:type", content: "website" },
             { property: "og:url", content: "https://www.comssa.org.au/" },
-            { property: "og:image", content: "og.jpg" },
+            { property: "og:image", content: "https://www.comssa.org.au/og.jpg" },
             { property: "og:image:alt", content: "Large ComSSA Logo" },
             { property: "theme-color", content: "#4559A7" },
             { property: "twitter:card", content: "summary_large_image" }
