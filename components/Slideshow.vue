@@ -1,28 +1,31 @@
 <template>
-  <agile
-    :nav-buttons="false"
-    :autoplay-speed="4000"
-    :speed="3000"
-    fade="fade"
-    pause-on-hover="pause-on-hover"
-    pause-on-dots-hover="pause-on-dots-hover"
-    autoplay="autoplay"
-  >
-    <div v-for="image in images" :key="image">
-      <img class="slide" :src="require(`~/assets/img/${rootDir}/${image}`)">
-    </div>
-  </agile>
+  <div>
+    <b-carousel
+      :id="css"
+      v-model="slide"
+      :interval="4000"
+      controls
+      fade
+      indicators
+      @sliding-start="onSlideStart"
+      @sliding-end="onSlideEnd"
+    >
+      <div v-for="image in images" :key="image">
+        <NuxtLink :to="`/${removeExtension(image)}`">
+          <b-carousel-slide :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
+        </NuxtLink>
+      </div>
+    </b-carousel>
+  </div>
 </template>
 
 <script>
-import { VueAgile } from "vue-agile"
-
 export default {
-    components: {
-        agile: VueAgile
-    },
-
     props: {
+        css: {
+            type: String,
+            required: true
+        },
         rootDir: {
             type: String,
             required: true
@@ -30,6 +33,24 @@ export default {
         images: {
             type: Array,
             required: true
+        }
+    },
+    data () {
+        return {
+            slide: 0,
+            sliding: null
+        }
+    },
+    methods: {
+        removeExtension (s) {
+            return s.replace(/\.[^/.]+$/, "")
+        },
+
+        onSlideStart (slide) {
+            this.sliding = true
+        },
+        onSlideEnd (slide) {
+            this.sliding = false
         }
     }
 }

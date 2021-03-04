@@ -1,9 +1,9 @@
 <template>
-  <div class="profile">
-    <div id="image_container">
-      <img id="image" :src="require(`~/assets/img/profile/${source}`)">
+  <b-container class="profile">
+    <div>
+      <b-img id="rounded-corner" :src="require(`~/assets/img/profile/${source}`)" />
     </div>
-    <div id="text_container">
+    <div>
       <div id="name">
         {{ name }}
       </div>
@@ -11,7 +11,7 @@
         {{ title }}
       </div>
     </div>
-  </div>
+  </b-container>
 </template>
 
 <script>

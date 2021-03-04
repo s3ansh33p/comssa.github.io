@@ -1,23 +1,19 @@
 <template>
-  <div class="events">
-    <h1>Socials</h1>
-
-    <div class="event_info">
-      <p>
-        ComSSA exists on social platforms.
-      </p>
-    </div>
-
-    <div class="row_2">
-      <iframe
-        id="discord_embed"
-        src="https://discord.com/widget?id=673182254930984980&theme=dark"
-        allowtransparency="true"
-        frameborder="0"
-        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-      />
-
-      <div class="fb-timeline-embed">
+  <b-container fluid>
+    <h1 class="mt-3">
+      Socials
+    </h1>
+    <b-row align-h="center" class="mt-5">
+      <b-col cols="4">
+        <iframe
+          id="discord_embed"
+          src="https://discord.com/widget?id=673182254930984980&theme=dark"
+          allowtransparency="true"
+          frameborder="0"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+        />
+      </b-col>
+      <b-col cols="4">
         <div
           class="fb-page"
           data-href="https://www.facebook.com/ComSSACurtin"
@@ -37,9 +33,9 @@
             <a href="https://www.facebook.com/ComSSACurtin" />
           </blockquote>
         </div>
-      </div>
-    </div>
-  </div>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

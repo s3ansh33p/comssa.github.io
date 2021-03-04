@@ -42,7 +42,7 @@ export default {
         titleTemplate: "%s / ComSSA",
         meta: [
             { charset: "utf-8" },
-            { name: "viewport", content: "width=device-width, initial-scale=1" },
+            { name: "viewport", content: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" },
             { description: "Computer Science Students Association" },
             { property: "og:title", content: "ComSSA" },
             { property: "og:description", content: "Computer Science Students Association" },

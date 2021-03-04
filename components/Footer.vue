@@ -1,24 +1,22 @@
 <template>
-  <div class="footer">
-    <div class="content">
-      <div class="col1">
-        <h1>ComSSA</h1>
-        <p>
-          Department of Computing<br>
-          Building 314 <br><br>
+  <b-container fluid class="footer">
+    <div class="content text-center">
+      <b-row>
+        <b-col>
+          <h1>ComSSA</h1>
+          <p>
+            Department of Computing<br>
+            Building 314 <br><br>
 
-          <a href="https://goo.gl/maps/pBoBbVnBFhNyHnnz9" target="_blank">
-            Curtin University<br>
-            Kent Street <br>
-            Bentley WA 6102<br>
-          </a>
-        </p>
-      </div>
-
-      <div class="right">
-        <div id="col2">
+            <a href="https://goo.gl/maps/pBoBbVnBFhNyHnnz9" target="_blank">
+              Curtin University<br>
+              Kent Street <br>
+              Bentley WA 6102<br>
+            </a>
+          </p>
+        </b-col>
+        <b-col>
           <h1>Social</h1>
-
           <div id="social-icons">
             <a href="https://www.facebook.com/ComSSACurtin" target="_blank">
               <fa id="social-icons" :icon="faFacebook" style="color: #3b5998" />
@@ -30,34 +28,29 @@
             <a href="https://github.com/ComSSA" target="_blank">
               <fa id="social-icons" :icon="faGithub" style="color: #333" />
             </a>
-            <!--
-                            translate because discord icon has a weird extension to it, colors are brand colors, making css
-                            rules is insane for single use
-                         -->
             <a href="https://discord.gg/SuwfFfjYJB" target="_blank">
               <fa id="social-icons" :icon="faDiscord" style="color: #7289DA; transform: translateY(2px)" />
             </a>
           </div>
 
           <a href="https://www.guild.curtin.edu.au/" target="_blank"><img id="guild_logo" src="~/assets/img/branding/guild.png"></a>
-        </div>
-      </div>
+        </b-col>
+        <b-col>
+          <h1>Contact</h1>
+          <a href="mailto:contact@comssa.org.au"><p>contact@comssa.org.au</p></a>
 
-      <div id="col3">
-        <h1>Contact</h1>
-        <a href="mailto:contact@comssa.org.au"><p>contact@comssa.org.au</p></a>
+          <p id="accreditation">
+            © ComSSA {{ new Date().getFullYear() }}
+            <br>
+            <a href="https://github.com/ComSSA/comssa.github.io/" target="_blank">Source Code</a>
 
-        <p id="accreditation">
-          © ComSSA {{ new Date().getFullYear() }}
-          <br>
-          <a href="https://github.com/ComSSA/comssa.github.io/" target="_blank">Source Code</a>
-
-          <br>
-          Design by <a href="https://kevinle.com.au/" target="_blank">Kevin Le</a>
-        </p>
-      </div>
+            <br>
+            Design by <a href="https://kevinle.com.au/" target="_blank">Kevin Le</a>
+          </p>
+        </b-col>
+      </b-row>
     </div>
-  </div>
+  </b-container>
 </template>
 
 <script>

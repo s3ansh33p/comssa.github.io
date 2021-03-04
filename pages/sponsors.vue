@@ -1,42 +1,57 @@
 <template>
-  <div class="sponsors">
-    <h1>Sponsors</h1>
+  <b-container fluid>
+    <h1 class="mt-3">
+      Sponsors
+    </h1>
     <p>We are fortunate to have these sponsors who are generous enough to give us their support. </p>
-
-    <div class="wordmark">
-      <div id="row" class="guild">
-        <img id="csg" src="~/assets/img/branding/guild.png">
-      </div>
-
-      <div id="row">
-        <img id="accenture" src="~/assets/img/branding/sponsors/accenture.png">
-        <img id="atlassian" src="~/assets/img/branding/sponsors/atlassian.png">
-        <!--<img id="csg" src="~/assets/img/branding/sponsors/csg.png"/>-->
-      </div>
-
-      <div id="row">
-        <img id="deloitte" src="~/assets/img/branding/sponsors/deloitte.png">
-        <img id="vgw" src="~/assets/img/branding/sponsors/vgw.png">
-      </div>
-    </div>
-
-    <!--         <div class="wordmark">
-            <div class="guild" id="row">
-                <a href="https://www.guild.curtin.edu.au/" target="_blank"><img id="csg" src="~/assets/img/branding/guild.png"/></a>
-            </div>
-
-            <div id="row">
-                <a href="https://www.accenture.com/au-en" target="_blank"><img id="accenture" src="~/assets/img/branding/sponsors/accenture.png"/></a>
-                <a href="https://www.atlassian.com/" target="_blank"><img id="atlassian" src="~/assets/img/branding/sponsors/atlassian.png"/></a>
-            </div>
-
-            <div id="row">
-                <a href="https://www2.deloitte.com/au/en.html" target="_blank"><img id="deloitte" src="~/assets/img/branding/sponsors/deloitte.png"/></a>
-                <a href="https://www.vgw.co/" target="_blank"><img id="vgw" src="~/assets/img/branding/sponsors/vgw.png"/></a>
-            </div>
-        </div>
-        -->
-  </div>
+    <b-row align-h="center" class="mt-5">
+      <b-col cols="4">
+        <a href="https://www.imc.com/">
+          <b-img
+            width="350"
+            :src="require('~/assets/img/branding/sponsors/imc.png')"
+            fluid
+          />
+        </a>
+      </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-5">
+      <b-col cols="4">
+        <a href="https://www.accenture.com/">
+          <b-img
+            :src="require('~/assets/img/branding/sponsors/accenture.png')"
+            fluid
+          />
+        </a>
+      </b-col>
+      <b-col cols="4">
+        <a href="https://www.atlassian.com/">
+          <b-img
+            :src="require('~/assets/img/branding/sponsors/atlassian.png')"
+            fluid
+          />
+        </a>
+      </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-5">
+      <b-col cols="4">
+        <a href="https://www2.deloitte.com/">
+          <b-img
+            :src="require('~/assets/img/branding/sponsors/deloitte.png')"
+            fluid
+          />
+        </a>
+      </b-col>
+      <b-col cols="4">
+        <a href="https://www.vgw.co/">
+          <b-img
+            :src="require('~/assets/img/branding/sponsors/vgw.png')"
+            fluid
+          />
+        </a>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
