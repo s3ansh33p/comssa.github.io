@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
-    <b-row class="mb-5">
-      <b-col>
+    <b-row align-h="start" class="mb-5">
+      <b-col cols="4">
         <h1 id="headline" class="display-2">
           <span>Com</span>puter <br>
           <span>S</span>cience <br>
