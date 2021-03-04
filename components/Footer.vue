@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="footer">
+  <footer class="footer">
     <div class="content text-center">
       <b-row>
         <b-col>
@@ -50,7 +50,7 @@
         </b-col>
       </b-row>
     </div>
-  </b-container>
+  </footer>
 </template>
 
 <script>
