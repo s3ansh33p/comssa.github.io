@@ -11,7 +11,15 @@
   >
     <div v-for="image in images" :key="image">
       <div class="slide">
+        <NuxtLink v-if="link" :to="removeExtension(image)">
+          <v-lazy-image
+            :id="css"
+            :src="require(`~/assets/img/${rootDir}/${image}`)"
+            :src-placeholder="require(`~/assets/img/${rootDir}/${image}?lqip&inline`)"
+          />
+        </NuxtLink>
         <v-lazy-image
+          v-else
           :id="css"
           :src="require(`~/assets/img/${rootDir}/${image}`)"
           :src-placeholder="require(`~/assets/img/${rootDir}/${image}?lqip&inline`)"
