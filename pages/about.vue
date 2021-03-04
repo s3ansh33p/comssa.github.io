@@ -19,11 +19,12 @@
           </ul> <br>
 
           Our constitution outlines the rules by which ComSSA runs. The ComSSA committee is made up of executive committee members and ordinary committee members.<br><br>
-
+          <!--
           Catch up on previous meetings by reading the meeting minutes
           <NuxtLink to="/minutes">
             here.
           </NuxtLink>
+          -->
         </p>
       </b-col>
       <b-col class="mt-5">
