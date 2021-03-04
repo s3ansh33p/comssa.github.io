@@ -7,12 +7,14 @@
 
 <script>
 export default {
-    async asyncData ({ $content, params }) {
-        const page = await $content("minutes", params.minute, "index").fetch()
+    /* async */ asyncData ({ $content, params, error }) {
+        return error({ statusCode: 404 })
 
-        return {
-            page
-        }
+        // const page = await $content("minutes", params.minute, "index").fetch()
+
+        // return {
+        //     page
+        // }
     },
     head: {
         title: "Minutes"
