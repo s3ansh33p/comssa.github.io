@@ -1,6 +1,9 @@
 <script>
 const redirects = {
-    grillthedepartment: "https://forms.gle/dJqPdR6KaBC3aNQd8"
+    grillthedepartment: "https://forms.gle/dJqPdR6KaBC3aNQd8",
+    feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
+    suggestions: "https://forms.gle/pEA8MzaRAnABjN5f6",
+    discord: "https://discord.gg/SuwfFfjYJB"
 }
 
 export default {
