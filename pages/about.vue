@@ -7,7 +7,7 @@
           ComSSA has been a second family to many computing students and enthusiasts alike, being the biggest Computing orientated
           club at Curtin. <br><br>
 
-          Our aim as a clube is to:
+          Our aim as a club is to:
           <ul>
             <li>Foster a thriving community of future and active computing professionals and programming enthusiasts.</li>
             <li>Provide a place for students and members with similar interests to study, connect, and enjoy university life.</li>
