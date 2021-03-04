@@ -28,7 +28,7 @@
     </h3>
 
     <b-row align-h="center" class="mt-3">
-      <Slideshow css="events-carousel" root-dir="events/guildoday" :images="guildoday" />
+      <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday" :images="guildoday" />
     </b-row>
 
     <h3 class="mt-3">
@@ -36,7 +36,7 @@
     </h3>
 
     <b-row align-h="center" class="mt-3">
-      <Slideshow css="events-carousel" root-dir="events/sundowner2020" :images="sundowner2020" />
+      <Slideshow :link="false" css="events-carousel" root-dir="events/sundowner2020" :images="sundowner2020" />
     </b-row>
   </b-container>
 </template>

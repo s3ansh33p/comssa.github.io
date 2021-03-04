@@ -16,7 +16,7 @@
         </div>
       </b-col>
       <b-col class="mt-5 mt-md-3">
-        <Slideshow css="front-page-carousel" root-dir="posters" :images="images" />
+        <Slideshow :link="true" css="front-page-carousel" root-dir="posters" :images="images" />
       </b-col>
     </b-row>
 

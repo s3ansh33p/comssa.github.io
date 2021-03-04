@@ -11,9 +11,10 @@
       @sliding-end="onSlideEnd"
     >
       <div v-for="image in images" :key="image">
-        <NuxtLink :to="`/${removeExtension(image)}`">
+        <NuxtLink v-if="link" :to="`/${removeExtension(image)}`">
           <b-carousel-slide :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
         </NuxtLink>
+        <b-carousel-slide v-else :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
       </div>
     </b-carousel>
   </div>
@@ -22,6 +23,10 @@
 <script>
 export default {
     props: {
+        link: {
+            type: Boolean,
+            required: true
+        },
         css: {
             type: String,
             required: true
