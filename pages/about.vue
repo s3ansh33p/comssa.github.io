@@ -18,7 +18,7 @@
             </li>
           </ul> <br>
 
-          Our constitution outlines the rules by which ComSSA runs. The ComSSA committee is made up of executive committee members and ordinary committee members.<br><br>
+          Our <a href="/constitution.pdf">constitution</a> outlines the rules by which ComSSA runs. The ComSSA committee is made up of executive committee members and ordinary committee members.<br><br>
           <!--
           Catch up on previous meetings by reading the meeting minutes
           <NuxtLink to="/minutes">
