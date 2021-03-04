@@ -28,12 +28,12 @@
         </p>
       </b-col>
       <b-col class="mt-5">
-        <b-img
+        <v-lazy-image
           id="rounded-corner"
           class="mb-5"
           width="600"
-          :src="require('~/assets/img/revision.jpg')"
-          fluid
+          :src="require(`~/assets/img/revision.jpg`)"
+          :src-placeholder="require(`~/assets/img/revision.jpg?lqip&inline`)"
         />
       </b-col>
     </b-row>

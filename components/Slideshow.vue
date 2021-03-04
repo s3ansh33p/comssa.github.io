@@ -1,27 +1,35 @@
 <template>
-  <div>
-    <b-carousel
-      :id="css"
-      v-model="slide"
-      :interval="4000"
-      controls
-      fade
-      indicators
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
-    >
-      <div v-for="image in images" :key="image">
-        <NuxtLink v-if="link" :to="`/${removeExtension(image)}`">
-          <b-carousel-slide :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
-        </NuxtLink>
-        <b-carousel-slide v-else :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
+  <agile
+    :id="css"
+    :nav-buttons="false"
+    :autoplay-speed="4000"
+    :speed="3000"
+    fade="fade"
+    pause-on-hover="pause-on-hover"
+    pause-on-dots-hover="pause-on-dots-hover"
+    autoplay="autoplay"
+  >
+    <div v-for="image in images" :key="image">
+      <div class="slide">
+        <v-lazy-image
+          :id="css"
+          :src="require(`~/assets/img/${rootDir}/${image}`)"
+          :src-placeholder="require(`~/assets/img/${rootDir}/${image}?lqip&inline`)"
+        />
       </div>
-    </b-carousel>
+    </div>
+  </agile>
   </div>
 </template>
 
 <script>
+import { VueAgile } from "vue-agile"
+
 export default {
+    components: {
+        agile: VueAgile
+    },
+
     props: {
         link: {
             type: Boolean,

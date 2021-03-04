@@ -1,8 +1,8 @@
 <template>
   <b-container fluid>
-    <b-row align-h="between" class="mb-5">
+    <b-row class="mb-5">
       <b-col>
-        <h1 id="headline" class="display-3">
+        <h1 id="headline" class="display-2">
           <span>Com</span>puter <br>
           <span>S</span>cience <br>
           <span>S</span>tudents <br>
@@ -22,11 +22,12 @@
 
     <b-row>
       <b-col md="auto">
-        <b-img
+        <v-lazy-image
           id="rounded-corner"
-          class="mb-5"
+          class="mt-5"
           width="600"
           :src="require('~/assets/img/comssa-stall.jpg')"
+          :src-placeholder="require('~/assets/img/comssa-stall.jpg?lqip&inline')"
           fluid
         />
       </b-col>

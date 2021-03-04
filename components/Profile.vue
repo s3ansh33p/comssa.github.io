@@ -1,7 +1,11 @@
 <template>
   <b-container class="profile">
     <div>
-      <b-img id="rounded-corner" :src="require(`~/assets/img/profile/${source}`)" />
+      <v-lazy-image
+        id="rounded-corner"
+        :src="require(`~/assets/img/profile/${source}`)"
+        :src-placeholder="require(`~/assets/img/profile/${source}?lqip&inline`)"
+      />
     </div>
     <div>
       <div id="name">
