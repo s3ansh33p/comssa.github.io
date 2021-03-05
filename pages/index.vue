@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
     <b-row align-h="start" class="mb-5">
-      <b-col cols="4">
+      <b-col>
         <h1 id="headline" class="display-2">
           <span>Com</span>puter <br>
           <span>S</span>cience <br>
@@ -20,15 +20,13 @@
       </b-col>
     </b-row>
 
-    <b-row>
-      <b-col md="auto">
+    <b-row align-h="start">
+      <b-col md="auto" class="mb-3">
         <v-lazy-image
           id="rounded-corner"
-          class="mt-5"
-          width="600"
+          class="mt-xs-5 front-page-image"
           :src="require('~/assets/img/comssa-stall.jpg')"
           :src-placeholder="require('~/assets/img/comssa-stall.jpg?lqip&inline')"
-          fluid
         />
       </b-col>
       <b-col>

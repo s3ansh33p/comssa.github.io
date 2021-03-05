@@ -27,7 +27,7 @@
           -->
         </p>
       </b-col>
-      <b-col class="mt-5">
+      <b-col md="auto" class="mt-5">
         <v-lazy-image
           id="rounded-corner"
           class="mb-5"
