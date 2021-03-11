@@ -3,7 +3,7 @@
     :id="css"
     :nav-buttons="false"
     :autoplay-speed="4000"
-    :speed="3000"
+    :speed="1000"
     fade="fade"
     pause-on-hover="pause-on-hover"
     pause-on-dots-hover="pause-on-dots-hover"
