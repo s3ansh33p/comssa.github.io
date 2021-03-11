@@ -1,6 +1,6 @@
 <template>
   <div>
-    <VueSlickCarousel v-bind="settings" @init="onInitCarousel">
+    <VueSlickCarousel v-bind="settings">
       <div v-for="image in images" :key="image">
         <div class="slide">
           <NuxtLink v-if="link" :to="removeExtension(image)">
@@ -72,11 +72,6 @@ export default {
         }
     },
     methods: {
-        onInitCarousel () {
-            if (process.client) {
-                document.getElementsByClassName("slick-dots")[0].style.visibility = "visible"
-            }
-        },
         removeExtension (s) {
             return s.replace(/\.[^/.]+$/, "")
         }
