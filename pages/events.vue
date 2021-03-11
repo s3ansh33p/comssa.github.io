@@ -29,20 +29,24 @@
       </NuxtLink>
     </p>
 
-    <h3>
+    <h3 class="mt-5">
+      Grill the Department 2021
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2021" :images="grillthedepartment2021" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       Guild O-Day 2021
     </h3>
 
     <b-row align-h="center" class="mt-3">
-      <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday" :images="guildoday" />
-    </b-row>
-
-    <h3 class="mt-3">
-      Sundowner 2020
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <Slideshow :link="false" css="events-carousel" root-dir="events/sundowner2020" :images="sundowner2020" />
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday" :images="guildoday" />
+      </b-col>
     </b-row>
   </b-container>
 </template>
@@ -51,14 +55,14 @@
 const getGuildODay = () =>
     Array.from(require.context("~/assets/img/events/guildoday", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
-const getSundowner2020 = () =>
-    Array.from(require.context("~/assets/img/events/sundowner2020", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+const getGrillTheDepartment2021 = () =>
+    Array.from(require.context("~/assets/img/events/grillthedepartment2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
 export default {
     data () {
         return {
             guildoday: getGuildODay(),
-            sundowner2020: getSundowner2020()
+            grillthedepartment2021: getGrillTheDepartment2021()
         }
     },
 

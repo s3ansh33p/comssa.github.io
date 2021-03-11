@@ -1,27 +1,34 @@
 <template>
   <div>
-    <b-carousel
-      :id="css"
-      v-model="slide"
-      :interval="4000"
-      controls
-      fade
-      indicators
-      @sliding-start="onSlideStart"
-      @sliding-end="onSlideEnd"
-    >
+    <VueSlickCarousel v-bind="settings">
       <div v-for="image in images" :key="image">
-        <NuxtLink v-if="link" :to="`/${removeExtension(image)}`">
-          <b-carousel-slide :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
-        </NuxtLink>
-        <b-carousel-slide v-else :img-src="require(`~/assets/img/${rootDir}/${image}`)" />
+        <div class="slide">
+          <NuxtLink v-if="link" :to="removeExtension(image)">
+            <b-img
+              :id="css"
+              :src="require(`~/assets/img/${rootDir}/${image}`)"
+            />
+          </NuxtLink>
+          <b-img
+            v-else
+            :id="css"
+            :src="require(`~/assets/img/${rootDir}/${image}`)"
+          />
+        </div>
       </div>
-    </b-carousel>
+    </VueSlickCarousel>
   </div>
 </template>
 
 <script>
+import VueSlickCarousel from "vue-slick-carousel"
+import "vue-slick-carousel/dist/vue-slick-carousel.css"
+// optional style for arrows & dots
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css"
+
 export default {
+    components: { VueSlickCarousel },
+
     props: {
         link: {
             type: Boolean,
@@ -42,20 +49,21 @@ export default {
     },
     data () {
         return {
-            slide: 0,
-            sliding: null
+            settings: {
+                lazyLoad: "ondemand",
+                dots: true,
+                fade: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true
+            }
         }
     },
     methods: {
         removeExtension (s) {
             return s.replace(/\.[^/.]+$/, "")
-        },
-
-        onSlideStart (slide) {
-            this.sliding = true
-        },
-        onSlideEnd (slide) {
-            this.sliding = false
         }
     }
 }

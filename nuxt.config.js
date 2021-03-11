@@ -2,7 +2,7 @@ export default {
     components: true,
     target: "static",
     css: ["~/assets/styles.scss"],
-    plugins: ["~/plugins/loadscript.js", "~/plugins/bootstrap.js"],
+    plugins: ["~/plugins/loadscript.js", "~/plugins/bootstrap.js", "~/plugins/lazyimage.js"],
     modules: ["@nuxt/content"],
     build: {
         transpile: ["vue-plugin-load-script", "@nuxtjs/fontawesome", "vue-agile"]
@@ -13,12 +13,18 @@ export default {
     },
 
     buildModules: [
+        "@aceforth/nuxt-optimized-images",
         "@nuxtjs/eslint-module",
         ["@nuxtjs/fontawesome", {
             component: "fa",
             suffix: false
         }]
     ],
+
+    optimizedImages: {
+        optimizeImages: true
+        // optimizeImagesInDev: true
+    },
 
     server: {
         port: 3000,

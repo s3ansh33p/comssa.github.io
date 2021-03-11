@@ -1,16 +1,24 @@
 <template>
-  <b-container class="profile">
-    <div>
-      <b-img id="rounded-corner" :src="require(`~/assets/img/profile/${source}`)" />
-    </div>
-    <div>
-      <div id="name">
+  <b-container fluid class="profile">
+    <b-row class="text-center">
+      <b-col>
+        <v-lazy-image
+          id="rounded-corner"
+          :src="require(`~/assets/img/profile/${source}`)"
+          :src-placeholder="require(`~/assets/img/profile/${source}?lqip&inline`)"
+        />
+      </b-col>
+    </b-row>
+    <b-row id="name" class="text-center">
+      <b-col>
         {{ name }}
-      </div>
-      <div id="title">
+      </b-col>
+    </b-row>
+    <b-row id="title" class="text-center">
+      <b-col>
         {{ title }}
-      </div>
-    </div>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 

@@ -1,8 +1,8 @@
 <template>
   <b-container fluid>
-    <b-row align-h="between" class="mb-5">
-      <b-col>
-        <h1 id="headline" class="display-3">
+    <b-row align-h="around" class="mb-5">
+      <b-col md="auto">
+        <h1 id="headline" class="display-2">
           <span>Com</span>puter <br>
           <span>S</span>cience <br>
           <span>S</span>tudents <br>
@@ -15,19 +15,18 @@
           <img id="arrow" src="~/assets/img/icon/forward-arr.svg">
         </div>
       </b-col>
-      <b-col class="mt-5 mt-md-3">
+      <b-col cols="6" class="mt-5 mt-md-3">
         <Slideshow :link="true" css="front-page-carousel" root-dir="posters" :images="images" />
       </b-col>
     </b-row>
 
-    <b-row>
-      <b-col md="auto">
-        <b-img
+    <b-row align-h="around">
+      <b-col md="auto" class="mb-3">
+        <v-lazy-image
           id="rounded-corner"
-          class="mb-5"
-          width="600"
+          class="mt-xs-5 front-page-image"
           :src="require('~/assets/img/comssa-stall.jpg')"
-          fluid
+          :src-placeholder="require('~/assets/img/comssa-stall.jpg?lqip&inline')"
         />
       </b-col>
       <b-col>
