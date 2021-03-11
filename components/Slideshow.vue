@@ -1,42 +1,33 @@
 <template>
-  <agile
-    :id="css"
-    :nav-buttons="false"
-    :autoplay-speed="4000"
-    :speed="1000"
-    fade="fade"
-    pause-on-hover="pause-on-hover"
-    pause-on-dots-hover="pause-on-dots-hover"
-    autoplay="autoplay"
-  >
-    <div v-for="image in images" :key="image">
-      <div class="slide">
-        <NuxtLink v-if="link" :to="removeExtension(image)">
-          <v-lazy-image
+  <div>
+    <VueSlickCarousel v-bind="settings">
+      <div v-for="image in images" :key="image">
+        <div class="slide">
+          <NuxtLink v-if="link" :to="removeExtension(image)">
+            <b-img
+              :id="css"
+              :src="require(`~/assets/img/${rootDir}/${image}`)"
+            />
+          </NuxtLink>
+          <b-img
+            v-else
             :id="css"
             :src="require(`~/assets/img/${rootDir}/${image}`)"
-            :src-placeholder="require(`~/assets/img/${rootDir}/${image}?lqip&inline`)"
           />
-        </NuxtLink>
-        <v-lazy-image
-          v-else
-          :id="css"
-          :src="require(`~/assets/img/${rootDir}/${image}`)"
-          :src-placeholder="require(`~/assets/img/${rootDir}/${image}?lqip&inline`)"
-        />
+        </div>
       </div>
-    </div>
-  </agile>
+    </VueSlickCarousel>
   </div>
 </template>
 
 <script>
-import { VueAgile } from "vue-agile"
+import VueSlickCarousel from "vue-slick-carousel"
+import "vue-slick-carousel/dist/vue-slick-carousel.css"
+// optional style for arrows & dots
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css"
 
 export default {
-    components: {
-        agile: VueAgile
-    },
+    components: { VueSlickCarousel },
 
     props: {
         link: {
@@ -58,20 +49,20 @@ export default {
     },
     data () {
         return {
-            slide: 0,
-            sliding: null
+            settings: {
+                lazyLoad: "ondemand",
+                dots: true,
+                fade: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
         }
     },
     methods: {
         removeExtension (s) {
             return s.replace(/\.[^/.]+$/, "")
-        },
-
-        onSlideStart (slide) {
-            this.sliding = true
-        },
-        onSlideEnd (slide) {
-            this.sliding = false
         }
     }
 }

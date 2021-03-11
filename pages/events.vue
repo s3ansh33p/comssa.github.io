@@ -29,20 +29,24 @@
       </NuxtLink>
     </p>
 
-    <h3 class="mt-3">
+    <h3 class="mt-5">
       Grill the Department 2021
     </h3>
 
     <b-row align-h="center" class="mt-3">
-      <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2021" :images="grillthedepartment2021" />
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2021" :images="grillthedepartment2021" />
+      </b-col>
     </b-row>
 
-    <h3 class="mt-3">
+    <h3 class="mt-5">
       Guild O-Day 2021
     </h3>
 
     <b-row align-h="center" class="mt-3">
-      <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday" :images="guildoday" />
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday" :images="guildoday" />
+      </b-col>
     </b-row>
   </b-container>
 </template>
