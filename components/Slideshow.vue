@@ -57,7 +57,17 @@ export default {
                 speed: 500,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                autoplay: true
+                autoplay: true,
+                responsive: [
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            dots: false
+                        }
+                    }
+                ]
             }
         }
     },
