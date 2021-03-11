@@ -45,15 +45,15 @@
 
     <b-row align-h="center" class="mt-3">
       <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday" :images="guildoday" />
+        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2021" :images="guildoday2021" />
       </b-col>
     </b-row>
   </b-container>
 </template>
 
 <script>
-const getGuildODay = () =>
-    Array.from(require.context("~/assets/img/events/guildoday", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+const getGuildODay2021 = () =>
+    Array.from(require.context("~/assets/img/events/guildoday2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
 const getGrillTheDepartment2021 = () =>
     Array.from(require.context("~/assets/img/events/grillthedepartment2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
@@ -61,7 +61,7 @@ const getGrillTheDepartment2021 = () =>
 export default {
     data () {
         return {
-            guildoday: getGuildODay(),
+            guildoday2021: getGuildODay2021(),
             grillthedepartment2021: getGrillTheDepartment2021()
         }
     },
