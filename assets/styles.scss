@@ -47,6 +47,16 @@ $enable-responsive-font-sizes: true;
     max-width: 700px;
 }
 
+.slick-slider {
+    .slick-arrow {
+        visibility: hidden;
+    }
+
+    .slick-dots {
+        visibility: hidden;
+    }
+}
+
 .v-lazy-image {
     width: 100%;
     height: auto;
