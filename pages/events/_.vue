@@ -9,7 +9,6 @@ const redirects = {
 
 export default {
     asyncData ({ redirect, error, params }) {
-        console.log(params.pathMatch)
         const path = params.pathMatch.replace("/", "")
         if (path in redirects) {
             // https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307
