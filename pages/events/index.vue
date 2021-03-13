@@ -15,9 +15,9 @@
       computing units.<br><br>
 
       Our events are listed on the ComSSA <a href="https://www.facebook.com/ComSSACurtin" target="_blank">Facebook page</a>, and announced
-      on our <NuxtLink to="/discord">
+      on our <a href="https://discord.gg/SuwfFfjYJB" target="_blank">
         Discord.
-      </NuxtLink> Follow us on social media to keep up to date with
+      </a> Follow us on social media to keep up to date with
       the latest events and join our Discord to become a part of the conversation.<br><br>
 
       Been to an event recently? We would be eager to hear your <NuxtLink to="/events/feedback">
