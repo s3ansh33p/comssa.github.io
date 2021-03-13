@@ -14,6 +14,10 @@
 
 <script>
 export default {
+    head: {
+        title: "Error"
+    },
+
     layout: "error",
     props: {
         error: {
