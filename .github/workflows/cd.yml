@@ -2,8 +2,8 @@ name: deploy to github pages
 
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - main
 
 jobs:
   cd:
