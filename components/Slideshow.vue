@@ -52,7 +52,6 @@ export default {
             settings: {
                 lazyLoad: "ondemand",
                 dots: true,
-                fade: true,
                 infinite: true,
                 speed: 500,
                 slidesToShow: 1,
