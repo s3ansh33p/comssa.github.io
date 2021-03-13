@@ -3,8 +3,8 @@
     <h1 class="mt-3">
       Socials
     </h1>
-    <b-row align-h="center" class="mt-5">
-      <b-col cols="4">
+    <b-row align-h="start" class="mt-5">
+      <b-col md="auto">
         <iframe
           id="discord_embed"
           src="https://discord.com/widget?id=673182254930984980&theme=dark"
@@ -13,7 +13,7 @@
           sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
         />
       </b-col>
-      <b-col cols="4">
+      <b-col>
         <div
           class="fb-page"
           data-href="https://www.facebook.com/ComSSACurtin"
