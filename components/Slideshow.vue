@@ -3,7 +3,7 @@
     <VueSlickCarousel v-bind="settings">
       <div v-for="image in images" :key="image">
         <div class="slide">
-          <NuxtLink v-if="link" :to="removeExtension(image)">
+          <NuxtLink v-if="link" :to="'events/' + removeExtension(image)">
             <b-img
               :id="css"
               :src="require(`~/assets/img/${rootDir}/${image}`)"
