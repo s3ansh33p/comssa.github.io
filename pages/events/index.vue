@@ -20,11 +20,11 @@
       </NuxtLink> Follow us on social media to keep up to date with
       the latest events and join our Discord to become a part of the conversation.<br><br>
 
-      Been to an event recently? We would be eager to hear your <NuxtLink to="/feedback">
+      Been to an event recently? We would be eager to hear your <NuxtLink to="/events/feedback">
         feedback.
       </NuxtLink><br><br>
 
-      Have a suggestion for a particular event? <NuxtLink to="/suggestions">
+      Have a suggestion for a particular event? <NuxtLink to="/events/suggestions">
         Let us know.
       </NuxtLink>
     </p>

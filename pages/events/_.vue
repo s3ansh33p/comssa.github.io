@@ -3,7 +3,6 @@ const redirects = {
     grillthedepartment: "https://forms.gle/dJqPdR6KaBC3aNQd8",
     feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
     suggestions: "https://forms.gle/pEA8MzaRAnABjN5f6",
-    discord: "https://discord.gg/SuwfFfjYJB",
     gamesnight: "https://forms.gle/TDSxErAEp4gutKRv7",
     tfti: "https://docs.google.com/forms/d/e/1FAIpQLScZJV6aveaVS2LOtPR-N5GUyXkCBmgvLTqb_DWGGeXjH0Zr7g/viewform"
 }
