@@ -14,9 +14,6 @@
 
 <script>
 export default {
-    head: {
-        title: "Error"
-    },
 
     layout: "error",
     props: {
@@ -24,6 +21,9 @@ export default {
             type: Object,
             default: null
         }
+    },
+    head: {
+        title: "Error"
     }
 }
 </script>
