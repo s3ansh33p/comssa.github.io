@@ -2,7 +2,7 @@
 const redirects = {
     feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
     suggestions: "https://forms.gle/pEA8MzaRAnABjN5f6",
-    sundowner: "https://comssasundowner-event.getqpay.com/"
+    sundowner: "https://sundownerbycomssa.getqpay.com/"
 }
 
 export default {
