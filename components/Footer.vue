@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="content text-center">
       <b-row>
-        <b-col>
+        <b-col class="my-5" sm="12" lg="4">
           <h1>ComSSA</h1>
           <p>
             Department of Computing<br>
@@ -15,7 +15,7 @@
             </a>
           </p>
         </b-col>
-        <b-col>
+        <b-col class="my-5" sm="12" lg="4">
           <h1>Social</h1>
           <div id="social-icons">
             <a href="https://www.facebook.com/ComSSACurtin" target="_blank">
@@ -35,7 +35,7 @@
 
           <a href="https://www.guild.curtin.edu.au/" target="_blank"><img id="guild_logo" src="~/assets/img/branding/guild.png"></a>
         </b-col>
-        <b-col>
+        <b-col class="my-5" sm="12" lg="4">
           <h1>Contact</h1>
           <a href="mailto:contact@comssa.org.au"><p>contact@comssa.org.au</p></a>
 
