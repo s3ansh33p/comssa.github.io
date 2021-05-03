@@ -21,14 +21,6 @@
     </b-row>
 
     <b-row align-h="around">
-      <b-col md="auto" class="mb-3">
-        <v-lazy-image
-          id="rounded-corner"
-          class="mt-xs-5 front-page-image"
-          :src="require('~/assets/img/comssa-stall.jpg')"
-          :src-placeholder="require('~/assets/img/comssa-stall.jpg?lqip&inline')"
-        />
-      </b-col>
       <b-col>
         <h2>Who are we?</h2>
 
