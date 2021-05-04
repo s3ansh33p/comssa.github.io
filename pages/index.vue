@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
     <b-row align-h="around" class="mb-5">
-      <b-col lg="8">
+      <b-col>
         <h1 id="headline" class="display-3">
           <span>Com</span>puter <br>
           <span>S</span>cience <br>
@@ -15,7 +15,7 @@
           <img id="arrow" src="~/assets/img/icon/forward-arr.svg">
         </div>
       </b-col>
-      <b-col lg="4" class="my-5">
+      <b-col md="5" class="mt-5 mt-md-3">
         <Slideshow :link="true" css="front-page-carousel" root-dir="posters" :images="images" />
       </b-col>
     </b-row>
