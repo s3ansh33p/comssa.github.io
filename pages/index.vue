@@ -10,7 +10,7 @@
         </h1>
         <div id="join-link">
           <NuxtLink to="/join">
-            Join Now
+            Register now
           </NuxtLink>
           <img id="arrow" src="~/assets/img/icon/forward-arr.svg">
         </div>
