@@ -3,7 +3,7 @@
     <div class="content text-center">
       <b-row>
         <b-col class="my-5" sm="12" lg="4">
-          <h1>Computer Science Student Association </h1>
+          <h1>Computer Science Students Association </h1>
           <h6><i>abbrv. ComSSA</i></h6>
           <p>
             Department of Computing<br>
