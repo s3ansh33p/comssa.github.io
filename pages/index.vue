@@ -1,7 +1,7 @@
 <template>
   <b-container fluid>
     <b-row align-h="around" class="mb-5">
-      <b-col lg="8">
+      <b-col>
         <h1 id="headline" class="display-3">
           <span>Com</span>puter <br>
           <span>S</span>cience <br>
@@ -15,12 +15,20 @@
           <img id="arrow" src="~/assets/img/icon/forward-arr.svg">
         </div>
       </b-col>
-      <b-col lg="4" class="my-5">
+      <b-col md="5" class="mt-5 mt-md-3">
         <Slideshow :link="true" css="front-page-carousel" root-dir="posters" :images="images" />
       </b-col>
     </b-row>
 
     <b-row align-h="around">
+      <b-col md="auto" class="mb-3">
+        <v-lazy-image
+          id="rounded-corner"
+          class="mt-xs-5 front-page-image"
+          :src="require('~/assets/img/comssa-stall.jpg')"
+          :src-placeholder="require('~/assets/img/comssa-stall.jpg?lqip&inline')"
+        />
+      </b-col>
       <b-col>
         <h2>Who are we?</h2>
 
