@@ -10,21 +10,21 @@ $enable-responsive-font-sizes: true;
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url('~assets/fonts/Montserrat-Regular.ttf') format('truetype');
+    src: url('~/assets/fonts/Montserrat-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-weight: 500;
     font-display: fallback;
-    src: url('~assets/fonts/Montserrat-Medium.ttf') format('truetype');
+    src: url('~/assets/fonts/Montserrat-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-weight: 600;
     font-display: fallback;
-    src: url('~assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+    src: url('~/assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
@@ -32,7 +32,7 @@ $enable-responsive-font-sizes: true;
     font-style: bold;
     font-weight: 700;
     font-display: fallback;
-    src: url('~assets/fonts/Montserrat-Bold.ttf') format('truetype');
+    src: url('~/assets/fonts/Montserrat-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -40,7 +40,7 @@ $enable-responsive-font-sizes: true;
     font-style: normal;
     font-weight: 400;
     font-display: fallback;
-    src: url('~assets/fonts/RobotoMono-Regular.ttf') format('truetype');
+    src: url('~/assets/fonts/RobotoMono-Regular.ttf') format('truetype');
 }
 
 .front-page-image {
