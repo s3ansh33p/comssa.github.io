@@ -28,7 +28,7 @@
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "^3.3.1",
+    "@vue/cli-service": "^4.5.13",
     "css-loader": "^5.2.4",
     "eslint": "^7.26.0",
     "fibers": "^5.0.0",
