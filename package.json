@@ -3,7 +3,7 @@
   "version": "0.3.1",
   "private": true,
   "scripts": {
-    "serve": "nuxt dev",
+    "dev": "nuxt dev",
     "build": "nuxt generate",
     "lint": "eslint --ext .js,.vue .",
     "lint:fix": "eslint --fix --ext .js,.vue ."
