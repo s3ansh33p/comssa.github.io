@@ -51,6 +51,21 @@
         </a>
       </b-col>
     </b-row>
+
+    <h3 class="mt-5">
+      Hackathon 2021
+    </h3>
+    <b-row align-h="center">
+      <b-col cols="4">
+        <a href="https://www.guild.curtin.edu.au/Clubs/IET">
+          <b-img
+            width="600"
+            :src="require('~/assets/img/branding/sponsors/iet.png')"
+            fluid
+          />
+        </a>
+      </b-col>
+    </b-row>
   </b-container>
 </template>
 
