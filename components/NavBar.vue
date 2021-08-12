@@ -23,7 +23,7 @@
           </b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
-          <b-button style="width: fit-content;background-color: #5865F2;" href="https://discord.gg/xYk4VzxGE8">
+          <b-button style="width: fit-content;background-color: #5865F2;" href="https://discord.gg/EaSUQ4SrPb">
             <img class="mr-2" src="~/assets/img/icon/social/discord.svg" height="18px">Join our Discord
           </b-button>
         </b-navbar-nav>
