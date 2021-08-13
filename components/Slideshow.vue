@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="carousel-shadow">
     <VueSlickCarousel v-bind="settings">
       <div v-for="image in images" :key="image">
         <div class="slide">
