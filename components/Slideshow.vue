@@ -1,23 +1,21 @@
 <template>
-  <div class="carousel-shadow">
-    <VueSlickCarousel v-bind="settings">
-      <div v-for="image in images" :key="image">
-        <div class="slide">
-          <NuxtLink v-if="link" :to="'events/' + removeExtension(image)">
-            <b-img
-              :id="css"
-              :src="require(`~/assets/img/${rootDir}/${image}`)"
-            />
-          </NuxtLink>
+  <VueSlickCarousel v-bind="settings">
+    <div v-for="image in images" :key="image">
+      <div class="slide">
+        <NuxtLink v-if="link" :to="'events/' + removeExtension(image)">
           <b-img
-            v-else
             :id="css"
             :src="require(`~/assets/img/${rootDir}/${image}`)"
           />
-        </div>
+        </NuxtLink>
+        <b-img
+          v-else
+          :id="css"
+          :src="require(`~/assets/img/${rootDir}/${image}`)"
+        />
       </div>
-    </VueSlickCarousel>
-  </div>
+    </div>
+  </VueSlickCarousel>
 </template>
 
 <script>
