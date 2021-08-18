@@ -30,7 +30,17 @@
     </p>
 
     <h3 class="mt-5">
-      Grill the Department 2021
+      Talks from the Industry 2 - 2021
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/tfti2021" :images="tfti2021" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
+      Grill the Department - 2021
     </h3>
 
     <b-row align-h="center" class="mt-3">
@@ -40,7 +50,7 @@
     </b-row>
 
     <h3 class="mt-5">
-      Guild O-Day 2021
+      Guild O-Day - 2021
     </h3>
 
     <b-row align-h="center" class="mt-3">
@@ -58,11 +68,15 @@ const getGuildODay2021 = () =>
 const getGrillTheDepartment2021 = () =>
     Array.from(require.context("~/assets/img/events/grillthedepartment2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
+const getTFTI2021 = () =>
+    Array.from(require.context("~/assets/img/events/tfti2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
             guildoday2021: getGuildODay2021(),
-            grillthedepartment2021: getGrillTheDepartment2021()
+            grillthedepartment2021: getGrillTheDepartment2021(),
+            tfti2021: getTFTI2021()
         }
     },
 
