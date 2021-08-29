@@ -9,8 +9,7 @@ export default {
     asyncData ({ redirect, error, params }) {
         const path = params.pathMatch.replace("/", "")
         if (path in redirects) {
-            // https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/307
-            return redirect(307, redirects[path])
+            window.location.replace(redirects[path])
         }
 
         return error({ statusCode: 404 })
