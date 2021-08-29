@@ -2,7 +2,7 @@
 const redirects = {
     feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
     suggestions: "https://forms.gle/pEA8MzaRAnABjN5f6",
-    TFTI: "https://tftiroundtwo-event.getqpay.com/"
+    "ComSSA-LAN": "https://comssalan.getqpay.com/"
 }
 
 export default {
