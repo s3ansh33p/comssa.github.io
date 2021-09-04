@@ -30,6 +30,16 @@
     </p>
 
     <h3 class="mt-5">
+      LAN @ Escape Portal - 2021
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/lan2021" :images="lan2021" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       Talks from the Industry 2 - 2021
     </h3>
 
@@ -62,6 +72,10 @@
 </template>
 
 <script>
+// webpack require.context requires static strings so here we are :)
+const getLan2021 = () =>
+    Array.from(require.context("~/assets/img/events/lan2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
 const getGuildODay2021 = () =>
     Array.from(require.context("~/assets/img/events/guildoday2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
@@ -74,6 +88,7 @@ const getTFTI2021 = () =>
 export default {
     data () {
         return {
+            lan2021: getLan2021(),
             guildoday2021: getGuildODay2021(),
             grillthedepartment2021: getGrillTheDepartment2021(),
             tfti2021: getTFTI2021()
