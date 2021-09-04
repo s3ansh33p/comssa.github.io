@@ -1,3 +1,7 @@
+<template>
+  <div />
+</template>
+
 <script>
 const redirects = {
     feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
@@ -6,13 +10,13 @@ const redirects = {
 }
 
 export default {
-    asyncData ({ redirect, error, params }) {
+    asyncData ({ error, params }) {
         const path = params.pathMatch.replace("/", "")
         if (path in redirects) {
             window.location.replace(redirects[path])
+        } else {
+            return error({ statusCode: 404 })
         }
-
-        return error({ statusCode: 404 })
     }
 }
 </script>
