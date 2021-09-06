@@ -6,7 +6,7 @@
 const redirects = {
     feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
     suggestions: "https://forms.gle/pEA8MzaRAnABjN5f6",
-    "ComSSA-LAN": "https://comssalan.getqpay.com/"
+    quiznight: "https://comssatrivianight-event.getqpay.com/"
 }
 
 export default {
