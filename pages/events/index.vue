@@ -30,6 +30,16 @@
     </p>
 
     <h3 class="mt-5">
+      ComSSA x IET Hackathon - 2021
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/hackathon2021" :images="hackathon2021" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       LAN @ Escape Portal - 2021
     </h3>
 
@@ -85,13 +95,17 @@ const getGrillTheDepartment2021 = () =>
 const getTFTI2021 = () =>
     Array.from(require.context("~/assets/img/events/tfti2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
+const getHackathon2021 = () =>
+    Array.from(require.context("~/assets/img/events/hackathon2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
             lan2021: getLan2021(),
             guildoday2021: getGuildODay2021(),
             grillthedepartment2021: getGrillTheDepartment2021(),
-            tfti2021: getTFTI2021()
+            tfti2021: getTFTI2021(),
+            hackathon2021: getHackathon2021()
         }
     },
 
