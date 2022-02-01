@@ -456,6 +456,10 @@ a, a:hover, a:link, a:active, a:visited {
     border-bottom: 10px solid $COMSSA_BLUE;
     width: 100%;
 
+    #acronym {
+        font-size: 10pt;
+    }
+
     a {
         color: black;
     }

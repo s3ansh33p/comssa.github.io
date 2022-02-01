@@ -3,7 +3,10 @@
     <div class="content">
       <b-row>
         <b-col class="my-5" sm="12" lg="4">
-          <h1>Computer Science <br/>Students Association <br/>(ComSSA)</h1>
+          <h1>
+            Computer Science <br>Students Association<br>
+            <span id="acronym">(ComSSA)</span>
+          </h1>
           <p>
             Department of Computing<br>
             Building 314 <br><br>
