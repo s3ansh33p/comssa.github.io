@@ -44,7 +44,13 @@ $enable-responsive-font-sizes: true;
 }
 
 .front-page-image {
-    max-width: 700px;
+    max-width: 600px;
+
+}
+
+#who-are-we {
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
 .slick-slider {
@@ -110,23 +116,33 @@ $enable-responsive-font-sizes: true;
 
 .profile {
     img {
-        max-width: 225px;
+        max-width: 180px;
     }
 
     #name {
         padding-top: 10px;
-        font-size: 16pt;
+        font-size: 12pt;
         font-weight: 600;
     }
 
     #title {
-        font-size: 14pt;
+        font-size: 12pt;
         font-weight: 400;
     }
 
     #text_container {
         max-width: 200px;
     }
+}
+
+.exec-subheading {
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.ord-subheading {
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
 .carousel-shadow {
@@ -138,13 +154,13 @@ $enable-responsive-font-sizes: true;
     width: 100%;
     overflow-y: hidden;
     max-width: 650px;
-    border-radius: 10px;
+    border-radius: 1em;
 }
 
 #events-carousel {
     width: 100%;
     overflow-y: hidden;
-    border-radius: 10px;
+    border-radius: 1em;
 }
 
 #discord_embed {
@@ -163,6 +179,7 @@ $enable-responsive-font-sizes: true;
 
 
 #join-link {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
 
     margin-top: 30px;
@@ -199,12 +216,12 @@ $enable-responsive-font-sizes: true;
 }
 
 #join-link a:hover:after {
-    width: 140px;
+    width: 200px;
     left: 0;
 }
 
-#rounded-corner {
-    border-radius: 10px;
+.rounded-corner {
+    border-radius: 1em;
 }
 
 .page-enter-active,
@@ -232,14 +249,18 @@ html {
     overflow-y: scroll;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     line-height: 1.25;
 }
 
-a, a:hover, a:link, a:active, a:visited {
+h3 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+}
+
+a, a:hover, a:link, a:active, a:visited {
     color: #4142A6;
     text-decoration: none;
     font-weight: 600;
@@ -269,6 +290,8 @@ a, a:hover, a:link, a:active, a:visited {
     background-color: white;
 
     padding-bottom: 20px;
+
+    font-family: 'Montserrat', sans-serif;
 
     left:0;
     top:0;
@@ -341,7 +364,7 @@ a, a:hover, a:link, a:active, a:visited {
         height: 50px;
 
         float: left;
-        border-radius: 5px;
+        border-radius: 0.5em;
 
         margin-left: 9%;
     }

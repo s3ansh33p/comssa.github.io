@@ -29,8 +29,7 @@
       </b-col>
       <b-col md="auto" class="mt-5">
         <v-lazy-image
-          id="rounded-corner"
-          class="mb-5"
+          class="mb-5 rounded-corner"
           width="600"
           :src="require(`~/assets/img/revision.jpg`)"
           :src-placeholder="require(`~/assets/img/revision.jpg?lqip&inline`)"
@@ -40,7 +39,7 @@
     <h2>
       Committee Members
     </h2>
-    <h3>
+    <h3 class="exec-subheading">
       Executive Committee Members
     </h3>
     <b-row align-h="around" class="mt-3 mb-3">
@@ -73,7 +72,7 @@
         />
       </b-col>
     </b-row>
-    <h3>
+    <h3 class="ord-subheading">
       Ordinary Committee Members
     </h3>
     <b-row align-h="around" class="mt-3">
