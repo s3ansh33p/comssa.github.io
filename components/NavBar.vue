@@ -21,11 +21,6 @@
           <b-nav-item class="links" to="/sponsors">
             Sponsors
           </b-nav-item>
-          <b-nav-item class="links" href="https://hackathon.comssa.org.au/">
-            <p class="hackathon">
-              Hackathon
-            </p>
-          </b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-button style="width: fit-content;background-color: #5865F2;" href="https://discord.gg/EaSUQ4SrPb">

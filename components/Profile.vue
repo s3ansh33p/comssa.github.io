@@ -1,20 +1,20 @@
 <template>
   <b-container fluid class="profile">
-    <b-row class="text-center">
+    <b-row>
       <b-col>
         <v-lazy-image
-          id="rounded-corner"
+          class="rounded-corner"
           :src="require(`~/assets/img/profile/${source}`)"
           :src-placeholder="require(`~/assets/img/profile/${source}?lqip&inline`)"
         />
       </b-col>
     </b-row>
-    <b-row id="name" class="text-center">
+    <b-row id="name">
       <b-col>
         {{ name }}
       </b-col>
     </b-row>
-    <b-row id="title" class="text-center">
+    <b-row id="title">
       <b-col>
         {{ title }}
       </b-col>

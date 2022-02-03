@@ -1,10 +1,12 @@
 <template>
   <footer class="footer">
-    <div class="content text-center">
+    <div class="content">
       <b-row>
         <b-col class="my-5" sm="12" lg="4">
-          <h1>Computer Science Students Association </h1>
-          <h6><i>abbrv. ComSSA</i></h6>
+          <h1>
+            Computer Science <br>Students Association<br>
+            <span id="acronym">(ComSSA)</span>
+          </h1>
           <p>
             Department of Computing<br>
             Building 314 <br><br>

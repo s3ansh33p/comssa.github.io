@@ -18,7 +18,7 @@
       <b-col md="5" class="mt-5 mt-md-3">
         <div class="carousel-shadow">
           <Slideshow
-            :link="true"
+            :link="false"
             css="front-page-carousel"
             root-dir="posters"
             :images="images"
@@ -30,15 +30,16 @@
     <b-row align-h="around">
       <b-col md="auto" class="mb-3">
         <v-lazy-image
-          id="rounded-corner"
-          class="mt-xs-5 front-page-image"
+          id="committee-photo"
+          class="mt-xs-5 front-page-image rounded-corner"
+          alt="Image of committee in front of ComSSA O-Day stall"
           :src="require('~/assets/img/comssa-stall.jpg')"
           :src-placeholder="
             require('~/assets/img/comssa-stall.jpg?lqip&inline')
           "
         />
       </b-col>
-      <b-col>
+      <b-col id="who-are-we">
         <h2>Who are we?</h2>
 
         <p>
