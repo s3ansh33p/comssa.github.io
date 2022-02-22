@@ -1,8 +1,8 @@
 <template>
   <b-container fluid>
-    <b-button style="width: fit-content;background-color: #4559a7; color:white; margin-top : 25px;" 
-    href="https://comssa.tidyhq.com/public/membership_levels/444a8ca753d9?">Join Us</b-button>
-
+    <b-button style="width: fit-content;background-color: #4559a7; color:white; margin-top : 25px;" href="https://comssa.tidyhq.com/public/membership_levels/444a8ca753d9?">
+      Join Us
+    </b-button>
     <h2 class="mt-3">
       Why should I join ComSSA?
     </h2>
