@@ -79,7 +79,6 @@
       </b-col>
     </b-row>
 
-
     <h3 class="mt-5">
       Board Games Night - 2022
     </h3>
@@ -89,7 +88,6 @@
         <Slideshow :link="false" css="events-carousel" root-dir="events/boardgamesnight2022" :images="boardgamesnight2022" />
       </b-col>
     </b-row>
-
 
     <h3 class="mt-5">
       Grill the Department - 2022
@@ -101,7 +99,6 @@
       </b-col>
     </b-row>
 
-
     <h3 class="mt-5">
       Guild O-Day - 2022
     </h3>
@@ -111,7 +108,6 @@
         <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2022" :images="guildoday2022" />
       </b-col>
     </b-row>
-
   </b-container>
 </template>
 
