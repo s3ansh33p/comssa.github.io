@@ -137,8 +137,6 @@ const getGrillTheDepartment2022 = () =>
 const getGuildODay2022 = () =>
     Array.from(require.context("~/assets/img/events/guildoday2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
-
-
 export default {
     data () {
         return {
