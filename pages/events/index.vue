@@ -30,6 +30,36 @@
     </p>
 
     <h3 class="mt-5">
+      Board Games Night - 2022
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/boardgamesnight2022" :images="boardgamesnight2022" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
+      Grill the Department - 2022
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2022" :images="grillthedepartment2022" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
+      Guild O-Day - 2022
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2022" :images="guildoday2022" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       ComSSA x IET Hackathon - 2021
     </h3>
 
@@ -98,6 +128,15 @@ const getTFTI2021 = () =>
 const getHackathon2021 = () =>
     Array.from(require.context("~/assets/img/events/hackathon2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
+const getBoardGamesNight2022 = () =>
+    Array.from(require.context("~/assets/img/events/boardgamesnight2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
+const getGrillTheDepartment2022 = () =>
+    Array.from(require.context("~/assets/img/events/grillthedepartment2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
+const getGuildODay2022 = () =>
+    Array.from(require.context("~/assets/img/events/guildoday2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
@@ -105,7 +144,10 @@ export default {
             guildoday2021: getGuildODay2021(),
             grillthedepartment2021: getGrillTheDepartment2021(),
             tfti2021: getTFTI2021(),
-            hackathon2021: getHackathon2021()
+            hackathon2021: getHackathon2021(),
+            boardgamesnight2022: getBoardGamesNight2022(),
+            grillthedepartment2022: getGrillTheDepartment2022(),
+            guildoday2022: getGuildODay2022()
         }
     },
 
