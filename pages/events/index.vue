@@ -30,6 +30,36 @@
     </p>
 
     <h3 class="mt-5">
+      Board Games Night - 2022
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/boardgamesnight2022" :images="boardgamesnight2022" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
+      Grill the Department - 2022
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2022" :images="grillthedepartment2022" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
+      Guild O-Day - 2022
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2022" :images="guildoday2022" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       ComSSA x IET Hackathon - 2021
     </h3>
 
@@ -76,36 +106,6 @@
     <b-row align-h="center" class="mt-3">
       <b-col>
         <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2021" :images="guildoday2021" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      Board Games Night - 2022
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/boardgamesnight2022" :images="boardgamesnight2022" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      Grill the Department - 2022
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2022" :images="grillthedepartment2022" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      Guild O-Day - 2022
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2022" :images="guildoday2022" />
       </b-col>
     </b-row>
   </b-container>
