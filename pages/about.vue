@@ -45,23 +45,23 @@
     <b-row align-h="around" class="mt-3 mb-3">
       <b-col>
         <Profile
-          name="Augustine Italiano"
+          name="Warittha Rayabsri"
           title="President"
-          source="augustine.jpg"
+          source="warittha.jpg"
         />
       </b-col>
       <b-col>
         <Profile
-          name="Tina Phan"
+          name="Ben Caudwell"
           title="Vice President"
-          source="tina.jpg"
+          source="ben.jpg"
         />
       </b-col>
       <b-col>
         <Profile
-          name="Matthew Di Marco"
+          name="Moritz Bergemann"
           title="Treasurer"
-          source="matt.jpg"
+          source="moritz.jpg"
         />
       </b-col>
       <b-col>
@@ -78,65 +78,65 @@
     <b-row align-h="around" class="mt-3">
       <b-col>
         <Profile
-          name="Anurag Singh"
-          source="anurag.jpg"
+          name="Andrew Owens"
+          source="andrew.jpg"
         />
       </b-col><b-col>
         <Profile
-          name="Benjamin Caudwell"
-          source="ben_c.jpg"
+          name="Bethany Ellis"
+          source="bethany.jpg"
         />
       </b-col>
       <b-col>
         <Profile
-          name="Ben Heely"
-          source="ben_h.jpg"
+          name="Eillie Shi"
+          source="eillie.jpg"
         />
       </b-col>
       <b-col>
         <Profile
-          name="Bryan Wong"
-          source="bryan.jpg"
+          name="Jolyon Fereday"
+          source="jolyon.jpg"
         />
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3">
       <b-col>
         <Profile
-          name="Haley Workman"
-          source="haley.jpg"
+          name="Joshua Macaulay"
+          source="joshua.jpg"
         />
       </b-col>
       <b-col>
         <Profile
-          name="Kevin Tanaka"
-          source="kevin.jpg"
+          name="Moon"
+          source="moon.jpg"
         />
       </b-col>
       <b-col>
         <Profile
-          name="Peter Sessarego"
-          source="peter.jpg"
+          name="Samuel Suhardiman"
+          source="samuel.jpg"
         />
       </b-col>
       <b-col>
         <Profile
-          name="Sophie Lee-Goh"
+          name="Sophie Jong"
           source="sophie.jpg"
         />
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3">
-      <b-col cols="4">
+      <b-col cols="3">
         <Profile
-          name="Tanaka Chitete"
-          source="tanaka.jpg"
+          name="Wern Kuang Chai"
+          source="chai.jpg"
         />
       </b-col>
-      <b-col cols="4">
+      <b-col cols="3">
         <Profile
-          name="Warittha Rayabsri"
-          source="warittha.jpg"
+          name="Zachary Kidd-Smith"
+          source="zachary.jpg"
         />
       </b-col>
     </b-row>
