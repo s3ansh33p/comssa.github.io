@@ -53,6 +53,18 @@
       </b-col>
     </b-row>
 
+    <b-row align-h="around" class="mt-5">
+      <b-col cols="4">
+        <a href="https://www.bankwest.com.au/">
+          <b-img
+            width="450"
+            :src="require('~/assets/img/branding/sponsors/bankwest.png')"
+            fluid
+          />
+        </a>
+      </b-col>
+    </b-row>
+
     <p class="mt-5">
       ComSSA is also proudly associated with and supported by the Curtin School of Electrical Engineering, Computing and Mathematical Sciences.
     </p>
