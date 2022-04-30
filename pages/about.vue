@@ -127,7 +127,7 @@
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3">
-      <b-col cols= "3">
+      <b-col cols="3">
         <Profile
           name="Wern Kuang Chai"
           source="chai.jpg"
