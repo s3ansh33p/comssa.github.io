@@ -139,6 +139,12 @@
           source="zachary.jpg"
         />
       </b-col>
+      <b-col cols="3">
+        <Profile
+          name="Ethan Olson"
+          source="ethan.jpg"
+        />
+      </b-col>
     </b-row>
   </b-container>
 </template>

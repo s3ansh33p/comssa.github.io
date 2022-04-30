@@ -6,7 +6,7 @@
 const redirects = {
     feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
     suggestions: "https://forms.gle/pEA8MzaRAnABjN5f6",
-    talk_to_the_industry: "/",
+    ComSSA_Sundowner_2022: "/",
     revisionsessions1: "/"
 }
 

@@ -66,7 +66,7 @@
     </b-row>
 
     <p class="mt-5">
-      ComSSA is also proudly associated with and supported by the Curtin School of Electrical Engineering, Computing and Mathematical Sciences.
+      ComSSA is proudly partnered with the Curtin School of Electrical Engineering, Computing and Mathematical Sciences.
     </p>
 
     <b-row align-h="center" class="mt-5">
