@@ -127,16 +127,22 @@
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3">
-      <b-col cols="3">
+      <b-col>
         <Profile
           name="Wern Kuang Chai"
           source="chai.jpg"
         />
       </b-col>
-      <b-col cols="3">
+      <b-col>
         <Profile
           name="Zachary Kidd-Smith"
           source="zachary.jpg"
+        />
+      </b-col>
+      <b-col>
+        <Profile
+          name="Ethan Olson"
+          source="ethan.jpg"
         />
       </b-col>
     </b-row>
