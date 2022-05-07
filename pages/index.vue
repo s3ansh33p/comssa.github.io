@@ -33,9 +33,9 @@
           id="committee-photo"
           class="mt-xs-5 front-page-image rounded-corner"
           alt="Image of committee in front of ComSSA O-Day stall"
-          :src="require('~/assets/img/comssa-stall.jpg')"
+          :src="require('~/assets/img/comssa_stall.jpg')"
           :src-placeholder="
-            require('~/assets/img/comssa-stall.jpg?lqip&inline')
+            require('~/assets/img/comssa_stall.jpg?lqip&inline')
           "
         />
       </b-col>
