@@ -7,7 +7,7 @@
       ComSSA is grateful to be working with the following organisations to provide opportunities and the best possible experience for our members.
     </p>
     <p>
-      For any inquiries about sponsorhip, please reach out to <a href="mailto:sponsorship@comssa.org.au">sponsorship@comssa.org.au</a>.
+      For any inquiries about sponsorship, please reach out to <a href="mailto:sponsorship@comssa.org.au">sponsorship@comssa.org.au</a>.
     </p>
     <b-row align-h="around" class="mt-5">
       <b-col cols="4">
