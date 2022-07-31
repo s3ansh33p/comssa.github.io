@@ -109,7 +109,7 @@
       </b-col>
       <b-col>
         <Profile
-          name="Moon"
+          name="Nathan Poon"
           source="moon.jpg"
         />
       </b-col>
