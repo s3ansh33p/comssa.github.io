@@ -6,8 +6,7 @@
 const redirects = {
     feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
     suggestions: "https://forms.gle/pEA8MzaRAnABjN5f6",
-    ComSSA_Sundowner_2022: "/",
-    revisionsessions1: "/"
+    TFTI_2: "http://thq.fyi/se/pHQqsbA"
 }
 
 export default {
