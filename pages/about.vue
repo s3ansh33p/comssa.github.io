@@ -66,9 +66,9 @@
       </b-col>
       <b-col>
         <Profile
-          name="Laura Harris"
+          name="Sophie Jong"
           title="Secretary"
-          source="laura.jpg"
+          source="sophie.jpg"
         />
       </b-col>
     </b-row>
@@ -121,18 +121,12 @@
       </b-col>
       <b-col>
         <Profile
-          name="Sophie Jong"
-          source="sophie.jpg"
-        />
-      </b-col>
-    </b-row>
-    <b-row align-h="around" class="mt-3">
-      <b-col cols="3">
-        <Profile
           name="Wern Kuang Chai"
           source="chai.jpg"
         />
       </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-3">
       <b-col cols="3">
         <Profile
           name="Zachary Kidd-Smith"
