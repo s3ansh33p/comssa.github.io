@@ -38,7 +38,7 @@
     </h2>
     If you’d prefer to sign up online, that’s even easier! Unfortunately, you can’t use club membership vouchers to sign up online.
 
-    To get started, head over <a href="https://comssa.tidyhq.com/public/membership_levels/444a8ca753d9?">here</a>.
+    To get started, head over <a href="https://comssa.tidyhq.com/public/membership_levels/9b41b2d0d56e">here</a>.
     You’ll be asked for your Curtin Student Guild membership status, so please use this to let us know if you are a Guild member.
     Please do not mark yourself as paying with a voucher — this will not lessen any online membership fees.
   </b-container>
