@@ -3,7 +3,7 @@
     <b-row>
       <b-col>
         <v-lazy-image
-          class="rounded-corner"
+          class="rounded-corner portrait"
           :src="require(`~/assets/img/profile/${source}`)"
           :src-placeholder="require(`~/assets/img/profile/${source}?lqip&inline`)"
         />

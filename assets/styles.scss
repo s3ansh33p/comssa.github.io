@@ -224,6 +224,11 @@ $enable-responsive-font-sizes: true;
     border-radius: 1em;
 }
 
+.portrait {
+    aspect-ratio: 400/533;
+    object-fit: cover;
+}
+
 .page-enter-active,
 .page-leave-active {
     transition: opacity 0.2s;
