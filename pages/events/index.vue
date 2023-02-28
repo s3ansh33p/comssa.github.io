@@ -30,6 +30,16 @@
     </p>
 
     <h3 class="mt-5">
+      Guild O-Day - 2023
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2023" :images="guildoday2023" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       Board Games Night - 2022
     </h3>
 
@@ -137,6 +147,9 @@ const getGrillTheDepartment2022 = () =>
 const getGuildODay2022 = () =>
     Array.from(require.context("~/assets/img/events/guildoday2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
+const getGuildODay2023 = () =>
+    Array.from(require.context("~/assets/img/events/guildoday2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
@@ -147,7 +160,8 @@ export default {
             hackathon2021: getHackathon2021(),
             boardgamesnight2022: getBoardGamesNight2022(),
             grillthedepartment2022: getGrillTheDepartment2022(),
-            guildoday2022: getGuildODay2022()
+            guildoday2022: getGuildODay2022(),
+            guildoday2023: getGuildODay2023()
         }
     },
 
