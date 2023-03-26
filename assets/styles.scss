@@ -145,9 +145,14 @@ $enable-responsive-font-sizes: true;
     margin-bottom: 1em;
 }
 
-.carousel-shadow {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
+.tomahawkLabs {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: fit-content;
+        height: clamp(25px, 8vw, 120px);
+    }
 }
 
 #front-page-carousel {

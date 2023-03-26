@@ -9,17 +9,7 @@
     <p>
       For any inquiries about sponsorship, please reach out to <a href="mailto:sponsorship@comssa.org.au">sponsorship@comssa.org.au</a>.
     </p>
-    <b-row align-h="around" class="mt-5">
-      <b-col cols="4">
-        <a href="https://www.powerledger.io/">
-          <b-img
-            width="450"
-            :src="require('~/assets/img/branding/sponsors/powerledger.png')"
-            fluid
-          />
-        </a>
-      </b-col>
-
+    <b-row align-h="around" class="mt-5 align-items-center">
       <b-col cols="4">
         <a href="https://www.vgw.co/">
           <b-img
@@ -29,9 +19,19 @@
           />
         </a>
       </b-col>
+
+      <b-col cols="4" class="tomahawkLabs">
+        <a href="https://tomahawklabs.com.au/">
+          <b-img
+            width="450"
+            :src="require('~/assets/img/branding/sponsors/tomahawkLabs.png')"
+            fluid
+          />
+        </a>
+      </b-col>
     </b-row>
 
-    <b-row align-h="around" class="mt-5">
+    <b-row align-h="around" class="mt-5 align-items-center">
       <b-col cols="4">
         <a href="https://www.atlassian.com/">
           <b-img
@@ -43,6 +43,18 @@
       </b-col>
 
       <b-col cols="4">
+        <a href="https://redisoftware.com.au/">
+          <b-img
+            width="450"
+            :src="require('~/assets/img/branding/sponsors/rediSoftwareLogo.png')"
+            fluid
+          />
+        </a>
+      </b-col>
+    </b-row>
+
+    <b-row align-h="around" class="mt-5 align-items-center">
+      <b-col cols="4">
         <a href="https://www.imc.com/">
           <b-img
             width="450"
@@ -51,9 +63,7 @@
           />
         </a>
       </b-col>
-    </b-row>
 
-    <b-row align-h="around" class="mt-5">
       <b-col cols="4">
         <a href="https://www.bankwest.com.au/">
           <b-img
