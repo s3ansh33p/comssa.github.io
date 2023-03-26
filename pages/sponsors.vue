@@ -14,7 +14,7 @@
         <a href="https://www.vgw.co/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/vgw.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/vgw.png'"
             fluid
           />
         </a>
@@ -24,7 +24,7 @@
         <a href="https://tomahawklabs.com.au/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/tomahawkLabs.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/tomahawk-labs.png'"
             fluid
           />
         </a>
@@ -36,7 +36,7 @@
         <a href="https://www.atlassian.com/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/atlassian.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/atlassian.png'"
             fluid
           />
         </a>
@@ -46,7 +46,7 @@
         <a href="https://redisoftware.com.au/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/rediSoftwareLogo.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/redi-software.png'"
             fluid
           />
         </a>
@@ -58,7 +58,7 @@
         <a href="https://www.imc.com/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/imctrading.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/imc.png'"
             fluid
           />
         </a>
@@ -68,7 +68,7 @@
         <a href="https://www.bankwest.com.au/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/bankwest.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/bankwest.png'"
             fluid
           />
         </a>
