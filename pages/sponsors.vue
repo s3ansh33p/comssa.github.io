@@ -9,56 +9,66 @@
     <p>
       For any inquiries about sponsorship, please reach out to <a href="mailto:sponsorship@comssa.org.au">sponsorship@comssa.org.au</a>.
     </p>
-    <b-row align-h="around" class="mt-5">
-      <b-col cols="4">
-        <a href="https://www.powerledger.io/">
-          <b-img
-            width="450"
-            :src="require('~/assets/img/branding/sponsors/powerledger.png')"
-            fluid
-          />
-        </a>
-      </b-col>
-
+    <b-row align-h="around" class="mt-5 align-items-center">
       <b-col cols="4">
         <a href="https://www.vgw.co/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/vgw.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/vgw.png'"
+            fluid
+          />
+        </a>
+      </b-col>
+
+      <b-col cols="4" class="tomahawkLabs">
+        <a href="https://tomahawklabs.com.au/">
+          <b-img
+            width="450"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/tomahawk-labs.png'"
             fluid
           />
         </a>
       </b-col>
     </b-row>
 
-    <b-row align-h="around" class="mt-5">
+    <b-row align-h="around" class="mt-5 align-items-center">
       <b-col cols="4">
         <a href="https://www.atlassian.com/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/atlassian.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/atlassian.png'"
             fluid
           />
         </a>
       </b-col>
 
       <b-col cols="4">
-        <a href="https://www.imc.com/">
+        <a href="https://redisoftware.com.au/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/imctrading.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/redi-software.png'"
             fluid
           />
         </a>
       </b-col>
     </b-row>
 
-    <b-row align-h="around" class="mt-5">
+    <b-row align-h="around" class="mt-5 align-items-center">
+      <b-col cols="4">
+        <a href="https://www.imc.com/">
+          <b-img
+            width="450"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/imc.png'"
+            fluid
+          />
+        </a>
+      </b-col>
+
       <b-col cols="4">
         <a href="https://www.bankwest.com.au/">
           <b-img
             width="450"
-            :src="require('~/assets/img/branding/sponsors/bankwest.png')"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/bankwest.png'"
             fluid
           />
         </a>
