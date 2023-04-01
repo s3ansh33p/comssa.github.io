@@ -30,6 +30,26 @@
     </p>
 
     <h3 class="mt-5">
+      Board Games Night - 2023
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/boardgamesnight2023" :images="boardgamesnight2023" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
+      Grill the Department - 2023
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2023" :images="grillthedepartment2023" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       Guild O-Day - 2023
     </h3>
 
@@ -141,8 +161,14 @@ const getHackathon2021 = () =>
 const getBoardGamesNight2022 = () =>
     Array.from(require.context("~/assets/img/events/boardgamesnight2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
+const getBoardGamesNight2023 = () =>
+    Array.from(require.context("~/assets/img/events/boardgamesnight2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 const getGrillTheDepartment2022 = () =>
     Array.from(require.context("~/assets/img/events/grillthedepartment2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
+const getGrillTheDepartment2023 = () =>
+    Array.from(require.context("~/assets/img/events/grillthedepartment2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
 const getGuildODay2022 = () =>
     Array.from(require.context("~/assets/img/events/guildoday2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
@@ -159,7 +185,9 @@ export default {
             tfti2021: getTFTI2021(),
             hackathon2021: getHackathon2021(),
             boardgamesnight2022: getBoardGamesNight2022(),
+            boardgamesnight2023: getBoardGamesNight2023(),
             grillthedepartment2022: getGrillTheDepartment2022(),
+            grillthedepartment2023: getGrillTheDepartment2023(),
             guildoday2022: getGuildODay2022(),
             guildoday2023: getGuildODay2023()
         }
