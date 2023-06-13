@@ -14,7 +14,7 @@
         <a href="https://www.vgw.co/">
           <b-img
             width="450"
-            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/vgw.png'"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1686654371/ComSSA-Website/Sponsors/vgw.png'"
             fluid
           />
         </a>
