@@ -30,6 +30,36 @@
     </p>
 
     <h3 class="mt-5">
+      The Amazing Tech Race - 2023
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/atr2023" :images="atr2023" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
+      Talks from the Industry 1 - 2023
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/tfti2023" :images="tfti2023" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
+      LAN Night - 2023
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/lan2023" :images="lan2023" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       Board Games Night - 2023
     </h3>
 
@@ -118,26 +148,6 @@
         <Slideshow :link="false" css="events-carousel" root-dir="events/tfti2021" :images="tfti2021" />
       </b-col>
     </b-row>
-
-    <h3 class="mt-5">
-      Grill the Department - 2021
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2021" :images="grillthedepartment2021" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      Guild O-Day - 2021
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2021" :images="guildoday2021" />
-      </b-col>
-    </b-row>
   </b-container>
 </template>
 
@@ -176,20 +186,32 @@ const getGuildODay2022 = () =>
 const getGuildODay2023 = () =>
     Array.from(require.context("~/assets/img/events/guildoday2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
+const getLan2023 = () =>
+    Array.from(require.context("~/assets/img/events/lan2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getTFTI2023 = () =>
+    Array.from(require.context("~/assets/img/events/tfti2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getATR2023 = () =>
+    Array.from(require.context("~/assets/img/events/atr2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
             lan2021: getLan2021(),
+            lan2023: getLan2023(),
             guildoday2021: getGuildODay2021(),
             grillthedepartment2021: getGrillTheDepartment2021(),
             tfti2021: getTFTI2021(),
+            tfti2023: getTFTI2023(),
             hackathon2021: getHackathon2021(),
             boardgamesnight2022: getBoardGamesNight2022(),
             boardgamesnight2023: getBoardGamesNight2023(),
             grillthedepartment2022: getGrillTheDepartment2022(),
             grillthedepartment2023: getGrillTheDepartment2023(),
             guildoday2022: getGuildODay2022(),
-            guildoday2023: getGuildODay2023()
+            guildoday2023: getGuildODay2023(),
+            atr2023: getATR2023()
         }
     },
 
