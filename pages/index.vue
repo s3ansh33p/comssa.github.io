@@ -18,7 +18,7 @@
       <b-col md="5" class="mt-5 mt-md-3">
         <div class="carousel-shadow">
           <Slideshow
-            :link="false"
+            :link="true"
             css="front-page-carousel"
             root-dir="posters"
             :images="images"
