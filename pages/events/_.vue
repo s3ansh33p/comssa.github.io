@@ -6,7 +6,7 @@
 const redirects = {
     feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
     suggestions: "https://forms.gle/pEA8MzaRAnABjN5f6",
-    Hackathon_P1: "https://hackathon.comssa.org.au/"
+    Hackathon_P2: "https://hackathon.comssa.org.au/"
 }
 
 export default {
