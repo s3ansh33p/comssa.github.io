@@ -9,7 +9,9 @@
     <p>
       For any inquiries about sponsorship, please reach out to <a href="mailto:sponsorship@comssa.org.au">sponsorship@comssa.org.au</a>.
     </p>
-    <b-row align-h="around" class="mt-5 align-items-center">
+
+    <h2 class="text-center">Gold Tier</h2>
+    <b-row align-h="around" class="mb-5 align-items-center">
       <b-col cols="4">
         <a href="https://www.vgw.co/">
           <b-img
@@ -31,7 +33,8 @@
       </b-col>
     </b-row>
 
-    <b-row align-h="around" class="mt-5 align-items-center">
+    <h2 class="text-center">Silver Tier</h2>
+    <b-row align-h="around" class="mb-5 align-items-center">
       <b-col cols="4">
         <a href="https://www.atlassian.com/">
           <b-img
@@ -41,19 +44,10 @@
           />
         </a>
       </b-col>
-
-      <b-col cols="4">
-        <a href="https://redisoftware.com.au/">
-          <b-img
-            width="450"
-            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/redi-software.png'"
-            fluid
-          />
-        </a>
-      </b-col>
     </b-row>
 
-    <b-row align-h="around" class="mt-5 align-items-center">
+    <h2 class="text-center">Bronze Tier</h2>
+    <b-row align-h="around" class="mb-3 align-items-center">
       <b-col cols="4">
         <a href="https://www.imc.com/">
           <b-img
@@ -69,6 +63,28 @@
           <b-img
             width="450"
             :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/bankwest.png'"
+            fluid
+          />
+        </a>
+      </b-col>
+    </b-row>
+
+    <b-row align-h="around" class="mb-5 align-items-center">
+      <b-col cols="4">
+        <a href="https://redisoftware.com.au/">
+          <b-img
+            width="450"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/redi-software.png'"
+            fluid
+          />
+        </a>
+      </b-col>
+
+      <b-col cols="4">
+        <a href="https://www.mechanicalrock.io/">
+          <b-img
+            width="450"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_450/v1691926726/ComSSA-Website/Sponsors/mechanical-rock.webp'"
             fluid
           />
         </a>
