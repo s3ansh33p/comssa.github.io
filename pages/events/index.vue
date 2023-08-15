@@ -30,6 +30,16 @@
     </p>
 
     <h3 class="mt-5">
+      ComSSA Hackathon - 2023
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/hackathon2023" :images="hackathon2023" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       The Amazing Tech Race - 2023
     </h3>
 
@@ -168,6 +178,9 @@ const getTFTI2021 = () =>
 const getHackathon2021 = () =>
     Array.from(require.context("~/assets/img/events/hackathon2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
+const getHackathon2023 = () =>
+    Array.from(require.context("~/assets/img/events/hackathon2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 const getBoardGamesNight2022 = () =>
     Array.from(require.context("~/assets/img/events/boardgamesnight2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
@@ -205,6 +218,7 @@ export default {
             tfti2021: getTFTI2021(),
             tfti2023: getTFTI2023(),
             hackathon2021: getHackathon2021(),
+            hackathon2023: getHackathon2023(),
             boardgamesnight2022: getBoardGamesNight2022(),
             boardgamesnight2023: getBoardGamesNight2023(),
             grillthedepartment2022: getGrillTheDepartment2022(),
