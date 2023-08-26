@@ -131,25 +131,25 @@
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3">
-      <b-col cols="3">
+      <b-col>
         <CloudProfile
           name="Rebecca Masey"
           source="v1691929077/ComSSA-Website/Profile/Sean%20Phay.webp"
         />
       </b-col>
-      <b-col cols="3">
+      <b-col>
         <CloudProfile
           name="Sean Phay"
           source="v1691929077/ComSSA-Website/Profile/Sean%20Phay.webp"
         />
       </b-col>
-      <b-col cols="3">
+      <b-col>
         <CloudProfile
           name="Kai Chen Chai"
           source="v1691929076/ComSSA-Website/Profile/Kai%20Chen%20Chai.webp"
         />
       </b-col>
-      <b-col cols="3">
+      <b-col>
         <CloudProfile
           name="Daniela Degasperi"
           source="v1691929076/ComSSA-Website/Profile/Daniela%20Degasperi.webp"
