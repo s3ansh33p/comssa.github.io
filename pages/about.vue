@@ -27,12 +27,12 @@
           -->
         </p>
       </b-col>
-      <b-col md="auto" class="mt-5">
+      <b-col md="auto" class="mt-5" style="width: 500px;">
         <v-lazy-image
           class="mb-5 rounded-corner"
-          width="600"
-          :src="require(`~/assets/img/revision.jpg`)"
-          :src-placeholder="require(`~/assets/img/revision.jpg?lqip&inline`)"
+          width="500"
+          :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_500/v1693068628/ComSSA-Website/General/about.webp'"
+          :src-placeholder="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/v1693068628/ComSSA-Website/General/about.webp'"
         />
       </b-col>
     </b-row>
