@@ -44,31 +44,31 @@
     </h3>
     <b-row align-h="around" class="mt-3 mb-3">
       <b-col>
-        <Profile
+        <CloudProfile
           name="Warittha Rayabsri"
           title="President"
-          source="Warittha Rayabsri.jpg"
+          source="v1679318914/ComSSA-Website/Profile/Warittha%20Rayabsri.webp"
         />
       </b-col>
       <b-col>
-        <Profile
+        <CloudProfile
           name="Samuel Suhardiman"
           title="Vice President"
-          source="Samuel Suhardiman.jpg"
+          source="v1679318914/ComSSA-Website/Profile/Samuel%20Suhardiman.webp"
         />
       </b-col>
       <b-col>
-        <Profile
+        <CloudProfile
           name="Andrew Owens"
           title="Treasurer"
-          source="Andrew Owens.png"
+          source="v1679318914/ComSSA-Website/Profile/Andrew%20Owens.webp"
         />
       </b-col>
       <b-col>
-        <Profile
+        <CloudProfile
           name="Tui Warihana"
           title="Secretary"
-          source="Tui Warihana.png"
+          source="v1679318916/ComSSA-Website/Profile/Tui%20Warihana.webp"
         />
       </b-col>
     </b-row>
@@ -77,70 +77,82 @@
     </h3>
     <b-row align-h="around" class="mt-3">
       <b-col>
-        <Profile
+        <CloudProfile
           name="Nicholas Lim"
           title="Events Coordinator"
-          source="Nicholas Lim.png"
+          source="v1691929077/ComSSA-Website/Profile/Nicholas%20Lim.webp"
         />
       </b-col><b-col>
-        <Profile
+        <CloudProfile
           name="Lauren Rothnie"
           title="Marketing Coordinator"
-          source="Lauren Rothnie.png"
+          source="v1679318920/ComSSA-Website/Profile/Lauren%20Rothnie.webp"
         />
       </b-col>
       <b-col>
-        <Profile
+        <CloudProfile
           name="Sean McGinty"
           title="Technical Coordinator"
-          source="Sean McGinty.jpg"
+          source="v1679318917/ComSSA-Website/Profile/Sean%20McGinty.webp"
         />
       </b-col>
       <b-col>
-        <Profile
+        <CloudProfile
           name="Nicholas Wright"
           title="Revision Session Coordinator"
-          source="Nicholas Wright.jpg"
+          source="v1679318916/ComSSA-Website/Profile/Nicholas%20Wright.webp"
         />
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3">
       <b-col>
-        <Profile
+        <CloudProfile
           name="Ethan Olson"
-          source="Ethan Olson.jpg"
+          source="v1679318914/ComSSA-Website/Profile/Ethan%20Olson.webp"
         />
       </b-col>
       <b-col>
-        <Profile
-          name="Franco Forgione Velazco"
-          source="Franco Forgione Velazco.png"
+        <CloudProfile
+          name="Mori Arvidson"
+          source="v1691929076/ComSSA-Website/Profile/Mori%20Arvidson.webp"
         />
       </b-col>
       <b-col>
-        <Profile
+        <CloudProfile
           name="Haylee Jackson"
-          source="Haylee Jackson.png"
+          source="v1691929076/ComSSA-Website/Profile/Haylee%20Jackson.webp"
         />
       </b-col>
       <b-col>
-        <Profile
+        <CloudProfile
           name="Justin Pan"
-          source="Justin Pan.jpg"
+          source="v1691929076/ComSSA-Website/Profile/Justin%20Pan.webp"
         />
       </b-col>
     </b-row>
     <b-row align-h="around" class="mt-3">
       <b-col cols="3">
-        <Profile
-          name="Nathanial Brown"
-          source="Nathanial Brown.png"
+        <CloudProfile
+          name="Rebecca Masey"
+          source="v1691929077/ComSSA-Website/Profile/Sean%20Phay.webp"
         />
       </b-col>
       <b-col cols="3">
-        <Profile
-          name="Tayo Kaswilo"
-          source="Tayo Kaswilo.jpg"
+        <CloudProfile
+          name="Sean Phay"
+          source="v1691929077/ComSSA-Website/Profile/Sean%20Phay.webp"
+        />
+      </b-col>
+      <b-col cols="3">
+        <CloudProfile
+          name="Kai Chen Chai"
+          source="v1691929076/ComSSA-Website/Profile/Kai%20Chen%20Chai.webp"
+        />
+      </b-col>
+      <b-col cols="3">
+        <CloudProfile
+          name="Daniela Degasperi"
+          source="v1691929076/ComSSA-Website/Profile/Daniela%20Degasperi.webp"
         />
       </b-col>
     </b-row>
