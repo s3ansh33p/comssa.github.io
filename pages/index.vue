@@ -78,7 +78,7 @@
 <script>
 const getPostersArray = () =>
     Array.from(
-        require.context("~/assets/img/posters", true, /\.(jpg|png)$/).keys()
+        require.context("~/assets/img/posters", true, /\.(jpg|png|svg)$/).keys()
     ).map(s => s.substr(2))
 
 export default {

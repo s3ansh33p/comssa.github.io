@@ -217,7 +217,7 @@ const getTFTI2023 = () =>
 
 const getATR2023 = () =>
     Array.from(require.context("~/assets/img/events/atr2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
-    
+
 const getInternationalSundowner2023 = () =>
     Array.from(require.context("~/assets/img/events/internationalsundowner2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
