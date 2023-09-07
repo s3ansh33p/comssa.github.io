@@ -30,6 +30,16 @@
     </p>
 
     <h3 class="mt-5">
+      International Networking Sundowner - 2023
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/internationalsundowner2023" :images="internationalsundowner2023" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       ComSSA Hackathon - 2023
     </h3>
 
@@ -208,6 +218,9 @@ const getTFTI2023 = () =>
 const getATR2023 = () =>
     Array.from(require.context("~/assets/img/events/atr2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
+const getInternationalSundowner2023 = () =>
+    Array.from(require.context("~/assets/img/events/internationalsundowner2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
@@ -225,7 +238,8 @@ export default {
             grillthedepartment2023: getGrillTheDepartment2023(),
             guildoday2022: getGuildODay2022(),
             guildoday2023: getGuildODay2023(),
-            atr2023: getATR2023()
+            atr2023: getATR2023(),
+            internationalsundowner2023: getInternationalSundowner2023()
         }
     },
 
