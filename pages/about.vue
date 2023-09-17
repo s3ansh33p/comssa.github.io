@@ -27,12 +27,12 @@
           -->
         </p>
       </b-col>
-      <b-col md="auto" class="mt-5">
+      <b-col md="auto" class="mt-5" style="width: 500px;">
         <v-lazy-image
           class="mb-5 rounded-corner"
-          width="600"
-          :src="require(`~/assets/img/revision.jpg`)"
-          :src-placeholder="require(`~/assets/img/revision.jpg?lqip&inline`)"
+          width="500"
+          :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_1000/v1693068628/ComSSA-Website/General/about.webp'"
+          :src-placeholder="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/v1693068628/ComSSA-Website/General/about.webp'"
         />
       </b-col>
     </b-row>
@@ -42,105 +42,117 @@
     <h3 class="exec-subheading">
       Executive Committee Members
     </h3>
-    <b-row align-h="around" class="mt-3 mb-3">
-      <b-col>
-        <Profile
+    <b-row align-h="around" class="mt-3 mb-3 text-center">
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Warittha Rayabsri"
           title="President"
-          source="Warittha Rayabsri.jpg"
+          source="v1679318914/ComSSA-Website/Profile/Warittha%20Rayabsri.webp"
         />
       </b-col>
-      <b-col>
-        <Profile
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Samuel Suhardiman"
           title="Vice President"
-          source="Samuel Suhardiman.jpg"
+          source="v1679318914/ComSSA-Website/Profile/Samuel%20Suhardiman.webp"
         />
       </b-col>
-      <b-col>
-        <Profile
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Andrew Owens"
           title="Treasurer"
-          source="Andrew Owens.png"
+          source="v1679318914/ComSSA-Website/Profile/Andrew%20Owens.webp"
         />
       </b-col>
-      <b-col>
-        <Profile
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Tui Warihana"
           title="Secretary"
-          source="Tui Warihana.png"
+          source="v1679318916/ComSSA-Website/Profile/Tui%20Warihana.webp"
         />
       </b-col>
     </b-row>
     <h3 class="ord-subheading">
       Ordinary Committee Members
     </h3>
-    <b-row align-h="around" class="mt-3">
-      <b-col>
-        <Profile
+    <b-row align-h="around" class="mt-3 text-center">
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Nicholas Lim"
           title="Events Coordinator"
-          source="Nicholas Lim.png"
+          source="v1691929077/ComSSA-Website/Profile/Nicholas%20Lim.webp"
         />
-      </b-col><b-col>
-        <Profile
+      </b-col><b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Lauren Rothnie"
           title="Marketing Coordinator"
-          source="Lauren Rothnie.png"
+          source="v1679318920/ComSSA-Website/Profile/Lauren%20Rothnie.webp"
         />
       </b-col>
-      <b-col>
-        <Profile
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Sean McGinty"
           title="Technical Coordinator"
-          source="Sean McGinty.jpg"
+          source="v1679318917/ComSSA-Website/Profile/Sean%20McGinty.webp"
         />
       </b-col>
-      <b-col>
-        <Profile
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Nicholas Wright"
           title="Revision Session Coordinator"
-          source="Nicholas Wright.jpg"
+          source="v1679318916/ComSSA-Website/Profile/Nicholas%20Wright.webp"
         />
       </b-col>
     </b-row>
-    <b-row align-h="around" class="mt-3">
-      <b-col>
-        <Profile
+    <b-row align-h="around" class="mt-3 text-center">
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Ethan Olson"
-          source="Ethan Olson.jpg"
+          source="v1679318914/ComSSA-Website/Profile/Ethan%20Olson.webp"
         />
       </b-col>
-      <b-col>
-        <Profile
-          name="Franco Forgione Velazco"
-          source="Franco Forgione Velazco.png"
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Mori Arvidson"
+          source="v1691929076/ComSSA-Website/Profile/Mori%20Arvidson.webp"
         />
       </b-col>
-      <b-col>
-        <Profile
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Haylee Jackson"
-          source="Haylee Jackson.png"
+          source="v1691929076/ComSSA-Website/Profile/Haylee%20Jackson.webp"
         />
       </b-col>
-      <b-col>
-        <Profile
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Justin Pan"
-          source="Justin Pan.jpg"
+          source="v1691929076/ComSSA-Website/Profile/Justin%20Pan.webp"
         />
       </b-col>
     </b-row>
-    <b-row align-h="around" class="mt-3">
-      <b-col cols="3">
-        <Profile
-          name="Nathanial Brown"
-          source="Nathanial Brown.png"
+    <b-row align-h="around" class="mt-3 text-center">
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Rebecca Masey"
+          source="v1694963645/ComSSA-Website/ComSSABlue.webp"
         />
       </b-col>
-      <b-col cols="3">
-        <Profile
-          name="Tayo Kaswilo"
-          source="Tayo Kaswilo.jpg"
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Sean Phay"
+          source="v1691929077/ComSSA-Website/Profile/Sean%20Phay.webp"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Kai Chen Chai"
+          source="v1691929076/ComSSA-Website/Profile/Kai%20Chen%20Chai.webp"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Daniela Degasperi"
+          source="v1691929076/ComSSA-Website/Profile/Daniela%20Degasperi.webp"
         />
       </b-col>
     </b-row>
