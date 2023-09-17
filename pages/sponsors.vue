@@ -11,7 +11,9 @@
     </p>
 
     <div class="mt-5 pb-1">
-      <h2 class="text-center mb-2">Gold Tier</h2>
+      <h2 class="text-center mb-2">
+        Gold Tier
+      </h2>
       <b-row align-h="around" class="mb-5 align-items-center">
         <b-col cols="4">
           <a href="https://www.vgw.co/">
@@ -36,7 +38,9 @@
     </div>
 
     <div class="mt-5 pb-1">
-      <h2 class="text-center mb-2">Silver Tier</h2>
+      <h2 class="text-center mb-2">
+        Silver Tier
+      </h2>
       <b-row align-h="around" class="mb-5 align-items-center">
         <b-col cols="4">
           <a href="https://www.atlassian.com/">
@@ -51,7 +55,9 @@
     </div>
 
     <div class="mt-5 pb-1">
-      <h2 class="text-center mb-2">Bronze Tier</h2>
+      <h2 class="text-center mb-2">
+        Bronze Tier
+      </h2>
       <b-row align-h="around" class="mb-3 align-items-center">
         <b-col cols="4">
           <a href="https://www.imc.com/">
@@ -106,8 +112,8 @@
         <a href="https://about.curtin.edu.au/learning-teaching/science-engineering/school-of-electrical-engineering-computing-and-mathematical-sciences/">
           <b-img
             center
-            width="150"
-            :src="require('~/assets/img/branding/sponsors/eecms.png')"
+            width="450"
+            :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_450/v1694962042/ComSSA-Website/Sponsors/EECMS_Graphic_B.webp'"
             fluid
           />
         </a>
