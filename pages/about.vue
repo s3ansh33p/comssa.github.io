@@ -31,7 +31,7 @@
         <v-lazy-image
           class="mb-5 rounded-corner"
           width="500"
-          :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_500/v1693068628/ComSSA-Website/General/about.webp'"
+          :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_1000/v1693068628/ComSSA-Website/General/about.webp'"
           :src-placeholder="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/v1693068628/ComSSA-Website/General/about.webp'"
         />
       </b-col>
@@ -134,7 +134,7 @@
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Rebecca Masey"
-          source="v1691929077/ComSSA-Website/Profile/Sean%20Phay.webp"
+          source="v1694963645/ComSSA-Website/ComSSABlue.webp"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
