@@ -4,7 +4,7 @@
       Socials
     </h1>
     <b-row align-h="start" class="mt-5">
-      <b-col md="auto">
+      <b-col md="6" xl="4" class="mb-3">
         <iframe
           id="discord_embed"
           src="https://discord.com/widget?id=673182254930984980&theme=dark"
@@ -13,7 +13,7 @@
           sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
         />
       </b-col>
-      <b-col>
+      <b-col md="6" xl="4" class="mb-3">
         <div
           class="fb-page"
           data-href="https://www.facebook.com/ComSSACurtin"
@@ -33,6 +33,15 @@
             <a href="https://www.facebook.com/ComSSACurtin" />
           </blockquote>
         </div>
+      </b-col>
+      <b-col md="6" xl="4" class="pl-xl-4">
+        <div class="d-flex align-items-center mb-2">
+          <img src="https://res.cloudinary.com/dec6mijn3/image/upload/v1695113798/ComSSA-Website/General/instagram.webp" alt="Instagram Logo" width="40" height="40" class="mr-2">
+          <a href="https://www.instagram.com/comssacurtin/">
+            ComSSACurtin
+          </a>
+        </div>
+        <p> Check out our Instagram! </p>
       </b-col>
     </b-row>
   </b-container>
