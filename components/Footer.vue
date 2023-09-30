@@ -33,6 +33,9 @@
             <a href="https://discord.gg/SuwfFfjYJB" target="_blank">
               <fa id="social-icons" :icon="faDiscord" style="color: #7289DA; transform: translateY(2px)" />
             </a>
+            <a href="https://www.instagram.com/comssacurtin/" target="_blank">
+              <img src="https://res.cloudinary.com/dec6mijn3/image/upload/v1695113798/ComSSA-Website/General/instagram.webp" alt="Instagram Logo" style="width: 25.25px; margin-bottom: 6px">
+            </a>
           </div>
 
           <a href="https://www.guild.curtin.edu.au/" target="_blank"><img id="guild_logo" src="~/assets/img/branding/guild.png"></a>
