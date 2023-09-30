@@ -42,6 +42,13 @@
           </a>
         </div>
         <p> Check out our Instagram! </p>
+        <div class="d-flex align-items-center mb-2 mt-5">
+          <img src="https://res.cloudinary.com/dec6mijn3/image/upload/v1696060786/LinkedIn_icon_iwt4qk.svg" alt="Linkedin Logo" width="40" height="40" class="mr-2">
+          <a href="https://www.linkedin.com/company/computer-science-students-association/">
+            ComSSA Linkedin
+          </a>
+        </div>
+        <p> Follow us on Linkedin! </p>
       </b-col>
     </b-row>
   </b-container>
