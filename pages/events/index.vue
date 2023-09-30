@@ -30,6 +30,16 @@
     </p>
 
     <h3 class="mt-5">
+      LAN Night S2 @ Escape Portal - 2023
+    </h3>
+
+    <b-row align-h="center" class="mt-3">
+      <b-col>
+        <Slideshow :link="false" css="events-carousel" root-dir="events/s2lan2023" :images="s2lan2023" />
+      </b-col>
+    </b-row>
+
+    <h3 class="mt-5">
       International Networking Sundowner - 2023
     </h3>
 
@@ -70,7 +80,7 @@
     </b-row>
 
     <h3 class="mt-5">
-      LAN Night - 2023
+      LAN Night S1 @ Escape Portal - 2023
     </h3>
 
     <b-row align-h="center" class="mt-3">
@@ -150,7 +160,7 @@
     </b-row>
 
     <h3 class="mt-5">
-      LAN @ Escape Portal - 2021
+      LAN Night @ Escape Portal - 2021
     </h3>
 
     <b-row align-h="center" class="mt-3">
@@ -221,11 +231,15 @@ const getATR2023 = () =>
 const getInternationalSundowner2023 = () =>
     Array.from(require.context("~/assets/img/events/internationalsundowner2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
+const getS2Lan2023 = () =>
+    Array.from(require.context("~/assets/img/events/s2lan2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
             lan2021: getLan2021(),
             lan2023: getLan2023(),
+            s2lan2023: getS2Lan2023(),
             guildoday2021: getGuildODay2021(),
             grillthedepartment2021: getGrillTheDepartment2021(),
             tfti2021: getTFTI2021(),
