@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-button v-b-toggle="name" block class="mt-2">
+    <b-button v-b-toggle="name" block class="mt-2 comssa-btn">
       {{ accordionText }}
     </b-button>
 
