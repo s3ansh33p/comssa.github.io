@@ -29,155 +29,110 @@
       </NuxtLink>
     </p>
 
-    <h3 class="mt-5">
-      LAN Night S2 @ Escape Portal - 2023
-    </h3>
+    <EventsAccordion
+      name="s2lan2023"
+      accordion-text="LAN Night S2 @ Escape Portal - 2023"
+      root-dir="events/s2lan2023"
+      :images="s2lan2023"
+    />
 
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/s2lan2023" :images="s2lan2023" />
-      </b-col>
-    </b-row>
+    <EventsAccordion
+      name="internationalsundowner2023"
+      accordion-text="International Networking Sundowner - 2023"
+      root-dir="events/internationalsundowner2023"
+      :images="internationalsundowner2023"
+    />
 
-    <h3 class="mt-5">
-      International Networking Sundowner - 2023
-    </h3>
+    <EventsAccordion
+      name="hackathon2023"
+      accordion-text="ComSSA Hackathon - 2023"
+      root-dir="events/hackathon2023"
+      :images="hackathon2023"
+    />
 
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/internationalsundowner2023" :images="internationalsundowner2023" />
-      </b-col>
-    </b-row>
+    <EventsAccordion
+      name="atr2023"
+      accordion-text="The Amazing Tech Race - 2023"
+      root-dir="events/atr2023"
+      :images="atr2023"
+    />
 
-    <h3 class="mt-5">
-      ComSSA Hackathon - 2023
-    </h3>
+    <EventsAccordion
+      name="tfti2023"
+      accordion-text="Talks from the Industry 1 - 2023"
+      root-dir="events/tfti2023"
+      :images="tfti2023"
+    />
 
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/hackathon2023" :images="hackathon2023" />
-      </b-col>
-    </b-row>
+    <EventsAccordion
+      name="lan2023"
+      accordion-text="LAN Night S1 @ Escape Portal - 2023"
+      root-dir="events/lan2023"
+      :images="lan2023"
+    />
 
-    <h3 class="mt-5">
-      The Amazing Tech Race - 2023
-    </h3>
+    <EventsAccordion
+      name="boardgamesnight2023"
+      accordion-text="Board Games Night - 2023"
+      root-dir="events/boardgamesnight2023"
+      :images="boardgamesnight2023"
+    />
 
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/atr2023" :images="atr2023" />
-      </b-col>
-    </b-row>
+    <EventsAccordion
+      name="grillthedepartment2023"
+      accordion-text="Grill the Department - 2023"
+      root-dir="events/grillthedepartment2023"
+      :images="grillthedepartment2023"
+    />
 
-    <h3 class="mt-5">
-      Talks from the Industry 1 - 2023
-    </h3>
+    <EventsAccordion
+      name="guildoday2023"
+      accordion-text="Guild O-Day - 2023"
+      root-dir="events/guildoday2023"
+      :images="guildoday2023"
+    />
 
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/tfti2023" :images="tfti2023" />
-      </b-col>
-    </b-row>
+    <EventsAccordion
+      name="boardgamesnight2022"
+      accordion-text="Board Games Night - 2022"
+      root-dir="events/boardgamesnight2022"
+      :images="boardgamesnight2022"
+    />
 
-    <h3 class="mt-5">
-      LAN Night S1 @ Escape Portal - 2023
-    </h3>
+    <EventsAccordion
+      name="grillthedepartment2022"
+      accordion-text="Grill the Department - 2022"
+      root-dir="events/grillthedepartment2022"
+      :images="grillthedepartment2022"
+    />
 
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/lan2023" :images="lan2023" />
-      </b-col>
-    </b-row>
+    <EventsAccordion
+      name="guildoday2022"
+      accordion-text="Guild O-Day - 2022"
+      root-dir="events/guildoday2022"
+      :images="guildoday2022"
+    />
 
-    <h3 class="mt-5">
-      Board Games Night - 2023
-    </h3>
+    <EventsAccordion
+      name="hackathon2021"
+      accordion-text="ComSSA x IET Hackathon - 2021"
+      root-dir="events/hackathon2021"
+      :images="hackathon2021"
+    />
 
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/boardgamesnight2023" :images="boardgamesnight2023" />
-      </b-col>
-    </b-row>
+    <EventsAccordion
+      name="lan2021"
+      accordion-text="LAN Night @ Escape Portal - 2021"
+      root-dir="events/lan2021"
+      :images="lan2021"
+    />
 
-    <h3 class="mt-5">
-      Grill the Department - 2023
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2023" :images="grillthedepartment2023" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      Guild O-Day - 2023
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2023" :images="guildoday2023" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      Board Games Night - 2022
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/boardgamesnight2022" :images="boardgamesnight2022" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      Grill the Department - 2022
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/grillthedepartment2022" :images="grillthedepartment2022" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      Guild O-Day - 2022
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/guildoday2022" :images="guildoday2022" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      ComSSA x IET Hackathon - 2021
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/hackathon2021" :images="hackathon2021" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      LAN Night @ Escape Portal - 2021
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/lan2021" :images="lan2021" />
-      </b-col>
-    </b-row>
-
-    <h3 class="mt-5">
-      Talks from the Industry 2 - 2021
-    </h3>
-
-    <b-row align-h="center" class="mt-3">
-      <b-col>
-        <Slideshow :link="false" css="events-carousel" root-dir="events/tfti2021" :images="tfti2021" />
-      </b-col>
-    </b-row>
+    <EventsAccordion
+      name="tfti2021"
+      accordion-text="Talks from the Industry 2 - 2021"
+      root-dir="events/tfti2021"
+      :images="tfti2021"
+    />
   </b-container>
 </template>
 

@@ -1,5 +1,6 @@
 $COMSSA_BLUE: #4559A7;
 $COMSSA_DARK_BLUE: #1C2B5E;
+$COMSSA_BLUE_SHADOW: lighten($COMSSA_BLUE, 25%);
 $enable-responsive-font-sizes: true;
 
 @import 'bootstrap/scss/bootstrap.scss';
@@ -166,6 +167,26 @@ $enable-responsive-font-sizes: true;
     width: 100%;
     overflow-y: hidden;
     border-radius: 1em;
+    // height: 70vh;
+}
+
+.comssa-btn {
+    background-color: $COMSSA_BLUE;
+    border-color: $COMSSA_BLUE;
+
+    &:hover, &:focus {
+        background-color: $COMSSA_BLUE!important;
+        border-color: $COMSSA_BLUE!important;
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 0.2rem $COMSSA_BLUE_SHADOW!important;
+    }
+
+    &:active, &[aria-expanded="true"] {
+        background-color: $COMSSA_DARK_BLUE!important;
+        border-color: $COMSSA_DARK_BLUE!important;
+    }
 }
 
 #discord_embed {
