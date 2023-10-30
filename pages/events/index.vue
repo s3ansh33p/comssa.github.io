@@ -30,6 +30,13 @@
     </p>
 
     <EventsAccordion
+      name="networkingsundowner2023"
+      accordion-text="Networking Sundowner - 2023"
+      root-dir="events/networkingsundowner2023"
+      :images="networkingsundowner2023"
+    />
+
+    <EventsAccordion
       name="s2lan2023"
       accordion-text="LAN Night S2 @ Escape Portal - 2023"
       root-dir="events/s2lan2023"
@@ -189,6 +196,9 @@ const getInternationalSundowner2023 = () =>
 const getS2Lan2023 = () =>
     Array.from(require.context("~/assets/img/events/s2lan2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
+const getNetworkingSundowner2023 = () =>
+    Array.from(require.context("~/assets/img/events/networkingsundowner2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
@@ -208,7 +218,8 @@ export default {
             guildoday2022: getGuildODay2022(),
             guildoday2023: getGuildODay2023(),
             atr2023: getATR2023(),
-            internationalsundowner2023: getInternationalSundowner2023()
+            internationalsundowner2023: getInternationalSundowner2023(),
+            networkingsundowner2023: getNetworkingSundowner2023()
         }
     },
 
