@@ -1,6 +1,6 @@
 <template>
   <b-container fluid>
-    <b-button style="width: fit-content;background-color: #4559a7; color:white; margin-top : 25px;" href="https://comssa.tidyhq.com/public/membership_levels/9b41b2d0d56e">
+    <b-button style="width: fit-content;background-color: #4559a7; color:white; margin-top : 25px;" href="https://comssa.tidyhq.com/public/membership_levels/734638783960">
       Join Us
     </b-button>
     <h2 class="mt-3">
