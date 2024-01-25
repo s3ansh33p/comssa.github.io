@@ -21,7 +21,7 @@
           <b-nav-item class="links" to="/sponsors">
             Sponsors
           </b-nav-item>
-          <b-nav-item class="links" href="https://drive.google.com/drive/folders/1HC9XAeFVHCOfjcJeRfK9hbmzNI1Ux2JX">
+          <b-nav-item class="links" href="https://drive.google.com/drive/folders/1L01aRP06CmL2I64O0qN6EaOo2VE3Lnz9?usp=sharing">
             Minutes
           </b-nav-item>
           <b-nav-item class="links" href="https://hackathon.comssa.org.au/">
