@@ -113,7 +113,7 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name=" Alice Arvidson"
+          name="Alice Arvidson"
           source="v1708440403/ComSSA-Website/Profile-2024/Alice_Arvidson_co2vs2.jpg"
         />
       </b-col>
@@ -133,10 +133,30 @@
     <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
+          name="Nicholas Wright"
+          source="v1708440447/ComSSA-Website/Profile-2024/Nicholas_Wright_esmebk.jpg"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Brandon Hale"
+          source="v1708440405/ComSSA-Website/Profile-2024/Brandon_Hale_cje5kn.jpg"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Nikki Doan"
+          source="v1708440449/ComSSA-Website/Profile-2024/Nikki_Doan_j7hzco.jpg"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
           name="Jacob Jonas"
           source="v1708440422/ComSSA-Website/Profile-2024/Jake_Jonas_tj9p1y.jpg"
         />
       </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Patrick Jong"
