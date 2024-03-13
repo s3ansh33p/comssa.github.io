@@ -10,35 +10,6 @@
       For any inquiries about sponsorship, please reach out to <a href="mailto:sponsorship@comssa.org.au">sponsorship@comssa.org.au</a>.
     </p>
 
-    <!-- Gold Tier
-    <div class="mt-5 pb-1">
-      <h2 class="text-center mb-2">
-        Gold Tier
-      </h2>
-      <b-row align-h="around" class="mb-5 align-items-center">
-        <b-col cols="4">
-          <a href="https://www.vgw.co/">
-            <b-img
-              width="450"
-              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1686654371/ComSSA-Website/Sponsors/vgw.png'"
-              fluid
-            />
-          </a>
-        </b-col>
-
-        <b-col cols="4" class="tomahawkLabs">
-          <a href="https://tomahawklabs.com.au/">
-            <b-img
-              width="450"
-              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/tomahawk-labs.png'"
-              fluid
-            />
-          </a>
-        </b-col>
-      </b-row>
-    </div>
-    -->
-
     <div class="mt-5 pb-1">
       <h2 class="text-center mb-2">
         Silver Tier
