@@ -12,41 +12,23 @@
 
     <div class="mt-5 pb-1">
       <h2 class="text-center mb-2">
-        Gold Tier
+        Silver Tier
       </h2>
       <b-row align-h="around" class="mb-5 align-items-center">
         <b-col cols="4">
           <a href="https://www.vgw.co/">
             <b-img
               width="450"
-              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1686654371/ComSSA-Website/Sponsors/vgw.png'"
+              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/f_auto,q_auto/v1/ComSSA-Website/Sponsors/vgw'"
               fluid
             />
           </a>
         </b-col>
-
-        <b-col cols="4" class="tomahawkLabs">
-          <a href="https://tomahawklabs.com.au/">
-            <b-img
-              width="450"
-              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/tomahawk-labs.png'"
-              fluid
-            />
-          </a>
-        </b-col>
-      </b-row>
-    </div>
-
-    <div class="mt-5 pb-1">
-      <h2 class="text-center mb-2">
-        Silver Tier
-      </h2>
-      <b-row align-h="around" class="mb-5 align-items-center">
         <b-col cols="4">
-          <a href="https://www.atlassian.com/">
+          <a href="https://visagio.com/en/home/">
             <b-img
               width="450"
-              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/atlassian.png'"
+              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/f_auto,q_auto/v1/ComSSA-Website/Sponsors/visagio-logo'"
               fluid
             />
           </a>
@@ -60,16 +42,6 @@
       </h2>
       <b-row align-h="around" class="mb-3 align-items-center">
         <b-col cols="4">
-          <a href="https://www.imc.com/">
-            <b-img
-              width="450"
-              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/imc.png'"
-              fluid
-            />
-          </a>
-        </b-col>
-
-        <b-col cols="4">
           <a href="https://www.bankwest.com.au/">
             <b-img
               width="450"
@@ -78,24 +50,11 @@
             />
           </a>
         </b-col>
-      </b-row>
-
-      <b-row align-h="around" class="mb-5 align-items-center">
         <b-col cols="4">
-          <a href="https://redisoftware.com.au/">
+          <a href="https://www.atlassian.com/">
             <b-img
               width="450"
-              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/redi-software.png'"
-              fluid
-            />
-          </a>
-        </b-col>
-
-        <b-col cols="4">
-          <a href="https://www.mechanicalrock.io/">
-            <b-img
-              width="450"
-              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_450/v1691926726/ComSSA-Website/Sponsors/mechanical-rock.webp'"
+              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/v1679834808/ComSSA-Website/Sponsors/atlassian.png'"
               fluid
             />
           </a>
