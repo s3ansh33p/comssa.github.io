@@ -119,8 +119,8 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Clarissa Sutandi"
-          source="v1708440405/ComSSA-Website/Profile-2024/Clarissa_Sutandi_tap4nw.jpg"
+          name="Cindy Lawrence"
+          source="v1708440394/ComSSA-Website/Profile-2024/Cindy_Law_taiavl.jpg"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
@@ -188,8 +188,8 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Cindy Lawrence"
-          source="v1708440394/ComSSA-Website/Profile-2024/Cindy_Law_taiavl.jpg"
+          name="Clarissa Sutandi"
+          source="v1708440405/ComSSA-Website/Profile-2024/Clarissa_Sutandi_tap4nw.jpg"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
