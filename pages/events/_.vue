@@ -5,7 +5,7 @@
 <script>
 const redirects = {
     feedback: "https://forms.gle/R5o4wq9Q2djaLGSx6",
-    suggestions: "https://forms.gle/pEA8MzaRAnABjN5f6",
+    suggestions: "https://forms.gle/X5FY9L4WbXvVbPio7",
     Hackathon_P2: "https://hackathon.comssa.org.au/"
 }
 
