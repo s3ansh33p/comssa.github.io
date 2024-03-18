@@ -30,6 +30,20 @@
     </p>
 
     <EventsAccordion
+      name="grillthedepartment2024"
+      accordion-text="Grill the Department - 2024"
+      root-dir="events/grillthedepartment2024"
+      :images="grillthedepartment2024"
+    />
+
+    <EventsAccordion
+      name="guildoday2024"
+      accordion-text="Guild O-Day - 2024"
+      root-dir="events/guildoday2024"
+      :images="guildoday2024"
+    />
+
+    <EventsAccordion
       name="networkingsundowner2023"
       accordion-text="Networking Sundowner - 2023"
       root-dir="events/networkingsundowner2023"
@@ -199,6 +213,12 @@ const getS2Lan2023 = () =>
 const getNetworkingSundowner2023 = () =>
     Array.from(require.context("~/assets/img/events/networkingsundowner2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
+const getGuildODay2024 = () =>
+    Array.from(require.context("~/assets/img/events/guildoday2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getGrillTheDepartment2024 = () =>
+    Array.from(require.context("~/assets/img/events/grillthedepartment2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
@@ -215,8 +235,10 @@ export default {
             boardgamesnight2023: getBoardGamesNight2023(),
             grillthedepartment2022: getGrillTheDepartment2022(),
             grillthedepartment2023: getGrillTheDepartment2023(),
+            grillthedepartment2024: getGrillTheDepartment2024(),
             guildoday2022: getGuildODay2022(),
             guildoday2023: getGuildODay2023(),
+            guildoday2024: getGuildODay2024(),
             atr2023: getATR2023(),
             internationalsundowner2023: getInternationalSundowner2023(),
             networkingsundowner2023: getNetworkingSundowner2023()
