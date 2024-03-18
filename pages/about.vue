@@ -126,7 +126,7 @@
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Hyeonji Shin"
-          source="v1694963645/ComSSA-Website/ComSSABlue.webp"
+          source="v1708440394/ComSSA-Website/Profile-2024/Hyeonji_Shin_asd.jpg"
         />
       </b-col>
     </b-row>
