@@ -30,6 +30,13 @@
     </p>
 
     <EventsAccordion
+      name="tfti2024"
+      accordion-text="Talks from the Industry 1 - 2024"
+      root-dir="events/tfti2024"
+      :images="tfti2024"
+    />
+    
+    <EventsAccordion
       name="boardgamesnightt2024"
       accordion-text="Board Games Night - 2024"
       root-dir="events/boardgamesnight2024"
