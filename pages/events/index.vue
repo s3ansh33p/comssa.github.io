@@ -236,6 +236,9 @@ const getGrillTheDepartment2024 = () =>
 const getBoardGamesNight2024 = () =>
     Array.from(require.context("~/assets/img/events/boardgamesnight2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
+const getTFTI2024 = () =>
+  Array.from(require.context("~/assets/img/events/tfti2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
@@ -259,7 +262,8 @@ export default {
             atr2023: getATR2023(),
             internationalsundowner2023: getInternationalSundowner2023(),
             networkingsundowner2023: getNetworkingSundowner2023(),
-            boardgamesnight2024: getBoardGamesNight2024()
+            boardgamesnight2024: getBoardGamesNight2024(),
+            tfti2024: getTFTI2024()
         }
     },
 
