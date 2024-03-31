@@ -35,7 +35,7 @@
       root-dir="events/tfti2024"
       :images="tfti2024"
     />
-    
+
     <EventsAccordion
       name="boardgamesnightt2024"
       accordion-text="Board Games Night - 2024"
@@ -237,7 +237,7 @@ const getBoardGamesNight2024 = () =>
     Array.from(require.context("~/assets/img/events/boardgamesnight2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
 const getTFTI2024 = () =>
-  Array.from(require.context("~/assets/img/events/tfti2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+    Array.from(require.context("~/assets/img/events/tfti2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
 export default {
     data () {
