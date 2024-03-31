@@ -35,7 +35,7 @@
       root-dir="events/tfti2024"
       :images="tfti2024"
     />
- 
+
     <EventsAccordion
       name="boardgamesnightt2024"
       accordion-text="Board Games Night - 2024"
