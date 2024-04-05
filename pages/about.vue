@@ -91,7 +91,7 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Josheph Scott"
+          name="Joseph Scott"
           title="Technical Coordinator"
           source="v1708440434/ComSSA-Website/Profile-2024/Joseph_Scott_d0havo.jpg"
         />
