@@ -180,9 +180,6 @@
 
 <script>
 // webpack require.context requires static strings so here we are :)
-const getInternationalNight2024 = () =>
-    Array.from(require.context("~/assets/img/events/internationalnight2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
-
 const getLan2021 = () =>
     Array.from(require.context("~/assets/img/events/lan2021", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
@@ -248,6 +245,9 @@ const getBoardGamesNight2024 = () =>
 
 const getTFTI2024 = () =>
     Array.from(require.context("~/assets/img/events/tfti2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
+const getInternationalNight2024 = () =>
+    Array.from(require.context("~/assets/img/events/internationalnight2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
 export default {
     data () {
