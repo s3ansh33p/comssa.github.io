@@ -178,6 +178,7 @@
     </b-row>
     <h3 class="ord-subheading">
       Sub-Committee Members
+      <!--Added extra row to balance subs better-->
     </h3>
     <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
@@ -198,6 +199,8 @@
           source="v1708440445/ComSSA-Website/Profile-2024/Khidir_Azhar_ffvbws.jpg"
         />
       </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Hua Chen"
