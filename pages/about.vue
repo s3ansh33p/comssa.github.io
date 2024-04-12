@@ -165,14 +165,20 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="First Year Student"
-          source="v1694963645/ComSSA-Website/ComSSABlue.webp"
+          name="Mia Tran"
+          source="v1694963645/ComSSA-Website/Profile-2024/Mia_Tran"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="First Year Student"
-          source="v1694963645/ComSSA-Website/ComSSABlue.webp"
+          name="Joleen Chong"
+          source="v1694963645/ComSSA-Website/Profile-2024/Joleen_Chong"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Prasanna Asokan"
+          source="v1694963645/ComSSA-Website/Profile-2024/Prasanna_Asokan"
         />
       </b-col>
     </b-row>
@@ -200,8 +206,14 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="First Year Student"
-          source="v1694963645/ComSSA-Website/ComSSABlue.webp"
+          name="Hua Chen"
+          source="v1694963645/ComSSA-Website/Profile-2024/Hua_Chen"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Jeton Hasani"
+          source="v1694963645/ComSSA-Website/Profile-2024/Jeton_Hasani"
         />
       </b-col>
     </b-row>
