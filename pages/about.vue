@@ -31,8 +31,8 @@
         <v-lazy-image
           class="mb-5 rounded-corner"
           width="500"
-          :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_1000/v1693068628/ComSSA-Website/General/about.webp'"
-          :src-placeholder="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/v1693068628/ComSSA-Website/General/about.webp'"
+          :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_1000/v1693068628/ComSSA-Website/General/about_2024'"
+          :src-placeholder="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/v1693068628/ComSSA-Website/General/about_2024'"
         />
       </b-col>
     </b-row>
@@ -78,9 +78,9 @@
     <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Haylee Jackson"
+          name="Cindy Lawrence"
           title="Events Coordinator"
-          source="v1708440418/ComSSA-Website/Profile-2024/Haylee_Jackson_jrj8sq.jpg"
+          source="v1708440394/ComSSA-Website/Profile-2024/Cindy_Law_taiavl.jpg"
         />
       </b-col><b-col cols="6" md="3" class="mb-3">
         <CloudProfile
@@ -119,24 +119,18 @@
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="Cindy Lawrence"
-          source="v1708440394/ComSSA-Website/Profile-2024/Cindy_Law_taiavl.jpg"
-        />
-      </b-col>
-      <b-col cols="6" md="3" class="mb-3">
-        <CloudProfile
           name="Hyeonji Shin"
           source="v1708440394/ComSSA-Website/Profile-2024/Hyeonji_Shin_asd.jpg"
         />
       </b-col>
-    </b-row>
-    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Nicholas Wright"
           source="v1708440447/ComSSA-Website/Profile-2024/Nicholas_Wright_esmebk.jpg"
         />
       </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Brandon Hale"
@@ -155,29 +149,36 @@
           source="v1708440422/ComSSA-Website/Profile-2024/Jake_Jonas_tj9p1y.jpg"
         />
       </b-col>
-    </b-row>
-    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
           name="Patrick Jong"
           source="v1708440447/ComSSA-Website/Profile-2024/Patrick_Jong_bvqef4.jpg"
         />
       </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="First Year Student"
-          source="v1694963645/ComSSA-Website/ComSSABlue.webp"
+          name="Mia Tran"
+          source="v1694963645/ComSSA-Website/Profile-2024/Mia_Tran"
         />
       </b-col>
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="First Year Student"
-          source="v1694963645/ComSSA-Website/ComSSABlue.webp"
+          name="Joleen Chong"
+          source="v1694963645/ComSSA-Website/Profile-2024/Joleen_Chong"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Prasanna Asokan"
+          source="v1694963645/ComSSA-Website/Profile-2024/Prasanna_Asokan"
         />
       </b-col>
     </b-row>
     <h3 class="ord-subheading">
       Sub-Committee Members
+      <!--Added extra row to balance subs better-->
     </h3>
     <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
@@ -198,10 +199,18 @@
           source="v1708440445/ComSSA-Website/Profile-2024/Khidir_Azhar_ffvbws.jpg"
         />
       </b-col>
+    </b-row>
+    <b-row align-h="around" class="mt-3 text-center">
       <b-col cols="6" md="3" class="mb-3">
         <CloudProfile
-          name="First Year Student"
-          source="v1694963645/ComSSA-Website/ComSSABlue.webp"
+          name="Hua Chen"
+          source="v1694963645/ComSSA-Website/Profile-2024/Hua_Chen"
+        />
+      </b-col>
+      <b-col cols="6" md="3" class="mb-3">
+        <CloudProfile
+          name="Jeton Hasani"
+          source="v1694963645/ComSSA-Website/Profile-2024/Jeton_Hasani"
         />
       </b-col>
     </b-row>
