@@ -32,7 +32,7 @@
           class="mb-5 rounded-corner"
           width="500"
           :src="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_1000/v1693068628/ComSSA-Website/General/about_2024'"
-          :src-placeholder="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/v1693068628/ComSSA-Website/General/about.webp'"
+          :src-placeholder="'https://res.cloudinary.com/dec6mijn3/image/upload/c_scale,w_200/v1693068628/ComSSA-Website/General/about_2024'"
         />
       </b-col>
     </b-row>
