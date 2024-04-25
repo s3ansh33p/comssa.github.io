@@ -33,6 +33,15 @@
             />
           </a>
         </b-col>
+        <b-col cols="4">
+          <a href="https://wadsih.org.au/">
+            <b-img
+              width="450"
+              :src="'https://res.cloudinary.com/dec6mijn3/image/upload/f_auto,q_auto/v1/ComSSA-Website/Sponsors/WDSIH-logo'"
+              fluid
+            />
+          </a>
+        </b-col>
       </b-row>
     </div>
 
