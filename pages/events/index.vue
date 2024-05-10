@@ -30,6 +30,13 @@
     </p>
 
     <EventsAccordion
+      name="atr2024"
+      accordion-text="Amazing Tech Race - 2024"
+      root-dir="events/atr2024"
+      :images="atr2024"
+    />
+
+    <EventsAccordion
       name="internationalnight2024"
       accordion-text="International Night - 2024"
       root-dir="events/internationalnight2024"
@@ -249,9 +256,13 @@ const getTFTI2024 = () =>
 const getInternationalNight2024 = () =>
     Array.from(require.context("~/assets/img/events/internationalnight2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
+const getATR2024 = () =>
+    Array.from(require.context("~/assets/img/events/atr2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
+            atr2024: getATR2024(),
             internationalnight2024: getInternationalNight2024(),
             lan2021: getLan2021(),
             lan2023: getLan2023(),
