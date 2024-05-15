@@ -24,6 +24,9 @@
           <b-nav-item class="links" href="https://drive.google.com/drive/folders/1L01aRP06CmL2I64O0qN6EaOo2VE3Lnz9?usp=sharing">
             Minutes
           </b-nav-item>
+          <b-nav-item class="links" href="https://drive.google.com/drive/folders/1dfu-v92gmrFWDcHVr-FvatKIjvfPo-Rt?usp=drive_link">
+            Photos
+          </b-nav-item>
           <b-nav-item class="links" href="https://hackathon.comssa.org.au/">
             <p class="hackathon">
               Hackathon
