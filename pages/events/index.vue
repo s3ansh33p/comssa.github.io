@@ -31,7 +31,7 @@
 
     <EventsAccordion
       name="lan2024"
-      accordion-text="LAN Night S1  Escape Portal - 2024"
+      accordion-text="LAN Night S1 @ Escape Portal - 2024"
       root-dir="events/lan2024"
       :images="lan2024"
     />
