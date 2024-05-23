@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <b-navbar :class="scrolled ? 'shadow' : ''" toggleable="md">
+    <b-navbar :class="scrolled ? 'shadow' : ''" toggleable="xl">
       <b-navbar-brand id="logo" to="/">
         <img id="logo" src="~/assets/img/branding/comssa.png">
       </b-navbar-brand>
@@ -23,6 +23,9 @@
           </b-nav-item>
           <b-nav-item class="links" href="https://drive.google.com/drive/folders/1L01aRP06CmL2I64O0qN6EaOo2VE3Lnz9?usp=sharing">
             Minutes
+          </b-nav-item>
+          <b-nav-item class="links" href="https://drive.google.com/drive/folders/1dfu-v92gmrFWDcHVr-FvatKIjvfPo-Rt?usp=drive_link">
+            Photos
           </b-nav-item>
           <b-nav-item class="links" href="https://hackathon.comssa.org.au/">
             <p class="hackathon">
