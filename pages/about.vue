@@ -68,7 +68,7 @@
         <CloudProfile
           name="Sean McGinty"
           title="Secretary"
-          source="v1708440459/ComSSA-Website/Profile-2024/Sean_McGinty_g0zlsy.jpg"
+          source="v1708440459/ComSSA-Website/Profile-2024/Sean_McGinty_shvbqi.jpg"
         />
       </b-col>
     </b-row>
