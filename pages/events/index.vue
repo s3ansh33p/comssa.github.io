@@ -30,6 +30,13 @@
     </p>
 
     <EventsAccordion
+      name="hackathon2024"
+      accordion-text="ComSSA's Earth's Ultimatum Hackathon - 2024"
+      root-dir="events/hackathon2024"
+      :images="hackathon2024"
+    />
+
+    <EventsAccordion
       name="lan2024"
       accordion-text="LAN Night S1 @ Escape Portal - 2024"
       root-dir="events/lan2024"
@@ -212,6 +219,9 @@ const getHackathon2021 = () =>
 const getHackathon2023 = () =>
     Array.from(require.context("~/assets/img/events/hackathon2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
+const getHackathon2024 = () =>
+    Array.from(require.context("~/assets/img/events/hackathon2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 const getBoardGamesNight2022 = () =>
     Array.from(require.context("~/assets/img/events/boardgamesnight2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
@@ -284,6 +294,7 @@ export default {
             tfti2023: getTFTI2023(),
             hackathon2021: getHackathon2021(),
             hackathon2023: getHackathon2023(),
+            hackathon2024: getHackathon2024(),
             boardgamesnight2022: getBoardGamesNight2022(),
             boardgamesnight2023: getBoardGamesNight2023(),
             grillthedepartment2022: getGrillTheDepartment2022(),
