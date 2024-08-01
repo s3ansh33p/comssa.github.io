@@ -30,6 +30,13 @@
     </p>
 
     <EventsAccordion
+      name="s2bgn2024"
+      accordion-text="Board Games Night Semester 2 - 2024"
+      root-dir="events/s2bgn2024"
+      :images="s2bgn2024"
+    />
+
+    <EventsAccordion
       name="hackathon2024"
       accordion-text="ComSSA's Earth's Ultimatum Hackathon - 2024"
       root-dir="events/hackathon2024"
@@ -228,7 +235,10 @@ const getBoardGamesNight2022 = () =>
 const getBoardGamesNight2023 = () =>
     Array.from(require.context("~/assets/img/events/boardgamesnight2023", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
-const getGrillTheDepartment2022 = () =>
+const getS2BGN2024 = () =>
+    Array.from(require.context("~/assets/img/events/s2bgn2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
+    const getGrillTheDepartment2022 = () =>
     Array.from(require.context("~/assets/img/events/grillthedepartment2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
 const getGrillTheDepartment2023 = () =>
@@ -279,6 +289,8 @@ const getATR2024 = () =>
 const getLAN2024 = () =>
     Array.from(require.context("~/assets/img/events/lan2024", true, /\.(JPG|jpg|png)$/).keys()).map(s => s.substr(2))
 
+
+
 export default {
     data () {
         return {
@@ -297,6 +309,7 @@ export default {
             hackathon2024: getHackathon2024(),
             boardgamesnight2022: getBoardGamesNight2022(),
             boardgamesnight2023: getBoardGamesNight2023(),
+            s2bgn2024: getS2BGN2024(),
             grillthedepartment2022: getGrillTheDepartment2022(),
             grillthedepartment2023: getGrillTheDepartment2023(),
             grillthedepartment2024: getGrillTheDepartment2024(),
