@@ -238,7 +238,7 @@ const getBoardGamesNight2023 = () =>
 const getS2BGN2024 = () =>
     Array.from(require.context("~/assets/img/events/s2bgn2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
-    const getGrillTheDepartment2022 = () =>
+const getGrillTheDepartment2022 = () =>
     Array.from(require.context("~/assets/img/events/grillthedepartment2022", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
 const getGrillTheDepartment2023 = () =>
