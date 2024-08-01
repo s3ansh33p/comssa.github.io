@@ -289,8 +289,6 @@ const getATR2024 = () =>
 const getLAN2024 = () =>
     Array.from(require.context("~/assets/img/events/lan2024", true, /\.(JPG|jpg|png)$/).keys()).map(s => s.substr(2))
 
-
-
 export default {
     data () {
         return {
