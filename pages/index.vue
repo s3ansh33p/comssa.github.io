@@ -15,7 +15,7 @@
           <img id="arrow" src="~/assets/img/icon/forward-arr.svg">
         </div>
       </b-col>
-      <b-col md="5" class="mt-5 mt-md-3">
+      <b-col md="6" class="ml-5 mt-md-3">
         <div class="carousel-shadow">
           <Slideshow
             :link="false"
