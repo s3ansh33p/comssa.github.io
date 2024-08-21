@@ -30,6 +30,13 @@
     </p>
 
     <EventsAccordion
+      name="internationalnightTwo2024"
+      accordion-text="International Night 2 - 2024"
+      root-dir="events/internationalnightTwo2024"
+      :images="internationalnightTwo2024"
+    />
+
+    <EventsAccordion
       name="s2bgn2024"
       accordion-text="Board Games Night Semester 2 - 2024"
       root-dir="events/s2bgn2024"
@@ -289,6 +296,9 @@ const getATR2024 = () =>
 const getLAN2024 = () =>
     Array.from(require.context("~/assets/img/events/lan2024", true, /\.(JPG|jpg|png)$/).keys()).map(s => s.substr(2))
 
+const getInternationalNightTwo2024 = () =>
+    Array.from(require.context("~/assets/img/events/internationalnightTwo2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
 export default {
     data () {
         return {
@@ -318,7 +328,8 @@ export default {
             internationalsundowner2023: getInternationalSundowner2023(),
             networkingsundowner2023: getNetworkingSundowner2023(),
             boardgamesnight2024: getBoardGamesNight2024(),
-            tfti2024: getTFTI2024()
+            tfti2024: getTFTI2024(),
+            internationalnightTwo2024: getInternationalNightTwo2024()
         }
     },
 
