@@ -294,9 +294,6 @@ const getBoardGamesNight2024 = () =>
 const getTFTI2024 = () =>
     Array.from(require.context("~/assets/img/events/tfti2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
-const getTFTI2024_S2 = () =>
-    Array.from(require.context("~/assets/img/events/tfti2024_S2", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
-
 const getInternationalNight2024 = () =>
     Array.from(require.context("~/assets/img/events/internationalnight2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
@@ -308,6 +305,9 @@ const getLAN2024 = () =>
 
 const getInternationalNightTwo2024 = () =>
     Array.from(require.context("~/assets/img/events/internationalnightTwo2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
+
+const getTFTI2024S2 = () =>
+    Array.from(require.context("~/assets/img/events/tfti2024_S2", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
 export default {
     data () {
@@ -339,7 +339,7 @@ export default {
             networkingsundowner2023: getNetworkingSundowner2023(),
             boardgamesnight2024: getBoardGamesNight2024(),
             tfti2024: getTFTI2024(),
-            tfti2024_S2: getTFTI2024_S2(),
+            tfti2024_S2: getTFTI2024S2(),
             internationalnightTwo2024: getInternationalNightTwo2024()
         }
     },
