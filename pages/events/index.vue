@@ -30,6 +30,13 @@
     </p>
 
     <EventsAccordion
+      name="tfti2024_S2"
+      accordion-text="Talks from the Industry 2 - 2024"
+      root-dir="events/tfti2024_S2"
+      :images="tfti2024_S2"
+    />
+
+    <EventsAccordion
       name="internationalnightTwo2024"
       accordion-text="International Night 2 - 2024"
       root-dir="events/internationalnightTwo2024"
@@ -76,13 +83,6 @@
       accordion-text="Talks from the Industry 1 - 2024"
       root-dir="events/tfti2024"
       :images="tfti2024"
-    />
-
-    <EventsAccordion
-      name="tfti2024_S2"
-      accordion-text="Talks from the Industry 2 - 2024"
-      root-dir="events/tfti2024_S2"
-      :images="tfti2024_S2"
     />
 
     <EventsAccordion
