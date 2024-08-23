@@ -79,6 +79,13 @@
     />
 
     <EventsAccordion
+      name="tfti2024_S2"
+      accordion-text="Talks from the Industry 2 - 2024"
+      root-dir="events/tfti2024_S2"
+      :images="tfti2024_S2"
+    />
+
+    <EventsAccordion
       name="boardgamesnightt2024"
       accordion-text="Board Games Night - 2024"
       root-dir="events/boardgamesnight2024"
@@ -287,6 +294,9 @@ const getBoardGamesNight2024 = () =>
 const getTFTI2024 = () =>
     Array.from(require.context("~/assets/img/events/tfti2024", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
 
+const getTFTI2024_S2 = () =>
+    Array.from(require.context("~/assets/img/events/tfti2024_S2", true, /\.(jpg|JPG|png)$/).keys()).map(s => s.substr(2))
+
 const getInternationalNight2024 = () =>
     Array.from(require.context("~/assets/img/events/internationalnight2024", true, /\.(jpg|png)$/).keys()).map(s => s.substr(2))
 
@@ -329,6 +339,7 @@ export default {
             networkingsundowner2023: getNetworkingSundowner2023(),
             boardgamesnight2024: getBoardGamesNight2024(),
             tfti2024: getTFTI2024(),
+            tfti2024_S2: getTFTI2024_S2(),
             internationalnightTwo2024: getInternationalNightTwo2024()
         }
     },
